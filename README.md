@@ -8,6 +8,9 @@
 - [Power Shell](#power-shell)
   - [PowerShell 与 LinuxShell 之不同](#powershell-与-linuxshell-之不同)
   - [用 PowerShell 寻找你找不到的文件](#用-powershell-寻找你找不到的文件)
+- [Random Analysis](#random-analysis)
+  - [概然而非必然的世界（之一）](#概然而非必然的世界之一)
+  - [概然而非必然的世界（之二）](#概然而非必然的世界之二)
 
 # The Daily Writing NoteBook
 
@@ -27,7 +30,6 @@ The `readme.md` files in the folders will be used as the summary of the **Topic*
 They are listed as following.
 
 ---
-
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -37,7 +39,6 @@ The **Subject** will explain the process.
 The folder contains following md files:
 
 ---
-
 ## 文件 = 内容 + 编码 （之一）
 
 在目前主流的电脑系统中，所有的数据都可以看作一组二进制数所构成的具体的流。
@@ -85,7 +86,6 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
-
 ## PowerShell 与 LinuxShell 之不同
 
 [PowerShell](https://www.powershellgallery.com/ "PowerShell") 是微软自带的交互软件，与类 Linux 系统的 Shell 具有一定的平行替代关系。
@@ -102,3 +102,25 @@ The folder contains following md files:
 
 继续说 PowerShell （PS）的事情，通过本文档，希望你能够获得一个在 Windows （W）系统中高效找到你想要的文件的方法。能够开始使用 W 系统中提供的 PS 终端，并且习惯用键盘打字的方式而不是鼠标乱点的方式操作你的电脑。
 当然，本文档的目的还是深入理解 PS 的抽象类模式，并提供一个非常工程化的视角来阐述这一特性。
+
+# Random Analysis
+
+Learn the way to obtain the world, using the **Random View**.
+
+The **Topic** is the handbook for the random analysis methods.
+
+The folder contains following md files:
+
+---
+## 概然而非必然的世界（之一）
+
+阿甘正传里有个寓言，说是人生就像一盒巧克力，你永远不知道下一块是什么。
+很浪漫地说明了这个世界是概然的而不是必然的，随机和有序是这个世界的基本特征。
+因此，随机变量及其统计分析，是解释世界的基本工具之一。
+
+## 概然而非必然的世界（之二）
+
+本文之标题有“世界”二字，但笔力其实撑不起来。
+为了避免过于高开低走，本文将进行一个简单的实验，并且尝试以可视化的方式，展示一个非常简单的动力学模型。
+通过该模型，我们似乎可以涉足一个可爱的问题，即我们是否可能通过提高生产力的路径，达到均贫富的目标？
+
