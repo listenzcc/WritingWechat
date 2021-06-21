@@ -7,6 +7,10 @@ The **Topic** is the handbook for the random analysis methods.
 The folder contains following md files:
 
 ---
+## 从检验到瞎编
+
+本文将正式介绍统计检验的基本方法，并简要说明它的适用范围，以及它是怎么被玩坏的。
+
 ## 我们与真相的距离
 
 俗话说“众口难调”，要摸底某个群体的真实情况往往是十分困难和意义重大的事情。
