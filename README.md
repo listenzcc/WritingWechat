@@ -1,24 +1,40 @@
-- [The Daily Writing NoteBook](#the-daily-writing-notebook)
-  - [The Structure of the Project](#the-structure-of-the-project)
+# 截至7月4日的更新内容
 
-# The Daily Writing NoteBook
-
-Everyday, I would like to write something down in this **PROJECT**.
-
-To convert the materials to WeChat Publication Area,
-the website of [mdnice](https://mdnice.com/ "mdnice") will be used.
-
-The 2nd level titles refer the topics.
-I hope you readers like them.
-
-## The Structure of the Project
-
-In the project, the folders are the separated **Topics**.
-
-The `readme.md` files in the folders will be used as the summary of the **Topic**.
-They are listed as following.
-
----
+- [截至7月4日的更新内容](#截至7月4日的更新内容)
+- [File = Content + Coding](#file--content--coding)
+  - [文件 = 内容 + 编码 （之一）](#文件--内容--编码-之一)
+  - [文件 = 内容 + 编码 （之三）](#文件--内容--编码-之三)
+  - [文件 = 内容 + 编码 （之二）](#文件--内容--编码-之二)
+  - [文件 = 内容 + 编码 （之四）](#文件--内容--编码-之四)
+- [Power Shell](#power-shell)
+  - [PowerShell 与 LinuxShell 之不同](#powershell-与-linuxshell-之不同)
+  - [用 PowerShell 寻找你找不到的文件](#用-powershell-寻找你找不到的文件)
+- [Random Analysis](#random-analysis)
+  - [从检验到瞎编](#从检验到瞎编)
+  - [屈打成招](#屈打成招)
+  - [我们与真相的距离](#我们与真相的距离)
+  - [概然而非必然的世界（之一）](#概然而非必然的世界之一)
+  - [概然而非必然的世界（之误差的估计与估计的误差）](#概然而非必然的世界之误差的估计与估计的误差)
+  - [概然而非必然的世界（之二）](#概然而非必然的世界之二)
+  - [概然而非必然的世界（之五）](#概然而非必然的世界之五)
+  - [概然而非必然的世界（之六）](#概然而非必然的世界之六)
+  - [概然而非必然的世界（之善战者无赫赫之功）](#概然而非必然的世界之善战者无赫赫之功)
+  - [概然而非必然的世界（之四）](#概然而非必然的世界之四)
+  - [概然而非必然的世界（之杠精总动员）](#概然而非必然的世界之杠精总动员)
+  - [概然而非必然的世界（之三）](#概然而非必然的世界之三)
+  - [通往显著之路](#通往显著之路)
+- [Talk with Picture](#talk-with-picture)
+  - [图解FDR](#图解fdr)
+  - [图解HSV空间](#图解hsv空间)
+  - [图解图论分析](#图解图论分析)
+  - [图解审美（一）](#图解审美一)
+  - [图解审美（二）](#图解审美二)
+  - [图解审美（三）](#图解审美三)
+  - [图解词向量](#图解词向量)
+  - [图解词向量与图论的代码](#图解词向量与图论的代码)
+  - [图解贝斯公式](#图解贝斯公式)
+  - [图解颜色空间](#图解颜色空间)
+  - [配色方法](#配色方法)
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -240,6 +256,10 @@ The folder contains following md files:
 
 本文将对`NLP`的重要概念“词向量”进行图解。
 并且以“重要讲话”为语料，通过简单的可视化分析，对其内容进行“数据驱动”的解析。
+
+## 图解词向量与图论的代码
+
+本文是列出以上两篇文章《图解词向量》与《图解图论分析》的相关代码。
 
 ## 图解贝斯公式
 
