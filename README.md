@@ -1,40 +1,24 @@
-# 截至7月4日的更新内容
+- [The Daily Writing NoteBook](#the-daily-writing-notebook)
+  - [The Structure of the Project](#the-structure-of-the-project)
 
-- [截至7月4日的更新内容](#截至7月4日的更新内容)
-- [File = Content + Coding](#file--content--coding)
-  - [文件 = 内容 + 编码 （之一）](#文件--内容--编码-之一)
-  - [文件 = 内容 + 编码 （之三）](#文件--内容--编码-之三)
-  - [文件 = 内容 + 编码 （之二）](#文件--内容--编码-之二)
-  - [文件 = 内容 + 编码 （之四）](#文件--内容--编码-之四)
-- [Power Shell](#power-shell)
-  - [PowerShell 与 LinuxShell 之不同](#powershell-与-linuxshell-之不同)
-  - [用 PowerShell 寻找你找不到的文件](#用-powershell-寻找你找不到的文件)
-- [Random Analysis](#random-analysis)
-  - [从检验到瞎编](#从检验到瞎编)
-  - [屈打成招](#屈打成招)
-  - [我们与真相的距离](#我们与真相的距离)
-  - [概然而非必然的世界（之一）](#概然而非必然的世界之一)
-  - [概然而非必然的世界（之误差的估计与估计的误差）](#概然而非必然的世界之误差的估计与估计的误差)
-  - [概然而非必然的世界（之二）](#概然而非必然的世界之二)
-  - [概然而非必然的世界（之五）](#概然而非必然的世界之五)
-  - [概然而非必然的世界（之六）](#概然而非必然的世界之六)
-  - [概然而非必然的世界（之善战者无赫赫之功）](#概然而非必然的世界之善战者无赫赫之功)
-  - [概然而非必然的世界（之四）](#概然而非必然的世界之四)
-  - [概然而非必然的世界（之杠精总动员）](#概然而非必然的世界之杠精总动员)
-  - [概然而非必然的世界（之三）](#概然而非必然的世界之三)
-  - [通往显著之路](#通往显著之路)
-- [Talk with Picture](#talk-with-picture)
-  - [图解FDR](#图解fdr)
-  - [图解HSV空间](#图解hsv空间)
-  - [图解图论分析](#图解图论分析)
-  - [图解审美（一）](#图解审美一)
-  - [图解审美（二）](#图解审美二)
-  - [图解审美（三）](#图解审美三)
-  - [图解词向量](#图解词向量)
-  - [图解词向量与图论的代码](#图解词向量与图论的代码)
-  - [图解贝斯公式](#图解贝斯公式)
-  - [图解颜色空间](#图解颜色空间)
-  - [配色方法](#配色方法)
+# The Daily Writing NoteBook
+
+Everyday, I would like to write something down in this **PROJECT**.
+
+To convert the materials to WeChat Publication Area,
+the website of [mdnice](https://mdnice.com/ "mdnice") will be used.
+
+The 2nd level titles refer the topics.
+I hope you readers like them.
+
+## The Structure of the Project
+
+In the project, the folders are the separated **Topics**.
+
+The `readme.md` files in the folders will be used as the summary of the **Topic**.
+They are listed as following.
+
+---
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -278,4 +262,31 @@ The folder contains following md files:
 
 如果你经常纠结于怎么为自己的PPT或其他什么东西配色的话。
 本文将介绍一种基于`HSV`空间的配色方法，也许能解决你的问题。
+
+# Tools Knowledge
+
+The Topic is about how to use software tools better.
+
+The folder contains following md files:
+
+---
+## 简洁带来的麻烦
+
+`Python`是十分简洁的计算机语言，但是简洁会不避免地带来歧义。
+这些歧义则会导致一些麻烦。
+
+# Traffic Analysis
+
+The Topic is about Analysis the Traffic Situations.
+
+The folder contains following md files:
+
+---
+## 图的距离度量
+
+本文将在上文《最小连通图》的基础上，介绍图距离度量理念及方法。
+
+## 最小连通图
+
+本文将介绍最小连通图原则，及其在图构建过程的应用。
 
