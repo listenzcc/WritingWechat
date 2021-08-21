@@ -33,8 +33,8 @@
   - [你见过早上四点钟的太阳吗？](#你见过早上四点钟的太阳吗)
   - [卷起来](#卷起来)
 - [Talk with Picture](#talk-with-picture)
-  - [图解FDR](#图解fdr)
-  - [图解HSV空间](#图解hsv空间)
+  - [图解 FDR](#图解-fdr)
+  - [图解 HSV 空间](#图解-hsv-空间)
   - [图解图论分析](#图解图论分析)
   - [图解审美（一）](#图解审美一)
   - [图解审美（二）](#图解审美二)
@@ -57,6 +57,7 @@
   - [私人订制](#私人订制)
   - [行路难](#行路难)
   - [贪婪算法及其困境.md](#贪婪算法及其困境md)
+
 # The Daily Writing NoteBook
 
 Everyday, I would like to write something down in this **PROJECT**.
@@ -75,6 +76,7 @@ The `readme.md` files in the folders will be used as the summary of the **Topic*
 They are listed as following.
 
 ---
+
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -84,6 +86,7 @@ The **Subject** will explain the process.
 The folder contains following md files:
 
 ---
+
 ## 文件 = 内容 + 编码 （之一）
 
 在目前主流的电脑系统中，所有的数据都可以看作一组二进制数所构成的具体的流。
@@ -131,10 +134,11 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+
 ## 一个简单的动力学模型
 
-借助JAVASCRIPT的实时计算工具，HTML（也就是网页）具有强大的​呈现能力。
-而以D3为代表的工具进一步简化了这一过程。
+借助 JAVASCRIPT 的实时计算工具，HTML（也就是网页）具有强大的 ​ 呈现能力。
+而以 D3 为代表的工具进一步简化了这一过程。
 本文借助该平台，建立了一个简单的动力系统。
 该系统可以在一定程度上显示出“混沌”现象。
 
@@ -174,6 +178,7 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+
 ## PowerShell 与 LinuxShell 之不同
 
 [PowerShell](https://www.powershellgallery.com/ "PowerShell") 是微软自带的交互软件，与类 Linux 系统的 Shell 具有一定的平行替代关系。
@@ -200,6 +205,7 @@ The **Topic** is the handbook for the random analysis methods.
 The folder contains following md files:
 
 ---
+
 ## 从检验到瞎编
 
 本文将正式介绍统计检验的基本方法，并简要说明它的适用范围，以及它是怎么被玩坏的。
@@ -207,7 +213,6 @@ The folder contains following md files:
 ## 屈打成招
 
 本文将用一个简单的例子说明前文《从检验到瞎编》与《通往显著之路》中介绍的校正方法之必要性。
-
 
 ## 我们与真相的距离
 
@@ -240,7 +245,7 @@ The folder contains following md files:
 ## 概然而非必然的世界（之五）
 
 本文将续前文《[概然而非必然的世界（之四）](http://mp.weixin.qq.com/s?__biz=MzkxNTI1MDc5NA==&mid=2247483914&idx=1&sn=72609edc3197161a25d727a0f56f65f1&chksm=c163490ff614c019abf7f49717edcb3cdf60a1e7b27d3ff2e32b43ab6a483b0972327fb2306d&token=135658256&lang=zh_CN#rd "概然而非必然的世界（之四）")》。
-继续介绍“卡方分布”与“T分布”。
+继续介绍“卡方分布”与“T 分布”。
 
 ## 概然而非必然的世界（之六）
 
@@ -258,7 +263,7 @@ The folder contains following md files:
 
 ## 概然而非必然的世界（之四）
 
-本文将以“二项分布”为起点，分别引申出“泊松分布”、“正态分布”、“卡方分布”与“T分布”。
+本文将以“二项分布”为起点，分别引申出“泊松分布”、“正态分布”、“卡方分布”与“T 分布”。
 虽然名目众多，但通过本文的分析可以看到，这些分布完全是一脉相承的关系，并不难理解。
 这些分布在实际应用中，可以解决$90\%$以上的统计分析问题。
 
@@ -287,7 +292,7 @@ The folder contains following md files:
 ## 通往显著之路
 
 上文《从检验到瞎编》介绍了统计检验的基本方法。
-并引出了多重比较校正的概念和经典的FWE校正方法，本文将介绍另一种多重比较校正方法。
+并引出了多重比较校正的概念和经典的 FWE 校正方法，本文将介绍另一种多重比较校正方法。
 
 # Sun at Four
 
@@ -296,6 +301,7 @@ Have you saw the Beautiful Sun at 4:00?
 The folder contains following md files:
 
 ---
+
 ## 你见过早上四点钟的太阳吗？
 
 我没见过，因为教育部不太允许我四点起床。
@@ -317,17 +323,18 @@ The Topic will try to create **Pictures** for **Key Ideas**.
 The folder contains following md files:
 
 ---
-## 图解FDR
+
+## 图解 FDR
 
 鉴于写字没人看，于是决定改成图。
 这个系列争取一张图讲明一个故事。
 本图是对`FDR`校验过程及原理进行图解。
 
-后面的简要说明，您可以选择看或不看，因为它是为了凑足300字的最低字数要求，完全不影响疗效。
+后面的简要说明，您可以选择看或不看，因为它是为了凑足 300 字的最低字数要求，完全不影响疗效。
 
-## 图解HSV空间
+## 图解 HSV 空间
 
-以颜色空间的“舌形图”为蓝本，我们可以在RGB空间之外，得到更加符合人眼观感的HSV空间。
+以颜色空间的“舌形图”为蓝本，我们可以在 RGB 空间之外，得到更加符合人眼观感的 HSV 空间。
 本文对其进行图解。
 
 ## 图解图论分析
@@ -344,7 +351,6 @@ The folder contains following md files:
 > 什么样的图，是好看的图？
 
 祝我好运吧。
-
 
 ## 图解审美（二）
 
@@ -380,7 +386,7 @@ The folder contains following md files:
 
 ## 配色方法
 
-如果你经常纠结于怎么为自己的PPT或其他什么东西配色的话。
+如果你经常纠结于怎么为自己的 PPT 或其他什么东西配色的话。
 本文将介绍一种基于`HSV`空间的配色方法，也许能解决你的问题。
 
 # Tools Knowledge
@@ -390,6 +396,7 @@ The Topic is about how to use software tools better.
 The folder contains following md files:
 
 ---
+
 ## 简洁带来的麻烦
 
 `Python`是十分简洁的计算机语言，但是简洁会不避免地带来歧义。
@@ -402,6 +409,7 @@ The Topic is about Analysis the Traffic Situations.
 The folder contains following md files:
 
 ---
+
 ## 以空间换时间
 
 为了解决《私人订制》一文中遇到的，由于计算规模扩大所导致的，
@@ -469,4 +477,3 @@ The folder contains following md files:
 本文将详述形成最小连通图的贪婪算法。
 在此基础上，我们才能说明捷径加入之后，原始算法是如何失效的。
 从而解决《改出路径依赖》一文所提出的问题。
-
