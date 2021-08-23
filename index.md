@@ -66,6 +66,49 @@ The folder contains following md files:
 ​ 本部分是《文件 = 内容 + 编码》的最后部分，其目的是对之前的遗留问题进行说明，可以当作附录来使用。
 但本部分内容也有其自然的逻辑，即同样的内容在计算机系统中，可以具有不同的表达或存储方式。
 
+# Observable HQ
+
+JAVASCRIPT gives HTML amazing Abilities to present Things.
+
+The **Subject** tries to explain the benefits of the environment.
+
+The folder contains following md files:
+
+---
+## 一个简单的动力学模型
+
+借助JAVASCRIPT的实时计算工具，HTML（也就是网页）具有强大的​呈现能力。
+而以D3为代表的工具进一步简化了这一过程。
+本文借助该平台，建立了一个简单的动力系统。
+该系统可以在一定程度上显示出“混沌”现象。
+
+## 日地月-2
+
+本文是上文《日地月》的补足。
+我用`THREE.js`建立了一个三维模型，还是太阳-地球-月亮互相转动的故事。
+
+## 日地月
+
+我用`ObservableHQ`平台搭建了一个好玩的`DEMO`。
+它形象地展示了为啥一个月有大约`30`天，
+以及为什么月相会呈现一种奇妙的周期性。
+
+## 三轴机械臂运动的逆解
+
+在`THREE.js`的支持下，我们可以做出一些有意思的应用。
+比如模拟一个三轴机械臂的运动。
+于是有了这个缝合怪。
+
+## 三维场景的受力模拟
+
+本文还是基于`THREE.js`的三维场景呈现。
+但缝合了`D3`的力模拟功能。
+
+## 艺术细菌
+
+用了三种方法对图片进行艺术化渲染，分别是低分辨率化、马赛克化和动态化。
+工科狗的艺术细菌就长到这了。。
+
 # Power Shell
 
 Powershell is a **Object Oriented Programming** programming environment.
@@ -190,6 +233,27 @@ The folder contains following md files:
 上文《从检验到瞎编》介绍了统计检验的基本方法。
 并引出了多重比较校正的概念和经典的FWE校正方法，本文将介绍另一种多重比较校正方法。
 
+# Sun at Four
+
+Have you saw the Beautiful Sun at 4:00?
+
+The folder contains following md files:
+
+---
+## 你见过早上四点钟的太阳吗？
+
+我没见过，因为教育部不太允许我四点起床。
+我们这疙瘩在四点钟也不是很经常能看见太阳。
+
+不过我现在每天只需要写`1`个小时的作业了，补课也不用去了。
+
+## 卷起来
+
+中国人太过聪明。
+似乎一切既定的规则，只要有中国人的参与，就都将成为内卷的源动力。
+人更像是手段，而不是目的。
+甚至，连出生年份都能卷。
+
 # Talk with Picture
 
 The Topic will try to create **Pictures** for **Key Ideas**.
@@ -270,6 +334,21 @@ The Topic is about how to use software tools better.
 The folder contains following md files:
 
 ---
+## We are So Strong
+
+As a whole.
+
+## 和光同尘
+
+人眼观测到的是现象，而背后的逻辑可能比看上去要简单许多。
+比如，光沿直线传播。
+
+## 干点正事
+
+了解一个领域最快捷的方式就是读文献。
+
+本文借助`Scopus`和`VOSViewer`两个工具联合来帮你捋清文献的脉络。
+
 ## 简洁带来的麻烦
 
 `Python`是十分简洁的计算机语言，但是简洁会不避免地带来歧义。
