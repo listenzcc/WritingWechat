@@ -70,3 +70,17 @@
 
 #### 基于WebGL的快速渲染
 
+此时，`WebGL`工具可以有效解决性能问题。
+这里我使用[REGL](http://regl.party/ "http://regl.party/")进行渲染，
+可以绘制如下交互场景。
+
+在此场景中，我们成功地渲染了大量像素​。
+并且这种渲染可以达到实时交互的运行效率。
+
+【这是一段棒到不行的视频】
+
+接下来的问题，就是解决如何绘制的工程问题。
+我接陆续解释我对这个工具的理解。
+
+本案例可以在我的[ObservableHQ](https://observablehq.com/@listenzcc/simple-regl "ObservableHQ")工程里找到。
+欢迎转载和交流。
