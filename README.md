@@ -70,6 +70,24 @@ The folder contains following md files:
 ​ 本部分是《文件 = 内容 + 编码》的最后部分，其目的是对之前的遗留问题进行说明，可以当作附录来使用。
 但本部分内容也有其自然的逻辑，即同样的内容在计算机系统中，可以具有不同的表达或存储方式。
 
+# Invariance
+
+There are several invariance by math.
+Knowing them means knowing everything.
+
+---
+## 一些不变性（之一）
+
+函数的本质是映射。
+而“不变性”是规范映射变量之间关系的重要渠道。
+本文试图从不变性的角度，
+探索描述惯性系之间坐标变换的“洛仑兹变换”。
+
+## 一些不变性（之二）
+
+之前提到双曲余弦函数，
+它在复数空间内的性质十分有趣。
+
 # Observable HQ
 
 JAVASCRIPT gives HTML amazing Abilities to present Things.
