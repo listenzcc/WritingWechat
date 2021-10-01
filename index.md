@@ -28,6 +28,23 @@ The **Subject** will explain the process.
 The folder contains following md files:
 
 ---
+## 三维模型解析及渲染
+
+解析`GLTF`文件的代码。
+
+## 三维模型的同胚变换
+
+对于特定的三维模型，
+我们总是希望它与单位球体具有连续的变换关系。
+
+用数学语言来说，
+这叫做“同胚”。
+
+这种变换关系可以用于多个三维模型之间的配准等等。
+
+本文给出了一个简单的实例，
+以便对这种变换进行直观说明。
+
 ## 文件 = 内容 + 编码 （之一）
 
 在目前主流的电脑系统中，所有的数据都可以看作一组二进制数所构成的具体的流。
@@ -66,6 +83,49 @@ The folder contains following md files:
 ​ 本部分是《文件 = 内容 + 编码》的最后部分，其目的是对之前的遗留问题进行说明，可以当作附录来使用。
 但本部分内容也有其自然的逻辑，即同样的内容在计算机系统中，可以具有不同的表达或存储方式。
 
+# Invariance
+
+There are several invariance by math.
+Knowing them means knowing everything.
+
+---
+## 一些不变性（之一）
+
+函数的本质是映射。
+而“不变性”是规范映射变量之间关系的重要渠道。
+本文试图从不变性的角度，
+探索描述惯性系之间坐标变换的“洛仑兹变换”。
+
+## 一些不变性（之二）
+
+之前提到双曲余弦函数，
+它在复数空间内的性质十分有趣。
+
+## 卷积及傅立叶变换的矩阵计算
+
+傅氏变换与卷积都可以用矩阵乘法的形式进行表达。
+图神经网络的优化正是以这种矩阵形式为基础的，
+从信号连续空间到图拓扑空间的拓展。
+
+本文是其中的第一步，
+用矩阵的形式表达信号的傅氏变换与卷积。
+
+本文只涉及必要的原理解释，
+具体实现代码可见我的[GitHub 仓库](https://github.com/listenzcc/JupyterScripts.git "GitHub 仓库")。
+
+## 卷积定理的矩阵巧合
+
+从矩阵的角度来看“卷积定理”，
+仿佛它只是数字角频率完备正交基下的一个特例。
+
+## 有图必有谱
+
+谱聚类是针对“图”的节点分割算法。
+理想的谱聚类需要解决NP-Hard问题：
+分割导致解空间不连续；
+而节点搜索导致计算规模随着数据规模而扩大。
+因此，谱聚类算法是寻找一个可行的近似解。
+
 # Observable HQ
 
 JAVASCRIPT gives HTML amazing Abilities to present Things.
@@ -75,6 +135,21 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+## WebGL绘图（之一）
+
+`WebGL`是重要的前端技术之一，
+是高性能的像素级渲染工具。
+
+## WebGL绘图（之三）
+
+我在之前的基础上添加了一点点细节。
+现在能够呈现一个动态的复数空间。
+
+## WebGL绘图（之二）
+
+不得不说`WebGL`是个坑，坑在哪呢？
+一是计算机语言，二是高等数学。
+
 ## 一个简单的动力学模型
 
 借助JAVASCRIPT的实时计算工具，HTML（也就是网页）具有强大的​呈现能力。
