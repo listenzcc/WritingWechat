@@ -463,6 +463,11 @@ As a whole.
 `Python`是十分简洁的计算机语言，但是简洁会不避免地带来歧义。
 这些歧义则会导致一些麻烦。
 
+## 线性模型的实例之一
+
+线性模型是解析观测变量的有效手段。
+但它实在是太庞大了，所以只能蚂蚁式的、慢慢地啃下来。
+
 # Traffic Analysis
 
 The Topic is about Analysis the Traffic Situations.
