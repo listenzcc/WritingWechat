@@ -126,6 +126,20 @@ Knowing them means knowing everything.
 而节点搜索导致计算规模随着数据规模而扩大。
 因此，谱聚类算法是寻找一个可行的近似解。
 
+## 群
+
+群是个神奇的概念。
+
+## 群的边界
+
+从《群》的第一篇不难看出，
+群是一个包罗万象的概念。
+但越是面对这样的东西，
+就越需要谨慎。
+
+本文将通过一个例子说明哪些元素不在群里，
+从而厘定群的边界。
+
 # Observable HQ
 
 JAVASCRIPT gives HTML amazing Abilities to present Things.
