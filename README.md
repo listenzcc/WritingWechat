@@ -214,11 +214,25 @@ The folder contains following md files:
 今天刮大风，刮的建筑像要被吹跑似的。
 所以趁着机会做一个简单的粒子运动模拟。
 
+## 吹气球
+
+`FreeSurfer`是将功能磁成像数据映射到大脑皮层空间的软件。
+它的计算原理就像吹气球。
+
 ## 在太阳内部航行
 
 真空中的光速为每秒30万公里，
 但太阳最内部发出的光则需要10万年才能到达太阳表面，
 这是由于那里的光子需要不停的与其他光子发生碰撞。
+
+## 将FSL统计结果映射到FreesSurfer皮层上
+
+这是一个工作过程记录。
+总的目的是将`FSL`的预处理及统计分析结果，
+映射到`FreeSurfer`的皮层空间上。
+
+工作流可见我的[GITHUB工程](https://github.com/listenzcc/freesurferAnalysisScripts "GITHUB工程")，
+可视化代码可见我的[ObservableHQ工程](https://observablehq.com/@listenzcc/free-surfer-cortex-v2 "ObservableHQ工程")。
 
 ## 日地月-2
 
@@ -509,6 +523,13 @@ The folder contains following md files:
 
 本文借用《再售期权理论（Resale Option Theory）》中的一个例子，
 试图说明经济泡沫也许可以解释成异质信念条件下的资产交易属性。
+
+## 记一个神奇的BUG
+
+今天遇到一个神奇的BUG，
+解决方式虽然非常简单。
+但它暴露出来一个问题，
+即，我已经被弱类型语言给惯坏了。
 
 ## 配色方法
 
