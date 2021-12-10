@@ -214,6 +214,21 @@ The folder contains following md files:
 今天刮大风，刮的建筑像要被吹跑似的。
 所以趁着机会做一个简单的粒子运动模拟。
 
+## 像上网一样使用FSL
+
+`FSL`是个好软件，
+它强在皮层水平的各种统计计算。
+但缺点同样明显，
+它太难用了，
+如此功能强大的软件却将数据格式过度封装，
+导致除了它给定的几种算法之外，
+想要做出一点扩展都艰难异常。
+让人非常费解。
+
+本工程做出一些尝试，
+希望让它的分析和呈现能够变得像“上网”一样简单。
+目前，离这个目标还相当之遥远。
+
 ## 吹气球
 
 `FreeSurfer`是将功能磁成像数据映射到大脑皮层空间的软件。
@@ -233,6 +248,13 @@ The folder contains following md files:
 
 工作流可见我的[GITHUB工程](https://github.com/listenzcc/freesurferAnalysisScripts "GITHUB工程")，
 可视化代码可见我的[ObservableHQ工程](https://observablehq.com/@listenzcc/free-surfer-cortex-v2 "ObservableHQ工程")。
+
+## 无限上升的卡农
+
+交变电场产生磁场，
+而为了产生稳定的磁场，
+就需要建立时刻变化的电场，
+就像《GEB》书中写到的所谓“无限上升的卡农”。
 
 ## 日地月-2
 
