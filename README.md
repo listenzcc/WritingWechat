@@ -1,5 +1,102 @@
 - [The Daily Writing NoteBook](#the-daily-writing-notebook)
   - [The Structure of the Project](#the-structure-of-the-project)
+- [File = Content + Coding](#file--content--coding)
+  - [三维模型解析及渲染](#三维模型解析及渲染)
+  - [三维模型的同胚变换](#三维模型的同胚变换)
+  - [文件 = 内容 + 编码 （之一）](#文件--内容--编码-之一)
+  - [文件 = 内容 + 编码 （之三）](#文件--内容--编码-之三)
+  - [文件 = 内容 + 编码 （之二）](#文件--内容--编码-之二)
+  - [文件 = 内容 + 编码 （之四）](#文件--内容--编码-之四)
+- [Invariance](#invariance)
+  - [一些不变性（之一）](#一些不变性之一)
+  - [一些不变性（之二）](#一些不变性之二)
+  - [卷积及傅立叶变换的矩阵计算](#卷积及傅立叶变换的矩阵计算)
+  - [卷积定理的矩阵巧合](#卷积定理的矩阵巧合)
+  - [旋转的坐标系](#旋转的坐标系)
+  - [有图必有谱](#有图必有谱)
+  - [群](#群)
+  - [群的例子（之一）](#群的例子之一)
+  - [车枪球-四冲程](#车枪球-四冲程)
+  - [群的边界](#群的边界)
+- [Observable HQ](#observable-hq)
+  - [WebGL 绘图（之一）](#webgl-绘图之一)
+  - [WebGL 绘图（之三）](#webgl-绘图之三)
+  - [WebGL 绘图（之二）](#webgl-绘图之二)
+  - [一个简单的动力学模型](#一个简单的动力学模型)
+  - [乌合之众](#乌合之众)
+  - [云雾效果](#云雾效果)
+  - [今天的风儿有些喧嚣](#今天的风儿有些喧嚣)
+  - [像上网一样使用 FSL](#像上网一样使用-fsl)
+  - [吹气球](#吹气球)
+  - [在太阳内部航行](#在太阳内部航行)
+  - [将 FSL 统计结果映射到 FreesSurfer 皮层上](#将-fsl-统计结果映射到-freessurfer-皮层上)
+  - [无限上升的卡农](#无限上升的卡农)
+  - [日地月-2](#日地月-2)
+  - [日地月](#日地月)
+  - [机械臂运动控制的位置和角度关系及其可视化](#机械臂运动控制的位置和角度关系及其可视化)
+  - [三轴机械臂运动的逆解](#三轴机械臂运动的逆解)
+  - [等高线图](#等高线图)
+  - [三维场景的受力模拟](#三维场景的受力模拟)
+  - [腿部运动轨迹重建](#腿部运动轨迹重建)
+  - [艺术细菌](#艺术细菌)
+  - [蓝队加油](#蓝队加油)
+  - [长津湖](#长津湖)
+- [Power Shell](#power-shell)
+  - [PowerShell 与 LinuxShell 之不同](#powershell-与-linuxshell-之不同)
+  - [用 PowerShell 寻找你找不到的文件](#用-powershell-寻找你找不到的文件)
+- [Random Analysis](#random-analysis)
+  - [从检验到瞎编](#从检验到瞎编)
+  - [屈打成招](#屈打成招)
+  - [我们与真相的距离](#我们与真相的距离)
+  - [概然而非必然的世界（之一）](#概然而非必然的世界之一)
+  - [概然而非必然的世界（之误差的估计与估计的误差）](#概然而非必然的世界之误差的估计与估计的误差)
+  - [概然而非必然的世界（之二）](#概然而非必然的世界之二)
+  - [概然而非必然的世界（之五）](#概然而非必然的世界之五)
+  - [概然而非必然的世界（之六）](#概然而非必然的世界之六)
+  - [概然而非必然的世界（之善战者无赫赫之功）](#概然而非必然的世界之善战者无赫赫之功)
+  - [概然而非必然的世界（之四）](#概然而非必然的世界之四)
+  - [概然而非必然的世界（之杠精总动员）](#概然而非必然的世界之杠精总动员)
+  - [概然而非必然的世界（之三）](#概然而非必然的世界之三)
+  - [通往显著之路](#通往显著之路)
+- [Sun at Four](#sun-at-four)
+  - [你见过早上四点钟的太阳吗？](#你见过早上四点钟的太阳吗)
+  - [卷起来](#卷起来)
+- [Talk with Picture](#talk-with-picture)
+  - [一种线性反馈的多输出零点控制方式](#一种线性反馈的多输出零点控制方式)
+  - [丙子双十二](#丙子双十二)
+  - [图像的颜色风格化](#图像的颜色风格化)
+  - [图解 FDR](#图解-fdr)
+  - [图解 HSV 空间](#图解-hsv-空间)
+  - [图解图论分析](#图解图论分析)
+  - [图解审美（一）](#图解审美一)
+  - [图解审美（二）](#图解审美二)
+  - [图解审美（三）](#图解审美三)
+  - [图解词向量](#图解词向量)
+  - [图解词向量与图论的代码](#图解词向量与图论的代码)
+  - [图解贝斯公式](#图解贝斯公式)
+  - [图解颜色空间](#图解颜色空间)
+  - [泡沫](#泡沫)
+  - [记一个神奇的 BUG](#记一个神奇的-bug)
+  - [配色方法](#配色方法)
+- [Tools Knowledge](#tools-knowledge)
+  - [We are So Strong](#we-are-so-strong)
+  - [冷](#冷)
+  - [和光同尘](#和光同尘)
+  - [干点正事](#干点正事)
+  - [神经网络的表达能力](#神经网络的表达能力)
+  - [简洁带来的麻烦](#简洁带来的麻烦)
+  - [线性模型的实例之一](#线性模型的实例之一)
+- [Traffic Analysis](#traffic-analysis)
+  - [以空间换时间](#以空间换时间)
+  - [学而不思则罔](#学而不思则罔)
+  - [图的谱聚类](#图的谱聚类)
+  - [图的距离度量](#图的距离度量)
+  - [所谓路径依赖](#所谓路径依赖)
+  - [改出路径依赖](#改出路径依赖)
+  - [最小连通图](#最小连通图)
+  - [私人订制](#私人订制)
+  - [行路难](#行路难)
+  - [贪婪算法及其困境.md](#贪婪算法及其困境md)
 
 # The Daily Writing NoteBook
 
@@ -19,6 +116,7 @@ The `readme.md` files in the folders will be used as the summary of the **Topic*
 They are listed as following.
 
 ---
+
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -28,6 +126,7 @@ The **Subject** will explain the process.
 The folder contains following md files:
 
 ---
+
 ## 三维模型解析及渲染
 
 解析`GLTF`文件的代码。
@@ -89,6 +188,7 @@ There are several invariance by math.
 Knowing them means knowing everything.
 
 ---
+
 ## 一些不变性（之一）
 
 函数的本质是映射。
@@ -168,25 +268,26 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
-## WebGL绘图（之一）
+
+## WebGL 绘图（之一）
 
 `WebGL`是重要的前端技术之一，
 是高性能的像素级渲染工具。
 
-## WebGL绘图（之三）
+## WebGL 绘图（之三）
 
 我在之前的基础上添加了一点点细节。
 现在能够呈现一个动态的复数空间。
 
-## WebGL绘图（之二）
+## WebGL 绘图（之二）
 
 不得不说`WebGL`是个坑，坑在哪呢？
 一是计算机语言，二是高等数学。
 
 ## 一个简单的动力学模型
 
-借助JAVASCRIPT的实时计算工具，HTML（也就是网页）具有强大的​呈现能力。
-而以D3为代表的工具进一步简化了这一过程。
+借助 JAVASCRIPT 的实时计算工具，HTML（也就是网页）具有强大的 ​ 呈现能力。
+而以 D3 为代表的工具进一步简化了这一过程。
 本文借助该平台，建立了一个简单的动力系统。
 该系统可以在一定程度上显示出“混沌”现象。
 
@@ -214,7 +315,7 @@ The folder contains following md files:
 今天刮大风，刮的建筑像要被吹跑似的。
 所以趁着机会做一个简单的粒子运动模拟。
 
-## 像上网一样使用FSL
+## 像上网一样使用 FSL
 
 `FSL`是个好软件，
 它强在皮层水平的各种统计计算。
@@ -236,18 +337,18 @@ The folder contains following md files:
 
 ## 在太阳内部航行
 
-真空中的光速为每秒30万公里，
-但太阳最内部发出的光则需要10万年才能到达太阳表面，
+真空中的光速为每秒 30 万公里，
+但太阳最内部发出的光则需要 10 万年才能到达太阳表面，
 这是由于那里的光子需要不停的与其他光子发生碰撞。
 
-## 将FSL统计结果映射到FreesSurfer皮层上
+## 将 FSL 统计结果映射到 FreesSurfer 皮层上
 
 这是一个工作过程记录。
 总的目的是将`FSL`的预处理及统计分析结果，
 映射到`FreeSurfer`的皮层空间上。
 
-工作流可见我的[GITHUB工程](https://github.com/listenzcc/freesurferAnalysisScripts "GITHUB工程")，
-可视化代码可见我的[ObservableHQ工程](https://observablehq.com/@listenzcc/free-surfer-cortex-v2 "ObservableHQ工程")。
+工作流可见我的[GITHUB 工程](https://github.com/listenzcc/freesurferAnalysisScripts "GITHUB工程")，
+可视化代码可见我的[ObservableHQ 工程](https://observablehq.com/@listenzcc/free-surfer-cortex-v2 "ObservableHQ工程")。
 
 ## 无限上升的卡农
 
@@ -307,10 +408,10 @@ The folder contains following md files:
 
 ## 蓝队加油
 
-INTEL新近发布了第`12`代CPU，
+INTEL 新近发布了第`12`代 CPU，
 在长时间挤牙膏之后，终于爆发了一次。
 虽然没有了当前“默秒全”的统治力，
-但新产品确实是让人大呼NB。
+但新产品确实是让人大呼 NB。
 
 本文是十分应景的一文，
 正好有一个良好的实验，
@@ -329,6 +430,7 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+
 ## PowerShell 与 LinuxShell 之不同
 
 [PowerShell](https://www.powershellgallery.com/ "PowerShell") 是微软自带的交互软件，与类 Linux 系统的 Shell 具有一定的平行替代关系。
@@ -355,6 +457,7 @@ The **Topic** is the handbook for the random analysis methods.
 The folder contains following md files:
 
 ---
+
 ## 从检验到瞎编
 
 本文将正式介绍统计检验的基本方法，并简要说明它的适用范围，以及它是怎么被玩坏的。
@@ -362,7 +465,6 @@ The folder contains following md files:
 ## 屈打成招
 
 本文将用一个简单的例子说明前文《从检验到瞎编》与《通往显著之路》中介绍的校正方法之必要性。
-
 
 ## 我们与真相的距离
 
@@ -395,7 +497,7 @@ The folder contains following md files:
 ## 概然而非必然的世界（之五）
 
 本文将续前文《[概然而非必然的世界（之四）](http://mp.weixin.qq.com/s?__biz=MzkxNTI1MDc5NA==&mid=2247483914&idx=1&sn=72609edc3197161a25d727a0f56f65f1&chksm=c163490ff614c019abf7f49717edcb3cdf60a1e7b27d3ff2e32b43ab6a483b0972327fb2306d&token=135658256&lang=zh_CN#rd "概然而非必然的世界（之四）")》。
-继续介绍“卡方分布”与“T分布”。
+继续介绍“卡方分布”与“T 分布”。
 
 ## 概然而非必然的世界（之六）
 
@@ -413,7 +515,7 @@ The folder contains following md files:
 
 ## 概然而非必然的世界（之四）
 
-本文将以“二项分布”为起点，分别引申出“泊松分布”、“正态分布”、“卡方分布”与“T分布”。
+本文将以“二项分布”为起点，分别引申出“泊松分布”、“正态分布”、“卡方分布”与“T 分布”。
 虽然名目众多，但通过本文的分析可以看到，这些分布完全是一脉相承的关系，并不难理解。
 这些分布在实际应用中，可以解决$90\%$以上的统计分析问题。
 
@@ -442,7 +544,7 @@ The folder contains following md files:
 ## 通往显著之路
 
 上文《从检验到瞎编》介绍了统计检验的基本方法。
-并引出了多重比较校正的概念和经典的FWE校正方法，本文将介绍另一种多重比较校正方法。
+并引出了多重比较校正的概念和经典的 FWE 校正方法，本文将介绍另一种多重比较校正方法。
 
 # Sun at Four
 
@@ -451,6 +553,7 @@ Have you saw the Beautiful Sun at 4:00?
 The folder contains following md files:
 
 ---
+
 ## 你见过早上四点钟的太阳吗？
 
 我没见过，因为教育部不太允许我四点起床。
@@ -472,22 +575,40 @@ The Topic will try to create **Pictures** for **Key Ideas**.
 The folder contains following md files:
 
 ---
+
+## 一种线性反馈的多输出零点控制方式
+
+本文将试图说明一种面向线性反馈系统的，
+基于共模差模控制的，
+双输入、双输出反馈控制方式。
+这只是第一个版本，
+只给出定性分析，并不列出系统方程。
+
+## 丙子双十二
+
+1936 年 12 月 12 日，西安事变。
+我们被揍得鼻青脸肿，
+国家元首还被自己人给绑了。
+
+如今 75 年过去了，
+我们却在购物。
+
 ## 图像的颜色风格化
 
 神经网络的非线性映射方法能够方便地进行各种有效的计算机视觉设想。
-本文尝试使用SOM与KMEANS相结合的方式，对图像进行有效的颜色风格化。
+本文尝试使用 SOM 与 KMEANS 相结合的方式，对图像进行有效的颜色风格化。
 
-## 图解FDR
+## 图解 FDR
 
 鉴于写字没人看，于是决定改成图。
 这个系列争取一张图讲明一个故事。
 本图是对`FDR`校验过程及原理进行图解。
 
-后面的简要说明，您可以选择看或不看，因为它是为了凑足300字的最低字数要求，完全不影响疗效。
+后面的简要说明，您可以选择看或不看，因为它是为了凑足 300 字的最低字数要求，完全不影响疗效。
 
-## 图解HSV空间
+## 图解 HSV 空间
 
-以颜色空间的“舌形图”为蓝本，我们可以在RGB空间之外，得到更加符合人眼观感的HSV空间。
+以颜色空间的“舌形图”为蓝本，我们可以在 RGB 空间之外，得到更加符合人眼观感的 HSV 空间。
 本文对其进行图解。
 
 ## 图解图论分析
@@ -504,7 +625,6 @@ The folder contains following md files:
 > 什么样的图，是好看的图？
 
 祝我好运吧。
-
 
 ## 图解审美（二）
 
@@ -546,16 +666,16 @@ The folder contains following md files:
 本文借用《再售期权理论（Resale Option Theory）》中的一个例子，
 试图说明经济泡沫也许可以解释成异质信念条件下的资产交易属性。
 
-## 记一个神奇的BUG
+## 记一个神奇的 BUG
 
-今天遇到一个神奇的BUG，
+今天遇到一个神奇的 BUG，
 解决方式虽然非常简单。
 但它暴露出来一个问题，
 即，我已经被弱类型语言给惯坏了。
 
 ## 配色方法
 
-如果你经常纠结于怎么为自己的PPT或其他什么东西配色的话。
+如果你经常纠结于怎么为自己的 PPT 或其他什么东西配色的话。
 本文将介绍一种基于`HSV`空间的配色方法，也许能解决你的问题。
 
 # Tools Knowledge
@@ -565,6 +685,7 @@ The Topic is about how to use software tools better.
 The folder contains following md files:
 
 ---
+
 ## We are So Strong
 
 As a whole.
@@ -633,6 +754,7 @@ The Topic is about Analysis the Traffic Situations.
 The folder contains following md files:
 
 ---
+
 ## 以空间换时间
 
 为了解决《私人订制》一文中遇到的，由于计算规模扩大所导致的，
@@ -700,4 +822,3 @@ The folder contains following md files:
 本文将详述形成最小连通图的贪婪算法。
 在此基础上，我们才能说明捷径加入之后，原始算法是如何失效的。
 从而解决《改出路径依赖》一文所提出的问题。
-
