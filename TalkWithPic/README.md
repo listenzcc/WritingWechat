@@ -96,6 +96,10 @@ The folder contains following md files:
 本文借用《再售期权理论（Resale Option Theory）》中的一个例子，
 试图说明经济泡沫也许可以解释成异质信念条件下的资产交易属性。
 
+## 素描
+
+这是一段将图片转换为铅笔素描版本的小程序。
+
 ## 记一个神奇的BUG
 
 今天遇到一个神奇的BUG，
