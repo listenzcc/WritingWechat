@@ -544,6 +544,20 @@ The Topic will try to create **Pictures** for **Key Ideas**.
 The folder contains following md files:
 
 ---
+## COCO图像类别空间的简单可视化
+
+本文将分别使用`PCA`、`TSNE`和`SOM`三种方法对`COCO`数据图像的类别信息进行映射。
+从而以较低的维度对数据进行呈现。
+
+## Coco数据集
+
+Coco数据集是通用较强的数据集，
+它的全称为“Common Objects in Context”，
+里面包含了各种日常物品，可以细分为`80`类。
+对这些图像中的物品进行统计，
+也许可以帮助我们了解一般的图像的统计特性。
+
+
 ## 一种线性反馈的多输出零点控制方式
 
 本文将试图说明一种面向线性反馈系统的，
@@ -560,6 +574,12 @@ The folder contains following md files:
 
 如今75年过去了，
 我们却在购物。
+
+## 从词向量的角度理解COCO
+
+上一篇从类别标签的角度介绍了`COCO`数据集的基本情况，
+本文将从“词向量”的角度理解这组数据。
+
 
 ## 商业精神
 
@@ -671,6 +691,11 @@ The folder contains following md files:
 解决方式虽然非常简单。
 但它暴露出来一个问题，
 即，我已经被弱类型语言给惯坏了。
+
+## 运动反解算法
+
+本文将综合之前的“四元数”计算、“机械臂”运动和“THREE”可视化的代码，
+构建了一个仿“人体骨骼”的运动反解工程。
 
 ## 配色方法
 
