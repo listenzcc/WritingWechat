@@ -293,6 +293,24 @@ The folder contains following md files:
 工作流可见我的[GITHUB工程](https://github.com/listenzcc/freesurferAnalysisScripts "GITHUB工程")，
 可视化代码可见我的[ObservableHQ工程](https://observablehq.com/@listenzcc/free-surfer-cortex-v2 "ObservableHQ工程")。
 
+## 色块拼图
+
+计算机里的图像一般是方方正正的，
+由像素组成的矩形集合。
+
+而人描述一个场景或图像时，
+所使用的往往不是这样规矩的矩形，
+而是这样的话语
+
+> 这里有山有云，在夕阳下，
+> 山和云都显出很好看的红色。
+
+因此，我们或许可以尝试使用“色块”对场景进行描述。
+
+【这是一段棒到不行的视频】
+
+本样例的代码可见我的[在线笔记本](https://observablehq.com/@listenzcc/quadtree-art "在线笔记本")。
+
 ## 无限上升的卡农
 
 交变电场产生磁场，
@@ -580,6 +598,14 @@ Coco数据集是通用较强的数据集，
 上一篇从类别标签的角度介绍了`COCO`数据集的基本情况，
 本文将从“词向量”的角度理解这组数据。
 
+
+## 全面开往小康社会
+
+过年嘛，既然日子也就那么回事，
+所以就畅想些美好的未来。
+
+今年据说是全面建成小康社会的一年。
+它标志着我们也许可以开始畅想着买小汽车的事情了。
 
 ## 商业精神
 

@@ -88,6 +88,24 @@ The folder contains following md files:
 工作流可见我的[GITHUB工程](https://github.com/listenzcc/freesurferAnalysisScripts "GITHUB工程")，
 可视化代码可见我的[ObservableHQ工程](https://observablehq.com/@listenzcc/free-surfer-cortex-v2 "ObservableHQ工程")。
 
+## 色块拼图
+
+计算机里的图像一般是方方正正的，
+由像素组成的矩形集合。
+
+而人描述一个场景或图像时，
+所使用的往往不是这样规矩的矩形，
+而是这样的话语
+
+> 这里有山有云，在夕阳下，
+> 山和云都显出很好看的红色。
+
+因此，我们或许可以尝试使用“色块”对场景进行描述。
+
+【这是一段棒到不行的视频】
+
+本样例的代码可见我的[在线笔记本](https://observablehq.com/@listenzcc/quadtree-art "在线笔记本")。
+
 ## 无限上升的卡农
 
 交变电场产生磁场，
