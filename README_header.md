@@ -1,7 +1,8 @@
-- [The Daily Writing NoteBook](#the-daily-writing-notebook)
-  - [The Structure of the Project](#the-structure-of-the-project)
-
 # The Daily Writing NoteBook
+
+Visit
+[Writing](https://listenzcc.github.io/WritingWechat/ "Writing")
+to see all the contents.
 
 Everyday, I would like to write something down in this **PROJECT**.
 
