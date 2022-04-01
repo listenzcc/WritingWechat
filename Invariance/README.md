@@ -26,6 +26,15 @@ Knowing them means knowing everything.
 而是举一个反例，
 说明数据可以被怎样误用。
 
+## 事件地图
+
+这个统计是基于一个外国小哥分享的地图数据制作的。
+从这个统计地图上看，
+事件几乎是瞬间发生，
+并且一直保持在那里了。
+
+本工程的代码可以见[我的在线代码](https://observablehq.com/@listenzcc/russia-ukraine-war-incidents-over-time "我的在线代码")。
+
 ## 卷积及傅立叶变换的矩阵计算
 
 傅氏变换与卷积都可以用矩阵乘法的形式进行表达。
