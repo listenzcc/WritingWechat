@@ -19,6 +19,21 @@ Coco数据集是通用较强的数据集，
 也许可以帮助我们了解一般的图像的统计特性。
 
 
+## Linux User Cookbook
+
+<aside>
+💡 To whom wants to, but never got a chance to try Linux Server.
+
+</aside>
+
+## Quick Start
+
+- [ ]  🌐Download & Install MobaXterm
+- [ ]  🙂Ask admin to make you account (Login IP, Username, Password)
+- [ ]  🤖Establish the remote session of MobaXterm to log in the server with SSH
+- [ ]  ⌨️(Optional) Establish the remote development environment with VSCode or Pycharm or something like
+- [ ]  🆗(Optional) Set up your Key Authorization of SSH login without password
+
 ## Movie in Machine Learning
 
 如果你实在是没有时间看电影，不妨让算法把相似的信息提取出来。
