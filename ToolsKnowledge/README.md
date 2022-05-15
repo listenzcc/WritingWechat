@@ -13,6 +13,16 @@ The folder contains following md files:
 
 那么如果病毒感染的速度比人类生育的速度快呢？
 
+## 三维大脑展示页面
+
+本文是介绍大脑标准模板的一站式展示工具。
+
+不用装任何软件，打开网页即可。
+
+我很奇怪，都2022年了，竟然还没有人做这个事情。
+
+[Brain Atlas Gallery](https://observablehq.com/@listenzcc/brain-atlas-gallery)
+
 ## We are So Strong
 
 As a whole.
