@@ -57,6 +57,14 @@ As a whole.
 
 更进一步地，共变关系可以解决什么问题，以及如何利用这些共变特性，就是另外的故事了。
 
+## 功能连接可视化
+
+本文介绍另一个大脑功能可视化工具，还是不用装任何软件，打开网页即可。
+
+要说明的是目前的版本是一个半成品，更完整一点的工具应该是与之前的工具产生联动的一个玩意。
+
+[https://observablehq.com/@listenzcc/functional-connectivity-explorer](https://observablehq.com/@listenzcc/functional-connectivity-explorer)
+
 ## 双目视觉
 
 双目视觉是立体感知的重要途径。
