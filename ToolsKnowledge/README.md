@@ -5,6 +5,10 @@ The Topic is about how to use software tools better.
 The folder contains following md files:
 
 ---
+## GIT-bug
+
+GIT 是常用的版本管理软件，它偶尔也会出问题。
+
 ## how covid-19 is becoming
 
 如果 a 比 b 快，

@@ -1007,6 +1007,10 @@ Coco数据集是通用较强的数据集，
 
 长太息以掩涕兮，哀民生之多艰。
 
+## 如果时间是条河
+
+尽管空间旅行的速度越来越快，但人类目前的技术还无法跨越时间。如果时间是条河，那么人们只能随波逐流，因此，你的起点就决定了你的终点。
+
 ## 按需分配
 
 那个啥的核心奥义是实现按需分配，
@@ -1078,6 +1082,10 @@ The Topic is about how to use software tools better.
 The folder contains following md files:
 
 ---
+## GIT-bug
+
+GIT 是常用的版本管理软件，它偶尔也会出问题。
+
 ## how covid-19 is becoming
 
 如果 a 比 b 快，
