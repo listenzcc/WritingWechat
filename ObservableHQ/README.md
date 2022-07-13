@@ -111,6 +111,10 @@ The folder contains following md files:
 
 本文的分析结果偏向于认为贫穷和富裕是在自由交易的市场中自发形成的，动态平衡的经济学现象。
 
+## 大新闻
+
+号外号外，真有文化人说别人是犬子了。
+
 ## 大风扯乎
 
 最近在知乎上看到一篇奇文，
@@ -259,6 +263,12 @@ The folder contains following md files:
 
 本文还是基于`THREE.js`的三维场景呈现。
 但缝合了`D3`的力模拟功能。
+
+## 脑皮层的褶皱渲染
+
+大脑皮层是高度卷曲的褶皱状结构。本
+[前端工具](https://observablehq.com/@listenzcc/vertices-render "前端工具")
+试图展示这一点。
 
 ## 腿部运动轨迹重建
 
