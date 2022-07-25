@@ -341,6 +341,14 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+## Perlin 噪声与随机地形
+
+在许多情况下，需要生成随机的地形或者空间连续的随机变量。
+
+这里 Perlin 噪声往往是很好的选择。
+
+比如我在前端页面做的一个小demo [Perlin Noise Contours with GeoProjection](https://observablehq.com/@listenzcc/perlin-noise-contours-with-geoprojection "Perlin Noise Contours with GeoProjection")
+
 ## WebGL绘图（之一）
 
 `WebGL`是重要的前端技术之一，
@@ -381,6 +389,14 @@ The folder contains following md files:
 
 这是一个进行二维场生成和可视化的前端工具，
 但还是初版。
+
+## 云图
+
+最近科研圈出了个大事，就是一度非常火热的老年痴呆与一种知名蛋白沉淀之间的关联指控是数据造假的结果。
+
+简单来说，它等价于这样一种行为，就是我可以通过各种 CG 方法生成一张图，然后把这张图给地球披上，然后指着它说，看吧，这就是之后 30 年的地球气候的云图。
+
+虽然这张图实际上没有一点儿意义。
 
 ## 云雾效果
 
