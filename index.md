@@ -587,6 +587,18 @@ The folder contains following md files:
 不得不说`BING`的每日一图是真的好看。
 不妨以为契机，记录一下前端绘图的一些经验和坑点。
 
+## 气温地图
+
+接着上回的温度数据，再做一点工作。
+
+具体来说，我关注一个温度指标，它就是
+
+> 今年 7 月的温度比去年同期高多少？
+
+能看得出来，我国西南今年是真的热，
+
+> 有多热？比去年高 9 度的那种热。
+
 ## 水球效果
 
 这是一个在真空中的水球效果的模拟。
@@ -688,6 +700,17 @@ INTEL新近发布了第`12`代CPU，
 ## 长津湖
 
 这篇很俗，但值得一写。
+
+# oh-my-image
+
+The oh-my-image project.
+
+The folder contains following md files:
+
+---
+## image
+
+## tensorflow-1to2
 
 # OpenGL
 
@@ -1279,6 +1302,12 @@ As a whole.
 
 本例提供了一个批量图像缩放工具，用于指定目录下的图像统一缩放。
 源码可见[GITHUB](https://github.com/listenzcc/resizeImages "GITHUB")
+
+## 天气热不热，取决于记性好不好
+
+人往往囿于眼前的苦难，却淡忘过往的悲伤。
+
+就好像每年都在说“今年天气热，胜过往年”。
 
 ## 如何安装一个机械臂
 
