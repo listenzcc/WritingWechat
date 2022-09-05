@@ -80,6 +80,11 @@ def build_topic(folder):
         for name in names:
             content = open(_path(name), 'r',
                            encoding=encoding).read().split('---')[0]
+
+            # Convert Level 1 title to Level 2 title
+            if content.startswith('# '):
+                content = '#' + content
+
             _write(content)
 
         pass

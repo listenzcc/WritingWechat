@@ -154,7 +154,7 @@ The folder contains following md files:
 本文的分析代码可见
 [我的代码本](https://observablehq.com/d/4037ab90a91424a7 "我的代码本")
 
-# 宇宙为何空空荡荡
+## 宇宙为何空空荡荡
 
 这是标题党，但又不全是标题党，因为我有实验。
 
@@ -209,7 +209,7 @@ The folder contains following md files:
 
 本样例的代码可见我的[在线笔记本](https://observablehq.com/@listenzcc/quadtree-art "在线笔记本")。
 
-# 数据截断及估计
+## 数据截断及估计
 
 继上文“滤波及失真”之后，我们还需要考察的问题是，是否能够使用被截断的信号来估计出原始信号。当然，这里的反推并不是完全的还原，因为对于随机信号来讲，我们往往更关注它的统计特性，而非具体取值。这就要在频谱上做文章。
 
