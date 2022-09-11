@@ -317,3 +317,9 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 欢迎访问我的
 [Github 主页](https://listenzcc.github.io/home-page-2/unicodes/ "Github 主页")
 
+## 鸡同鸭讲的 BUG
+
+Python-opencv 遇到了一个中文支持的 BUG，它不能读取目录中带有中文的图像文件。
+
+这背后的原因是编码和解码过程不一致所导致的乱码现象。
+
