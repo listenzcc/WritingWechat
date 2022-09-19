@@ -713,6 +713,10 @@ INTEL新近发布了第`12`代CPU，
 
 本文对这些“不穷”的美国人用脚投票的结果进行可视化。
 
+## 那抹五彩斑斓的黑
+
+感谢 Apple，让我们见识到了传说中五彩斑斓的黑。
+
 ## 长津湖
 
 这篇很俗，但值得一写。
@@ -1230,6 +1234,12 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 这是小学生都知道的事情。
 
 那么如果病毒感染的速度比人类生育的速度快呢？
+
+## Tools Knowledge
+
+The Topic is about how to use software tools better.
+
+The folder contains following md files:
 
 ## Tensor flow 踩坑记
 

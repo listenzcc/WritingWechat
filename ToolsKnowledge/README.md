@@ -17,6 +17,12 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 
 那么如果病毒感染的速度比人类生育的速度快呢？
 
+## Tools Knowledge
+
+The Topic is about how to use software tools better.
+
+The folder contains following md files:
+
 ## Tensor flow 踩坑记
 
 Tensor flow 删除了 contrib 模块，这是万恶之源。
