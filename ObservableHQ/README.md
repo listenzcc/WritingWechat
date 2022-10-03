@@ -393,6 +393,16 @@ INTEL新近发布了第`12`代CPU，
 
 这篇很俗，但值得一写。
 
+## 雨滴打在窗户上
+
+本文使用 Canvas 模拟了雨滴打在窗户上的视觉效果。
+
+实现这个玩意需要在前端实现三个功能，分别是图像的径向模糊、Canvas 绘图的遮罩方式和动态帧动画。
+
+实现过程可见我的前端笔记本
+
+[Rain drop simulation](https://observablehq.com/@listenzcc/rain-drop-simulation "Rain drop simulation")
+
 ## 颜色空间映射
 
 本文试图解释一个可视化现象，那就是在单独改变某一个颜色通道的条件下，得到的颜色序列在颜色空间中如何分布。
