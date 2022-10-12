@@ -5,6 +5,14 @@ The articles in economist, and my translation.
 The folder contains following md files:
 
 ---
+## A new macroeconomic era is emerging. What will it look like?
+
+A great rebalancing between governments and central banks is under way
+
+政府与央行之间关系的重新平衡迫在眉睫
+
+Oct 6th 2022
+
 ## A reckoning has begun for corporate debt monsters
 
 As rates rise, how messy will the squeeze on business get?
