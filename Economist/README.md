@@ -28,6 +28,14 @@ Despite market turmoil, the Fed is set on relentless rate rises
 FILE -- Visitors in Times Square in New York, Aug. 30, 2022. The number of tourists visiting New York City in 2022 is expected to rebound to 85% of the level in 2019, a year in which a record 66.6 million travelers came to the city. (Christopher Lee/The New York Times)Credit: New York Times / Redux / eyevineFor further information please contact eyevinetel: +44 (0) 20 8709 8709e-mail: [info@eyevine.comwww.eyevine.com](mailto:info@eyevine.comwww.eyevine.com)
 Oct 2nd 2022 | WASHINGTON, DC
 
+## China and the West are in a race to foster innovation
+
+**Which will have more success?**
+
+谁更胜一筹？
+
+October 13, 2022 6:10 PM | WASHINGTON, DC
+
 ## Financial markets are in trouble. Where will the cracks appear?
 
 The first big test of a new-look financial system

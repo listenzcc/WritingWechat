@@ -45,6 +45,14 @@ Knowing them means knowing everything.
 
 本工程的代码可以见[我的在线代码](https://observablehq.com/@listenzcc/russia-ukraine-war-incidents-over-time "我的在线代码")。
 
+## 信息论中的各种熵
+
+信息论中有各种熵的定义，本文用一组例子说明熵的计算方式。以及通过熵对信号进行排序，我们可能会得到怎样的结果。
+
+## 勘误
+
+本文是对“信息论中的各种熵”一文的勘误，并且提供了一个更加易用的脚本。
+
 ## 卷积及傅立叶变换的矩阵计算
 
 傅氏变换与卷积都可以用矩阵乘法的形式进行表达。
