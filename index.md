@@ -20,6 +20,69 @@ The `readme.md` files in the folders will be used as the summary of the **Topic*
 They are listed as following.
 
 ---
+# Economist
+
+The articles in economist, and my translation.
+
+The folder contains following md files:
+
+---
+## A new macroeconomic era is emerging. What will it look like?
+
+A great rebalancing between governments and central banks is under way
+
+政府与央行之间关系的重新平衡迫在眉睫
+
+Oct 6th 2022
+
+## A reckoning has begun for corporate debt monsters
+
+As rates rise, how messy will the squeeze on business get?
+
+利率高企造成的混乱形势会对商业造成怎样的压迫性影响？
+
+## America’s economy is too strong for its own good
+
+Despite market turmoil, the Fed is set on relentless rate rises
+
+尽管市场动荡，联邦仍然一意孤行地加息。
+
+FILE -- Visitors in Times Square in New York, Aug. 30, 2022. The number of tourists visiting New York City in 2022 is expected to rebound to 85% of the level in 2019, a year in which a record 66.6 million travelers came to the city. (Christopher Lee/The New York Times)Credit: New York Times / Redux / eyevineFor further information please contact eyevinetel: +44 (0) 20 8709 8709e-mail: [info@eyevine.comwww.eyevine.com](mailto:info@eyevine.comwww.eyevine.com)
+Oct 2nd 2022 | WASHINGTON, DC
+
+## China and the West are in a race to foster innovation
+
+**Which will have more success?**
+
+谁更胜一筹？
+
+October 13, 2022 6:10 PM | WASHINGTON, DC
+
+## Financial markets are in trouble. Where will the cracks appear?
+
+The first big test of a new-look financial system
+
+经济新常态下的第一次大考
+
+Oct 4th 2022 | NEW YORK
+
+## OPEC defies Joe Biden with a big output cut
+
+Will it backfire?
+
+你能怎样？
+2DJW59X Silhouette Cranes Against Sky During Sunset
+Oct 5th 2022
+
+## The hunt for the weakest link in global finance
+
+Credit Suisse won’t be the last firm to fall under the spotlight
+
+Credit Suisse 不会是浮在台面上的最后一个倒霉蛋。
+
+This photograph taken on May 6, 2022 shows a sign of Switzerland's second largest bank Credit Suisse on a branch's building next to a Swiss flag in downtown Geneva. (Photo by Fabrice COFFRINI / AFP) (Photo by FABRICE COFFRINI/AFP via Getty Images)
+Oct 3rd 2022
+
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -112,6 +175,16 @@ Knowing them means knowing everything.
 而是举一个反例，
 说明数据可以被怎样误用。
 
+## 乘法总比除法好
+
+这是基于欧几里得辗转相除法的扩展，是一个生成互质的随机数对的快速方法。
+
+在这之前我从没想过，互质的整数还能用乘法算出来。
+
+在这里碎碎念一下，如果我们将一系列小矩阵看作是卷积网络的很多层，把最大公约数看作是迭代开始的种子点，那么这就是一个
+
+> 生成拥有指定最大公约数的整数对的 GAN 网络
+
 ## 事件地图
 
 这个统计是基于一个外国小哥分享的地图数据制作的。
@@ -120,6 +193,14 @@ Knowing them means knowing everything.
 并且一直保持在那里了。
 
 本工程的代码可以见[我的在线代码](https://observablehq.com/@listenzcc/russia-ukraine-war-incidents-over-time "我的在线代码")。
+
+## 信息论中的各种熵
+
+信息论中有各种熵的定义，本文用一组例子说明熵的计算方式。以及通过熵对信号进行排序，我们可能会得到怎样的结果。
+
+## 勘误
+
+本文是对“信息论中的各种熵”一文的勘误，并且提供了一个更加易用的脚本。
 
 ## 卷积及傅立叶变换的矩阵计算
 
@@ -327,6 +408,22 @@ Knowing them means knowing everything.
 众所周知，汽缸越多车越稳，
 而好车通常采用直列八缸发动机，
 本文将解释这是因为什么，以及如何使用群进行分析。
+
+## 这可能是一种 BIAS
+
+今天与同学讨论，聊到这么一篇文章
+
+Putative rhythms in attentional switching can be explained by aperiodic temporal structure
+
+[Putative rhythms in attentional switching can be explained by aperiodic temporal structure - Nature Human Behaviour](https://www.nature.com/articles/s41562-022-01364-0)
+
+很多研究发现，在注意力转移过程中，采集到的大脑信号具有“节律性”变化。
+
+而这篇文章试图说明，这种现象可能是由于所采用的置换检验的统计方法破坏了原始信号的时间非周期的连续性而产生的。换句话说，它可能是时间置换检验方法带来的 BIAS，而不是信号本身所具有的属性。
+
+我无意讨论后面的问题，只是单纯地好奇
+
+> 从纯数据的角度出发，这个 BIAS 是如此严重的吗？
 
 ## 群的边界
 
@@ -1539,6 +1636,10 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 
 脑成像设备和数据都需要进行一定程度的标准化才能进行后续分析。
 本文是对其基本概念的一些介绍。
+
+## 脑磁图的探头位置坐标说明
+
+本文对脑磁图的探头位置坐标及其提取和干预方式进行简单说明。
 
 ## 英文苦手
 
