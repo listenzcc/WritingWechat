@@ -5,6 +5,10 @@ The Topic is about how to use software tools better.
 The folder contains following md files:
 
 ---
+## Chrome 插件
+
+浏览器插件可以增强 Web 浏览体验。
+
 ## GIT-bug
 
 GIT 是常用的版本管理软件，它偶尔也会出问题。
@@ -16,6 +20,14 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 这是小学生都知道的事情。
 
 那么如果病毒感染的速度比人类生育的速度快呢？
+
+## Mapbox 与 GeoJson
+
+与 Canvas 相比，Mapbox 的原生 Layer 显然是更加优雅的解决方案，但它需要 GeoJson 的支持。
+
+本文的代码可见我的开源前端库
+
+[Mapbox with hex grids](https://observablehq.com/@listenzcc/mapbox-with-hex-grids)
 
 ## Tools Knowledge
 

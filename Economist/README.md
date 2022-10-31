@@ -5,6 +5,14 @@ The articles in economist, and my translation.
 The folder contains following md files:
 
 ---
+## A global house-price slump is coming
+
+**It won’t blow up the financial system, but it will be scary**
+
+癞蛤蟆爬脚面，不咬人但膈应人。
+
+October 20, 2022 5:12 PMShare
+
 ## A new macroeconomic era is emerging. What will it look like?
 
 A great rebalancing between governments and central banks is under way
@@ -35,6 +43,13 @@ Oct 2nd 2022 | WASHINGTON, DC
 谁更胜一筹？
 
 October 13, 2022 6:10 PM | WASHINGTON, DC
+
+## Elon Musk buys Twitter at last
+
+马云想吃外卖，所以买了肯德基；马斯克想吐槽，所以买了推特。
+这告诉我们一个道理，管住嘴就能省很多钱。
+
+![Untitled](Elon%20Musk%20buys%20Twitter%20at%20last%2084277637efdb4ddca8f1c8eeadcd2e34/Untitled.png)
 
 ## Financial markets are in trouble. Where will the cracks appear?
 

@@ -137,6 +137,16 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 于是我决定一点一点地做一套自己的地图工具。
 
+## 地铁密度对比
+
+在某个神奇的国度，不是每个人都有把握方向盘的权力，因此，地铁就是出行的主力。
+
+本文试图通过蜂窝状的网格进行计数，用来对各个地区的地铁方便程度进行量化。
+
+本文代码可见我的前端笔记本 
+
+[Subway stations in hex grids](https://observablehq.com/@listenzcc/mapbox-with-hex-grids-version-3 "Subway stations in hex grids")
+
 ## 均贫富
 
 本文是使用 Atomic Agents 分析另一个有意思的问题。
@@ -318,6 +328,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 数据科学往往能在不经意间诞生艺术创作。
 
 但这个过程可能有点过于不走心了，所以称为瞎画的艺术。
+
+## 程序员的格子
+
+我用 Mapbox 做了一个地图玩具，可以对地图进行精准定位，并且方便比较。
+
+工程可见我的代码笔记本
+
+[map-grid-by-mapbox](https://observablehq.com/@listenzcc/map-grid-by-mapbox "map-grid-by-mapbox")
 
 ## 等高线图
 
