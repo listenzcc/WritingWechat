@@ -27,6 +27,14 @@ The articles in economist, and my translation.
 The folder contains following md files:
 
 ---
+## A global house-price slump is coming
+
+**It won’t blow up the financial system, but it will be scary**
+
+癞蛤蟆爬脚面，不咬人但膈应人。
+
+October 20, 2022 5:12 PMShare
+
 ## A new macroeconomic era is emerging. What will it look like?
 
 A great rebalancing between governments and central banks is under way
@@ -57,6 +65,13 @@ Oct 2nd 2022 | WASHINGTON, DC
 谁更胜一筹？
 
 October 13, 2022 6:10 PM | WASHINGTON, DC
+
+## Elon Musk buys Twitter at last
+
+马云想吃外卖，所以买了肯德基；马斯克想吐槽，所以买了推特。
+这告诉我们一个道理，管住嘴就能省很多钱。
+
+![Untitled](Elon%20Musk%20buys%20Twitter%20at%20last%2084277637efdb4ddca8f1c8eeadcd2e34/Untitled.png)
 
 ## Financial markets are in trouble. Where will the cracks appear?
 
@@ -193,6 +208,14 @@ Knowing them means knowing everything.
 并且一直保持在那里了。
 
 本工程的代码可以见[我的在线代码](https://observablehq.com/@listenzcc/russia-ukraine-war-incidents-over-time "我的在线代码")。
+
+## 交叉熵的校正
+
+交叉熵是个好东西，只要它不崩溃。
+
+## 信息论中熵的一些证明（一）
+
+本文提供一些信息熵的有用证明，供日后查阅。
 
 ## 信息论中的各种熵
 
@@ -435,6 +458,18 @@ Putative rhythms in attentional switching can be explained by aperiodic temporal
 本文将通过一个例子说明哪些元素不在群里，
 从而厘定群的边界。
 
+## 采样率越高越好
+
+如果你的目的是寻找频率特征，那么对信号的采样率是越高越好。
+
+这种好并不是无脑的好，而是有数字依据的好。
+
+本文就通过计算模拟的方式，说明一个问题，那就是
+
+> 即使在奈氏频率高于感兴趣频带最高频率的情况下，采样率过低也会导致信号失真。
+
+因此，我认为，采样频率的追求越高越好，没有上限。
+
 ## 知识、经验和随机性
 
 本文试图说明为什么以及如何使用线性模型对随机变量进行解构。
@@ -577,6 +612,16 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 地图是一个让人能够更加理解地缘的好东西。
 
 于是我决定一点一点地做一套自己的地图工具。
+
+## 地铁密度对比
+
+在某个神奇的国度，不是每个人都有把握方向盘的权力，因此，地铁就是出行的主力。
+
+本文试图通过蜂窝状的网格进行计数，用来对各个地区的地铁方便程度进行量化。
+
+本文代码可见我的前端笔记本 
+
+[Subway stations in hex grids](https://observablehq.com/@listenzcc/mapbox-with-hex-grids-version-3 "Subway stations in hex grids")
 
 ## 均贫富
 
@@ -760,6 +805,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 但这个过程可能有点过于不走心了，所以称为瞎画的艺术。
 
+## 程序员的格子
+
+我用 Mapbox 做了一个地图玩具，可以对地图进行精准定位，并且方便比较。
+
+工程可见我的代码笔记本
+
+[map-grid-by-mapbox](https://observablehq.com/@listenzcc/map-grid-by-mapbox "map-grid-by-mapbox")
+
 ## 等高线图
 
 等高线图，又称为等势线图，
@@ -791,6 +844,16 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 这一个基于`THREE`的可视化工程尝试。
 基于`IMU`角度信号对行走过程中的腿部运动轨迹进行重建。
+
+## 致最可爱的天津地铁
+
+虽然规模不大，但换乘可是一点都不方便。
+
+与北京和上海相比，它会给你带来物超所值的通勤体验。
+
+本文开源代码可见
+
+[Subway stations v2](https://observablehq.com/@listenzcc/subway-stations-v2 "Subway stations v2")
 
 ## 艺术细菌
 
@@ -1350,6 +1413,10 @@ The Topic is about how to use software tools better.
 The folder contains following md files:
 
 ---
+## Chrome 插件
+
+浏览器插件可以增强 Web 浏览体验。
+
 ## GIT-bug
 
 GIT 是常用的版本管理软件，它偶尔也会出问题。
@@ -1361,6 +1428,14 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 这是小学生都知道的事情。
 
 那么如果病毒感染的速度比人类生育的速度快呢？
+
+## Mapbox 与 GeoJson
+
+与 Canvas 相比，Mapbox 的原生 Layer 显然是更加优雅的解决方案，但它需要 GeoJson 的支持。
+
+本文的代码可见我的开源前端库
+
+[Mapbox with hex grids](https://observablehq.com/@listenzcc/mapbox-with-hex-grids)
 
 ## Tools Knowledge
 
