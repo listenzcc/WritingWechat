@@ -58,6 +58,16 @@ Despite market turmoil, the Fed is set on relentless rate rises
 FILE -- Visitors in Times Square in New York, Aug. 30, 2022. The number of tourists visiting New York City in 2022 is expected to rebound to 85% of the level in 2019, a year in which a record 66.6 million travelers came to the city. (Christopher Lee/The New York Times)Credit: New York Times / Redux / eyevineFor further information please contact eyevinetel: +44 (0) 20 8709 8709e-mail: [info@eyevine.comwww.eyevine.com](mailto:info@eyevine.comwww.eyevine.com)
 Oct 2nd 2022 | WASHINGTON, DC
 
+## Bibi is back, and Israel faces a dilemma over democracy
+
+[Leaders](https://www.economist.com/leaders/ "Leaders") | When doves cry
+
+**Though Binyamin Netanyahu is riding high, he cannot forget the Palestinians**
+
+Binyamin Netanyhu （内塔尼亚胡）正在上位，（但）他不能忘记 Palestinians 人。（暂时不明白是褒是贬，看完后发现是阿拉伯国家害怕他受到宗教狂热分子的影响（？）而不给阿拉伯人活路）
+
+November 5, 2022 1:29 AMShare
+
 ## China and the West are in a race to foster innovation
 
 **Which will have more success?**
@@ -399,6 +409,14 @@ Knowing them means knowing everything.
 
 本文将给出一个简单的例子，
 试图说明如何从变换的角度理解群。
+
+## 自学习的生成模型小例
+
+自学习和生成式模型是机器学习领域的新兴方法。
+
+这种方法的特点是不依赖样本标注，仅通过一些简单的规则就能够生成期望的结构。
+
+本文试图训练这样一个极简模型，它通过自学习的方法，学会从平面生成类似球面的结构。
 
 ## 质能方程
 
