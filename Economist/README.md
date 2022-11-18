@@ -61,6 +61,16 @@ October 13, 2022 6:10 PM | WASHINGTON, DC
 
 ![Untitled](Elon%20Musk%20buys%20Twitter%20at%20last%2084277637efdb4ddca8f1c8eeadcd2e34/Untitled.png)
 
+## Elon Musk’s challenge to management thinking
+
+**If the billionaire succeeds at Twitter, the MBA will need an update**
+
+如果马斯克在推特成功了，那你们的 MBA 就白学了。
+
+译者PS：突然想干件事情，就是弄清楚马老板解雇的那些人，他们是程序员还是中层管理人员？
+
+November 8, 2022 12:44 AMShare
+
 ## Financial markets are in trouble. Where will the cracks appear?
 
 The first big test of a new-look financial system

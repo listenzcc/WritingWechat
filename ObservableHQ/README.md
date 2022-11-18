@@ -74,6 +74,14 @@ The folder contains following md files:
 今天刮大风，刮的建筑像要被吹跑似的。
 所以趁着机会做一个简单的粒子运动模拟。
 
+## 保守场的最短路径估计
+
+本文将“最速降线的蒙特卡洛逼近”一文的方法推广到任意的保守场。
+
+开源代码可见我的前端笔记本
+
+[Estimate the Brachistochrone using Monte Carlo Simulation V2](https://observablehq.com/@listenzcc/brachistochrone-using-monte-carlo-simulation-v2 "Estimate the Brachistochrone using Monte Carlo Simulation V2")
+
 ## 信息茧房
 
 都说互联网是个信息茧房，所以我们就来试试。
@@ -95,6 +103,20 @@ The folder contains following md files:
 希望让它的分析和呈现能够变得像“上网”一样简单。
 目前，离这个目标还相当之遥远。
 
+## 全国铁路站点
+
+本文尝试使用 mapbox，force graph 和 sankey diagram 对全国铁路车站进行可视化。
+
+本文绘图代码可见我的前端库
+
+[Railway stations](https://observablehq.com/@listenzcc/railway-stations "Railway stations")
+
+本文数据预处理的代码可见我的 Github 库
+
+[China-rail-way-stations-data](https://github.com/listenzcc/China-rail-way-stations-data "China-rail-way-stations-data")
+
+效果看着还行，所以最后还有一点碎碎念。
+
 ## 前端输入微调交互样例
 
 Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它的过程中，遇到了很多提升用户交互效率的小 Trick。
@@ -107,6 +129,18 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 它说雍正和华盛顿是一个时代的人。
 于是我就统计了一下，
 还真是。
+
+## 变异 Covid-19
+
+人年纪大了就会不自觉地思考最后的归宿，死 Covid-19 可乎？
+
+不停地变异是病毒的特点之一，感染数量和范围可以看作是变异的直观反应。
+
+本文从 **pango_lineage** 分类学数据库出发，试图对 Covid-19 如何变异提供一个可视化视角。
+
+代码可见我的前端程序库
+
+[The pango-lineage of Covid-19](https://observablehq.com/@listenzcc/the-pango-lineage-of-covid-19 "The pango-lineage of Covid-19")
 
 ## 吹气球
 
@@ -267,6 +301,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 它形象地展示了为啥一个月有大约`30`天，
 以及为什么月相会呈现一种奇妙的周期性。
 
+## 最速降线的蒙特卡洛逼近
+
+本文进行了一次尝试，尝试通过简单粗暴的蒙特卡洛方法逼近一条“最速降线”。
+
+本文代码详见我的前端仓库
+
+[Estimate the Brachistochrone using Monte Carlo Simulation](https://observablehq.com/@listenzcc/estimate-the-brachistochrone-using-monte-carlo-simulatio "Estimate the Brachistochrone using Monte Carlo Simulation")
+
 ## 机械臂运动控制的位置和角度关系及其可视化
 
 本文是记录一个交互式可视化工程，
@@ -310,6 +352,16 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 但操作必然会导致信息量的损失，失真就是这种损失的直观表现。
 
 这个话题很大，我就遇到哪写到哪。
+
+## 漂移变道
+
+最近常做梦，梦到买了辆车，车牌号很吉利，叫做 BJHJYD。
+
+买了车咱就开，那么问题就来了，为啥超车变道的时候需要后车刹车呢？
+
+为了回答这个问题，我写了个前端程序
+
+[Over taking](https://observablehq.com/@listenzcc/over-taking "Over taking")
 
 ## 物以类聚
 

@@ -29,6 +29,16 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 
 [Mapbox with hex grids](https://observablehq.com/@listenzcc/mapbox-with-hex-grids)
 
+## Pubmed 搜索扩展的浏览器插件
+
+我一直觉得搜索结果应该尽可能地方便用户使用，而不是单纯了吸引人点进去的入口。
+
+于是我尝试制作了一个用于 Chrome 或 Edge 浏览器的插件，该插件用于查文献时常用的 Pubmed 搜索引擎，能够自动为它的搜索结果增加一些易用性功能。
+
+简单来说，你不需要再点击进入任何一篇文章，而是可以直接在搜索界面上完成想要的操作。
+
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/ "PubMed")
+
 ## Tools Knowledge
 
 The Topic is about how to use software tools better.
