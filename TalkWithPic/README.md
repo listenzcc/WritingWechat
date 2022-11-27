@@ -44,6 +44,17 @@ Coco数据集是通用较强的数据集，
 
 当然，目前的算法很粗糙，提取的信息也很朴实。
 
+## World trade data
+
+The analysis script and data are provided in
+
+[World-trade-data-I](https://github.com/listenzcc/World-trade-data-I "World-trade-data-I")
+
+Two opinions raise by the analysis
+
+-   Every country trade with limited other countries. And there are not any country expanding to every other country.
+-   The world has only little countries that dominate the international trading.
+
 ## 一种线性反馈的多输出零点控制方式
 
 本文将试图说明一种面向线性反馈系统的，
@@ -97,6 +108,16 @@ Coco数据集是通用较强的数据集，
 《潜伏》里的谢若林同学曾说过一句名言，
 嘴里都是主义，眼里全是生意。
 如今流行的WEB3.0自然也是商业逻辑催生的产物。
+
+## 喜迎世界杯，尝试可视化
+
+可视化是数据的表达方式，而数据是可视化的基础。
+
+比如，一场足球比赛下来，足球、球员和裁判员的位置会形成一组庞大的数据。
+
+我一直希望有机会看看这些数据是什么样子的，而如火如荼进行的卡塔尔世界杯正好给了这样一个契机，可以边看球边写代码的契机。
+
+[football-event-visualization-1](https://github.com/listenzcc/football-event-visualization-1 "football-event-visualization-1")
 
 ## 降维打击-四元数
 

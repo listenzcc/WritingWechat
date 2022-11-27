@@ -96,3 +96,16 @@ Credit Suisse 不会是浮在台面上的最后一个倒霉蛋。
 This photograph taken on May 6, 2022 shows a sign of Switzerland's second largest bank Credit Suisse on a branch's building next to a Swiss flag in downtown Geneva. (Photo by Fabrice COFFRINI / AFP) (Photo by FABRICE COFFRINI/AFP via Getty Images)
 Oct 3rd 2022
 
+## 今天的历史【2022-11-19】
+
+我希望这能够是一个足够长期的记录，
+坚持到退休，能够把 21 世纪给串起来。
+
+The world in brief 【2022-11-19】
+
+Catch up quickly on the global stories that matter
+
+## 今天的历史 【2022-11-26】
+
+Catch up quickly on the global stories that matter
+
