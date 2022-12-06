@@ -78,6 +78,14 @@ Two opinions raise by the analysis
 本文将从“词向量”的角度理解这组数据。
 
 
+## 从财报看股票
+
+本文从下载的 AP7 的财报出发，首先使用 Power BI 解析 PDF 文件，之后利用 Power BI 进行可视化分析。
+
+Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-pdf "jiangxiangkeji")
+
+从分析中可以看出，对于 AP7 来说，宝岛的投资价值无论从数量和质量来说，都是高于大陆的，可能很多西方国家也都这么想吧。
+
 ## 全面开往小康社会
 
 过年嘛，既然日子也就那么回事，

@@ -131,6 +131,10 @@ Catch up quickly on the global stories that matter
 
 Catch up quickly on the global stories that matter
 
+## The world in brief 【2022-12-03】
+
+Catch up quickly on the global stories that matter
+
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -524,6 +528,32 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+## Gabor 函数的参数空间-1
+
+Gabor 函数是常用的数学函数，可以用来对多种物理现象进行表达。
+
+> 函数在参数空间沿最短线移动时，与目标的距离先上升后下降，这导致梯度方法无法用于寻找到这条路径。
+
+换句话说，Gabor 函数在参数空间中是非凸的。
+
+开源代码可见我的前端笔记本
+
+[Parameter Space of Gabor](https://observablehq.com/@listenzcc/parameter-space-of-gabor "Parameter Space of Gabor")
+
+## Gabor 函数的参数空间-2
+
+本文是接续前文的拓展，探讨在估计最优参数时，梯度下降方法是否能够得到最优解。
+
+梯度下降可能有三种结果
+
+1. 能够得到几乎正确的结果，但过程曲折；
+2. 能够得到几乎正确的结果，过程也与理想轨迹大致吻合；
+3. 梯度下降轨迹与理想轨迹南辕北辙。
+
+本文代码可见我的前端笔记本
+
+[Parameter Space of Gabor (Gradient)](https://observablehq.com/d/e5f15050d1568991 "Parameter Space of Gabor (Gradient)")
+
 ## Perlin 噪声与随机地形
 
 在许多情况下，需要生成随机的地形或者空间连续的随机变量。
@@ -763,6 +793,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 所以，在冬奥会看滑冰，
 他们那帮人才会在入弯时拼了命地使小动作，
 毕竟谁占内弯，谁就赢。
+
+## 扩散模型-1
+
+最近扩散模型比较火，所以本文尝试用前向计算尝试对它进行解释。
+
+本文的代码可见我的前端笔记本
+
+[Diffusion Model Demo (Forward)](https://observablehq.com/@listenzcc/diffusion-model-demo-forward "Diffusion Model Demo (Forward)")
 
 ## 色块拼图
 
@@ -1312,6 +1350,14 @@ Two opinions raise by the analysis
 本文将从“词向量”的角度理解这组数据。
 
 
+## 从财报看股票
+
+本文从下载的 AP7 的财报出发，首先使用 Power BI 解析 PDF 文件，之后利用 Power BI 进行可视化分析。
+
+Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-pdf "jiangxiangkeji")
+
+从分析中可以看出，对于 AP7 来说，宝岛的投资价值无论从数量和质量来说，都是高于大陆的，可能很多西方国家也都这么想吧。
+
 ## 全面开往小康社会
 
 过年嘛，既然日子也就那么回事，
@@ -1815,6 +1861,12 @@ As a whole.
 ## 立体渲染
 
 要渲染一个立体结构，除了将它解析成表面之外，还可以通过体渲染的方式来解决问题。
+
+## 简易文档
+
+文档是良好组织的富文本信息，能够携带大量有意义的信息。
+
+现代科技让文档的排版和传播变得异常简单。
 
 ## 简洁带来的麻烦
 

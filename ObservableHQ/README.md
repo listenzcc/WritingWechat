@@ -7,6 +7,32 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+## Gabor 函数的参数空间-1
+
+Gabor 函数是常用的数学函数，可以用来对多种物理现象进行表达。
+
+> 函数在参数空间沿最短线移动时，与目标的距离先上升后下降，这导致梯度方法无法用于寻找到这条路径。
+
+换句话说，Gabor 函数在参数空间中是非凸的。
+
+开源代码可见我的前端笔记本
+
+[Parameter Space of Gabor](https://observablehq.com/@listenzcc/parameter-space-of-gabor "Parameter Space of Gabor")
+
+## Gabor 函数的参数空间-2
+
+本文是接续前文的拓展，探讨在估计最优参数时，梯度下降方法是否能够得到最优解。
+
+梯度下降可能有三种结果
+
+1. 能够得到几乎正确的结果，但过程曲折；
+2. 能够得到几乎正确的结果，过程也与理想轨迹大致吻合；
+3. 梯度下降轨迹与理想轨迹南辕北辙。
+
+本文代码可见我的前端笔记本
+
+[Parameter Space of Gabor (Gradient)](https://observablehq.com/d/e5f15050d1568991 "Parameter Space of Gabor (Gradient)")
+
 ## Perlin 噪声与随机地形
 
 在许多情况下，需要生成随机的地形或者空间连续的随机变量。
@@ -246,6 +272,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 所以，在冬奥会看滑冰，
 他们那帮人才会在入弯时拼了命地使小动作，
 毕竟谁占内弯，谁就赢。
+
+## 扩散模型-1
+
+最近扩散模型比较火，所以本文尝试用前向计算尝试对它进行解释。
+
+本文的代码可见我的前端笔记本
+
+[Diffusion Model Demo (Forward)](https://observablehq.com/@listenzcc/diffusion-model-demo-forward "Diffusion Model Demo (Forward)")
 
 ## 色块拼图
 
