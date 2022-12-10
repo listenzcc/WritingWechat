@@ -4,63 +4,63 @@ Catch up quickly on the global stories that matter
 
 ---
 
-- [The world in brief 【2022-12-03】](#the-world-in-brief-2022-12-03)
-  - [欧盟到底缺不缺油？](#欧盟到底缺不缺油)
-  - [强劲就业倒逼美国继续加息](#强劲就业倒逼美国继续加息)
-  - [前景异常不确定](#前景异常不确定)
-  - [禁止了禁止的禁止](#禁止了禁止的禁止)
-  - [德国出口降幅超过预期](#德国出口降幅超过预期)
-  - [现代版本的草船借箭](#现代版本的草船借箭)
-  - [韩国击败葡萄牙，双双进入淘汰赛](#韩国击败葡萄牙双双进入淘汰赛)
-  - [我们都接纳难民，但难民只在你的海滩登陆](#我们都接纳难民但难民只在你的海滩登陆)
-  - [本届世界杯还剩 15 场比赛](#本届世界杯还剩-15-场比赛)
-  - [资本、土地与原住民](#资本土地与原住民)
-  - [悉尼的新地标](#悉尼的新地标)
-  - [我说茄子，你说嗨](#我说茄子你说嗨)
+-   [The world in brief 【2022-12-03】](#the-world-in-brief-2022-12-03)
+    -   [【欧盟】【能源】欧盟到底缺不缺油？](#欧盟能源欧盟到底缺不缺油)
+    -   [【美国】【就业、经济】强劲就业倒逼美国继续加息](#美国就业经济强劲就业倒逼美国继续加息)
+    -   [【中国】【疫情】前景异常不确定](#中国疫情前景异常不确定)
+    -   [【美国】【法律】禁止了禁止的禁止](#美国法律禁止了禁止的禁止)
+    -   [【德国】【贸易】德国出口降幅超过预期](#德国贸易德国出口降幅超过预期)
+    -   [【俄罗斯、乌克兰】【战争】现代版本的草船借箭](#俄罗斯乌克兰战争现代版本的草船借箭)
+    -   [【国际】【足球世界杯】韩国击败葡萄牙，双双进入淘汰赛](#国际足球世界杯韩国击败葡萄牙双双进入淘汰赛)
+    -   [【意大利、欧盟】【难民】我们都接纳难民，但难民只在你的海滩登陆](#意大利欧盟难民我们都接纳难民但难民只在你的海滩登陆)
+    -   [【国际】【足球世界杯】本届世界杯还剩 15 场比赛](#国际足球世界杯本届世界杯还剩-15-场比赛)
+    -   [【美国】【历史】资本、土地与原住民](#美国历史资本土地与原住民)
+    -   [【澳大利亚】【建筑】悉尼的新地标](#澳大利亚建筑悉尼的新地标)
+    -   [【中国】【抗议】我说茄子，你说嗨](#中国抗议我说茄子你说嗨)
 
-## 欧盟到底缺不缺油？
+## 【欧盟】【能源】欧盟到底缺不缺油？
 
 Diplomats from the **EU** agreed on a [price cap](https://www.economist.com/leaders/2022/11/30/the-wests-proposed-price-cap-on-russian-oil-is-no-magic-weapon) for **Russian oil** of $60 per barrel, according to Poland’s ambassador. The policy aims to squeeze Russia’s revenue by prohibiting Western firms from insuring, shipping or trading Russian crude anywhere in the world unless it is sold below the cap. The G7 is expected to endorse the plan soon. Separately, an EU embargo on Russian crude takes effect on Monday.
 
 波兰大使表示，欧盟外交官同意俄罗斯石油的价格上限为每桶 60 美元。该政策旨在通过禁止西方公司在世界任何地方为俄罗斯原油投保、运输或交易，以挤压俄罗斯的收入，除非其低于上限销售。预计 G7 将很快批准该计划。另外，欧盟对俄罗斯原油的禁运将于周一生效。
 
-## 强劲就业倒逼美国继续加息
+## 【美国】【就业、经济】强劲就业倒逼美国继续加息
 
 Employers in **America** added more jobs than expected—263,000—to **non-farm payrolls** in November. A separate household survey showed that 186,000 people left the labour force, putting [pressure on wages](https://www.economist.com/finance-and-economics/2022/11/24/why-american-unemployment-needs-to-rise), which rose by 0.6% in November from the previous month. Strong hiring and pay growth are unlikely to deter the **Federal Reserve** from its highly telegraphed plan to ease interest-rate increases in December.
 
 美国 11 月非农就业岗位增加了 26.3 万个，超过预期。另一项家庭调查显示，18.6 万人离开了劳动力大军，这给工资带来了压力，11 月工资比上月上涨了 0.6%。强劲的招聘和薪酬增长不太可能阻止美联储在 12 月放松利率上调的高调计划。
 
-## 前景异常不确定
+## 【中国】【疫情】前景异常不确定
 
 **China** began adjusting to what the country’s **covid** tsar, Sun Chunlan, called a “[new stage](https://www.economist.com/leaders/2022/12/01/xi-jinpings-zero-covid-policy-has-turned-a-health-crisis-into-a-political-one)” in the fight against the virus, after a wave of [protests](https://www.economist.com/china/2022/12/01/lessons-from-a-chinese-protest). Authorities in two major cities, Chengdu and Tianjin, announced a further easing of covid curbs. Meanwhile **Kristalina Georgieva**, head of the IMF, said China’s covid strategy would be “critical” in determining Asia’s economic future amid an “exceptionally uncertain” outlook.
 
 在经历了一波抗议之后，中开始适应新冠肺炎女王孙所称的抗击病毒的“新阶段”。成都和天津这两个主要城市的当局宣布进一步放宽对新冠肺炎的限制。与此同时，国际货币基金组织（IMF）总裁克里斯塔利娜·乔治耶娃（Kristalina Georgieva）表示，在前景“异常不确定”的情况下，中国的新冠肺炎战略对决定亚洲经济未来“至关重要”。
 
-## 禁止了禁止的禁止
+## 【美国】【法律】禁止了禁止的禁止
 
 **Florida** lawmakers may keep **Disney’s** “special-district” status, according to the *Financial Times*. The designation, which lets Disney operate like a county government at its Orlando-area parks, was set to be [revoked](https://www.economist.com/united-states/what-ron-desantiss-spat-with-disney-says-about-american-politics/21808962) after the firm’s former boss criticised a state ban on discussion of sexuality and gender identity among young pupils. But [Bob Iger’s return](https://www.economist.com/leaders/2022/11/21/disney-brings-back-a-star-of-the-past-but-its-real-problem-is-the-script) has reportedly helped change lawmakers’ minds. Florida’s governor denied the report.
 
 据《金融时报》报道，佛罗里达州议员可能会保留迪士尼的“特区”地位。该公司的前老板批评了州政府禁止在年轻学生中讨论性和性别认同问题的禁令，这一规定将被撤销。但据报道，鲍勃·伊格尔的回归有助于改变立法者的想法。佛罗里达州州长否认了这一报道。
 
-## 德国出口降幅超过预期
+## 【德国】【贸易】德国出口降幅超过预期
 
 **Germany’s** exports dropped more than anticipated in October, official data showed, as high inflation and supply-chain issues continued to bite. Exports fell by 0.6%, the second consecutive monthly decline after a drop of 0.7% in September. The news tempers optimism that the country faces a milder recession than expected after growth figures for the third quarter, announced last week, beat forecasts.
 
 官方数据显示，由于高通胀和供应链问题持续存在，德国 10 月出口降幅超过预期。出口下降 0.6%，这是继 9 月下降 0.7%后连续第二个月下降。上周公布的第三季度经济增长数据超过了预期，这一消息缓和了人们对美国面临比预期更温和衰退的乐观情绪。
 
-## 现代版本的草船借箭
+## 【俄罗斯、乌克兰】【战争】现代版本的草船借箭
 
 **Ukraine** has lost between 10,000 and 13,000 soldiers since [the war](https://www.economist.com/ukraine-crisis) began, according to a senior official. Mykhailo Podolyak, an adviser to Volodymyr Zelensky, Ukraine’s president, also suggested that around 100,000 Russian soldiers have been killed. Meanwhile Ukraine’s army said Russia is using nuclear-capable missiles armed with non-explosive warheads to “exhaust” the country’s air-defence systems.
 
 据一位高级官员称，自战争开始以来，乌克兰已经损失了 1 万至 1.3 万名士兵。乌克兰总统泽连斯基（Volodymyr Zelensky）的顾问米哈伊洛·波多利亚克（Mykhailo Podoliak）也表示，大约有 10 万名俄罗斯士兵被杀害。与此同时，乌克兰军队表示，俄罗斯正在使用配备非爆炸弹头的具有核能力的导弹来“耗尽”该国的防空系统。
 
-## 韩国击败葡萄牙，双双进入淘汰赛
+## 【国际】【足球世界杯】韩国击败葡萄牙，双双进入淘汰赛
 
 **Football World Cup:** South Korea upset Portugal; both advanced past the [group stage](https://www.economist.com/culture/2022/12/02/why-the-world-cups-first-stage-has-been-surprisingly-even). Cameroon ended Brazil’s 17-game World Cup winning streak but that was not enough to progress. Giant-killers Japan and Morocco both moved on, sending Germany and Belgium packing their bags. On Saturday the knockout stage starts.
 
 足球世界杯：韩国队击败葡萄牙队；两人都通过了小组赛。喀麦隆结束了巴西在世界杯上的 17 连胜，但这还不足以取得进展。巨大的杀手日本和摩洛哥都继续前进，德国和比利时都在收拾行李。星期六淘汰赛开始。
 
-## 我们都接纳难民，但难民只在你的海滩登陆
+## 【意大利、欧盟】【难民】我们都接纳难民，但难民只在你的海滩登陆
 
 \***\*Migration in the Med\*\***
 On Saturday Italy’s prime minister, Giorgia Meloni, is due to address an annual conference about security and co-operation in the Mediterranean region—a touchy subject for her government. In October Italy [refused to accept](https://www.economist.com/europe/2022/11/17/a-new-migration-crisis-is-brewing-in-europe) a ship carrying 234 migrants who had been rescued off the coast of Libya. France ultimately allowed it to dock after a bitter tussle with Ms Meloni. Calling her government’s stance “incomprehensible and unacceptable”, the French suspended an agreement to settle 3,500 asylum-seekers currently in Italy.
@@ -70,7 +70,7 @@ That deal, struck in June by 18 EU members, was already falling short. Under the
 
 这项由 18 个欧盟成员国于 6 月达成的协议已经失败。根据该协议，北欧国家同意在一年内接受 8000 名来自南部邻国的寻求庇护者。但到 11 月中旬，只有 117 人搬迁。预计 Meloni 女士会表达许多意大利人的抱怨，即意大利只能独自处理地中海移民问题。
 
-## 本届世界杯还剩 15 场比赛
+## 【国际】【足球世界杯】本届世界杯还剩 15 场比赛
 
 \***\*Next up at the World Cup\*\***
 It has taken 48 matches to [trim the 32 teams](https://www.economist.com/culture/2022/12/02/why-the-world-cups-first-stage-has-been-surprisingly-even) at the football World Cup to 16. Now as the tournament enters the knockout stages on Saturday, it will take just 15 games to reveal a champion. Several fancied teams have made strong starts and look like contenders. The holders, France, should ease past Poland. Likewise, [Lionel Messi’s](https://www.economist.com/culture/2022/11/17/lionel-messi-and-cristiano-ronaldo-have-forged-modern-football) Argentina against Australia. England, too, should have enough attacking prowess to beat Senegal. And Brazil remain favourites to end their 20-year trophy drought.
@@ -80,7 +80,7 @@ But there is also plenty of scope for upsets. America will be energetic opponent
 
 但也有很多不安的地方。美国将是荷兰的有力对手，荷兰在一个弱势群体中没有得到适当的测试。摩洛哥队自 1986 年以来首次参加淘汰赛，至今保持不败，他们将享受与西班牙队比赛的机会。而日本，刚刚从震惊的德国和西班牙，将在克罗地亚寻找另一个欧洲头皮，2018 年被击败的决赛。
 
-## 资本、土地与原住民
+## 【美国】【历史】资本、土地与原住民
 
 \***\*Native Americans fight for sacred land\*\***
 Saturday is America’s first Tribal Museums Day. But the celebration takes place amid tension over sacred land in Arizona. Chi’chil Bildagoteel, which measures 6.7 square miles (17.4 sq km), is owned by the federal government. It is also an important religious site for members of the Apache tribe. The Trump administration arranged to transfer it to Rio Tinto and BHP, two multinational mining firms, in a land swap; the [copper mine](https://www.economist.com/united-states/the-energy-transition-is-sparking-americas-next-mining-boom/21807704) planned for the site could become America’s largest.
@@ -90,7 +90,7 @@ Tribal leaders, who gathered this week in Arizona for the Sacred Sites Summit, s
 
 本周聚集在亚利桑那州参加圣地峰会的部落领导人表示，保护特定地点是一场“圣战”。去年，阿帕奇的代表起诉了联邦政府，声称失去 Chi'hil Bildagotel 将限制他们的宗教自由。一家上诉法院维持了地区法院对他们的裁决，但在 11 月同意重新审理此案。阿帕契人的胜利将有助于保护其他圣地，并确保它们仍然是一种活的文化的一部分，而不仅仅是一种被归入博物馆的文化。
 
-## 悉尼的新地标
+## 【澳大利亚】【建筑】悉尼的新地标
 
 \***\*The Sydney Modern opens\*\***
 Its opening is being called Sydney’s biggest cultural development since the [Opera House](https://www.economist.com/prospero/2018/10/19/the-sydney-opera-house-then-and-now) was completed nearly 50 years ago. But unlike that landmark, the Sydney Modern, a gallery which opens on Saturday, does not disrupt the skyline: it hunkers into the harbourside, all glass walls and grass-covered roof. The project, costing A$344m ($234m), aims instead to make a mark with its exhibitions. It nearly doubles the floor space of the adjacent Art Gallery of New South Wales and features work by more than 900 artists, including indigenous Australians.
@@ -100,7 +100,7 @@ Sydneysiders blush at how their city gets outshone culturally by Melbourne, know
 
 悉尼人对墨尔本在文化上的优势感到羞愧，墨尔本以其繁荣的艺术景象而闻名。艺术和旅游部长本·富兰克林（Ben Franklin）表示，新画廊渴望与伦敦的泰特现代美术馆或纽约的古根海姆美术馆竞争。成千上万的悉尼人已经登记参观。画廊的创作者也希望得到全球的关注。
 
-## 我说茄子，你说嗨
+## 【中国】【抗议】我说茄子，你说嗨
 
 \***\*Weekend profile: Alexie, a protester in Shanghai\*\***
 Alexie has joined two protests in her life. Both times, the Shanghai coffee-shop owner (whose name we have changed) chanted slogans against China’s government—a good way to risk a jail sentence.
