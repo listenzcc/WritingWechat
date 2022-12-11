@@ -215,6 +215,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 本文的分析结果偏向于认为贫穷和富裕是在自由交易的市场中自发形成的，动态平衡的经济学现象。
 
+## 大事记
+
+最近有同志去世，比较好奇他在任期间有哪些大事，于是找到了官方的权威文档，但这个文档看起来有点麻烦，于是我尝试把它们整合在一个页面里。
+
+[中华人民共和国大事记（1949 年 10 月－2009 年 9 月）*历史概况*中国政府网](http://www.gov.cn/guoqing/2009-10/09/content_2582666.htm "中华人民共和国大事记（1949年10月－2009年9月）_历史概况_中国政府网")
+
+[Story of China](https://observablehq.com/@listenzcc/story-of-china "Story of China")
+
 ## 大新闻
 
 号外号外，真有文化人说别人是犬子了。
@@ -280,6 +288,10 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 本文的代码可见我的前端笔记本
 
 [Diffusion Model Demo (Forward)](https://observablehq.com/@listenzcc/diffusion-model-demo-forward "Diffusion Model Demo (Forward)")
+
+## 扩散模型-2
+
+本文尝试将扩散过程反过来，即从随机噪声“生成”有意义的图像或者数据。
 
 ## 色块拼图
 
