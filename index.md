@@ -118,6 +118,27 @@ Credit Suisse 不会是浮在台面上的最后一个倒霉蛋。
 This photograph taken on May 6, 2022 shows a sign of Switzerland's second largest bank Credit Suisse on a branch's building next to a Swiss flag in downtown Geneva. (Photo by Fabrice COFFRINI / AFP) (Photo by FABRICE COFFRINI/AFP via Getty Images)
 Oct 3rd 2022
 
+## 今天的历史【2022-11-19】
+
+我希望这能够是一个足够长期的记录，
+坚持到退休，能够把 21 世纪给串起来。
+
+The world in brief 【2022-11-19】
+
+Catch up quickly on the global stories that matter
+
+## 今天的历史 【2022-11-26】
+
+Catch up quickly on the global stories that matter
+
+## The world in brief 【2022-12-03】
+
+Catch up quickly on the global stories that matter
+
+## The world in brief 【2022-12-10】
+
+Catch up quickly on the global stories that matter
+
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -511,6 +532,32 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+## Gabor 函数的参数空间-1
+
+Gabor 函数是常用的数学函数，可以用来对多种物理现象进行表达。
+
+> 函数在参数空间沿最短线移动时，与目标的距离先上升后下降，这导致梯度方法无法用于寻找到这条路径。
+
+换句话说，Gabor 函数在参数空间中是非凸的。
+
+开源代码可见我的前端笔记本
+
+[Parameter Space of Gabor](https://observablehq.com/@listenzcc/parameter-space-of-gabor "Parameter Space of Gabor")
+
+## Gabor 函数的参数空间-2
+
+本文是接续前文的拓展，探讨在估计最优参数时，梯度下降方法是否能够得到最优解。
+
+梯度下降可能有三种结果
+
+1. 能够得到几乎正确的结果，但过程曲折；
+2. 能够得到几乎正确的结果，过程也与理想轨迹大致吻合；
+3. 梯度下降轨迹与理想轨迹南辕北辙。
+
+本文代码可见我的前端笔记本
+
+[Parameter Space of Gabor (Gradient)](https://observablehq.com/d/e5f15050d1568991 "Parameter Space of Gabor (Gradient)")
+
 ## Perlin 噪声与随机地形
 
 在许多情况下，需要生成随机的地形或者空间连续的随机变量。
@@ -577,6 +624,14 @@ The folder contains following md files:
 
 今天刮大风，刮的建筑像要被吹跑似的。
 所以趁着机会做一个简单的粒子运动模拟。
+
+## 便携的深度网络
+
+最近 ChatGPT 从实验室走到了千家万户，这说明虽然深度网络是极其依赖于计算资源的服务方式，但只要通过合适的技术途径，是可以实现轻计算终端接入的。在神经网络计算功能日益强大的今天，这是复杂计算落地的必由之路。因此，本文提供一个 DEMO，将预训练好的轻量图像计算网络直接放在前端进行图像识别计算。
+
+本文开源代码可见我的前端代码库
+
+[The TensorFlow in Javascript](https://observablehq.com/@listenzcc/the-tensorflow-in-javascript "The TensorFlow in Javascript")
 
 ## 保守场的最短路径估计
 
@@ -693,6 +748,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 本文的分析结果偏向于认为贫穷和富裕是在自由交易的市场中自发形成的，动态平衡的经济学现象。
 
+## 大事记
+
+最近有同志去世，比较好奇他在任期间有哪些大事，于是找到了官方的权威文档，但这个文档看起来有点麻烦，于是我尝试把它们整合在一个页面里。
+
+[中华人民共和国大事记（1949 年 10 月－2009 年 9 月）*历史概况*中国政府网](http://www.gov.cn/guoqing/2009-10/09/content_2582666.htm "中华人民共和国大事记（1949年10月－2009年9月）_历史概况_中国政府网")
+
+[Story of China](https://observablehq.com/@listenzcc/story-of-china "Story of China")
+
 ## 大新闻
 
 号外号外，真有文化人说别人是犬子了。
@@ -750,6 +813,18 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 所以，在冬奥会看滑冰，
 他们那帮人才会在入弯时拼了命地使小动作，
 毕竟谁占内弯，谁就赢。
+
+## 扩散模型-1
+
+最近扩散模型比较火，所以本文尝试用前向计算尝试对它进行解释。
+
+本文的代码可见我的前端笔记本
+
+[Diffusion Model Demo (Forward)](https://observablehq.com/@listenzcc/diffusion-model-demo-forward "Diffusion Model Demo (Forward)")
+
+## 扩散模型-2
+
+本文尝试将扩散过程反过来，即从随机噪声“生成”有意义的图像或者数据。
 
 ## 色块拼图
 
@@ -825,6 +900,16 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 在`THREE.js`的支持下，我们可以做出一些有意思的应用。
 比如模拟一个三轴机械臂的运动。
 于是有了这个缝合怪。
+
+## 树形数据结构的表形管理
+
+这篇东西仍然比较无聊，它描述了如何用表对一种树形数据结构进行表达。
+
+树形数据结构支持深度和广度遍历，优点是使用灵活，缺点是内容偶合度过高，导致难以单独存储；
+
+而表形数据结构则更贴近数据库，优点是条目清晰，易于存储。
+
+本文尝试在牺牲一定存储空间的条件下，用数据库的形式对树结构进行一定程度的表达。
 
 ## 每日一图
 
@@ -1255,6 +1340,17 @@ Coco数据集是通用较强的数据集，
 
 当然，目前的算法很粗糙，提取的信息也很朴实。
 
+## World trade data
+
+The analysis script and data are provided in
+
+[World-trade-data-I](https://github.com/listenzcc/World-trade-data-I "World-trade-data-I")
+
+Two opinions raise by the analysis
+
+-   Every country trade with limited other countries. And there are not any country expanding to every other country.
+-   The world has only little countries that dominate the international trading.
+
 ## 一种线性反馈的多输出零点控制方式
 
 本文将试图说明一种面向线性反馈系统的，
@@ -1277,6 +1373,14 @@ Coco数据集是通用较强的数据集，
 上一篇从类别标签的角度介绍了`COCO`数据集的基本情况，
 本文将从“词向量”的角度理解这组数据。
 
+
+## 从财报看股票
+
+本文从下载的 AP7 的财报出发，首先使用 Power BI 解析 PDF 文件，之后利用 Power BI 进行可视化分析。
+
+Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-pdf "jiangxiangkeji")
+
+从分析中可以看出，对于 AP7 来说，宝岛的投资价值无论从数量和质量来说，都是高于大陆的，可能很多西方国家也都这么想吧。
 
 ## 全面开往小康社会
 
@@ -1308,6 +1412,16 @@ Coco数据集是通用较强的数据集，
 《潜伏》里的谢若林同学曾说过一句名言，
 嘴里都是主义，眼里全是生意。
 如今流行的WEB3.0自然也是商业逻辑催生的产物。
+
+## 喜迎世界杯，尝试可视化
+
+可视化是数据的表达方式，而数据是可视化的基础。
+
+比如，一场足球比赛下来，足球、球员和裁判员的位置会形成一组庞大的数据。
+
+我一直希望有机会看看这些数据是什么样子的，而如火如荼进行的卡塔尔世界杯正好给了这样一个契机，可以边看球边写代码的契机。
+
+[football-event-visualization-1](https://github.com/listenzcc/football-event-visualization-1 "football-event-visualization-1")
 
 ## 降维打击-四元数
 
@@ -1563,6 +1677,10 @@ As a whole.
 
 本文将记录使用 WebSocket 的一些实用方案，比如如何建立和测试连接，如何判断失联并实现重联等。
 
+## Websocket 的极简后端
+
+在对连接不敏感的情况下，Websocket 能够给 Web 后端开发带来极其轻便的开发体验。
+
 ## 今天你过得如何
 
 今天可是个大日子。
@@ -1771,6 +1889,12 @@ As a whole.
 ## 立体渲染
 
 要渲染一个立体结构，除了将它解析成表面之外，还可以通过体渲染的方式来解决问题。
+
+## 简易文档
+
+文档是良好组织的富文本信息，能够携带大量有意义的信息。
+
+现代科技让文档的排版和传播变得异常简单。
 
 ## 简洁带来的麻烦
 
