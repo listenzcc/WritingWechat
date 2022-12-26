@@ -139,6 +139,10 @@ Catch up quickly on the global stories that matter
 
 Catch up quickly on the global stories that matter
 
+## The world in brief【2022-12-17】
+
+Catch up quickly on the global stories that matter
+
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -588,6 +592,16 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 本文借助该平台，建立了一个简单的动力系统。
 该系统可以在一定程度上显示出“混沌”现象。
 
+## 万有引力与第一只手
+
+万有引力定律是个伟大的定律，它从数学原理上描述了这个“有序的”宇宙。
+
+然而这个定律并没有保证这个宇宙一定是有序的，甚至不需要要“三体”，最简单的地-日系统都可能直接把地球弹出去流浪。
+
+于是我尝试用模拟的方法解释日-地式的双星系统可以不稳定到什么程度。欢迎访问我的前端笔记本
+
+[Play ground: Law of universal gravitation](https://observablehq.com/@listenzcc/play-ground-law-of-universal-gravitation "Play ground: Law of universal gravitation")
+
 ## 乌合之众
 
 系统中多个成员的复杂关系一般可以用网络进行描述，
@@ -619,6 +633,16 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 本文是在之前“等高线图”的基础上，
 开发了一个类似“云雾效果”或“封冻效果”的渲染生成方法。
+
+## 人口红利
+
+姜文电影有一句名言
+
+> 我就是为了这碟醋，才包的这顿饺子。
+
+我让 ChatGPT 给我编了一段解释兰彻斯特方程的代码，于是我给它加了一个可视化的壳，现在已经说不清谁是饺子谁是醋了。代码可见我的前端笔记本
+
+[The Lanchester function explaining by ChatGPT](https://observablehq.com/@listenzcc/the-lanchester-function-explaining-by-chatgpt "The Lanchester function explaining by ChatGPT")
 
 ## 今天的风儿有些喧嚣
 
@@ -813,6 +837,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 所以，在冬奥会看滑冰，
 他们那帮人才会在入弯时拼了命地使小动作，
 毕竟谁占内弯，谁就赢。
+
+## 形式逻辑的陷阱
+
+最近 ChatGTP 火出圈了，但和小伙伴交流发现，大家都认为这种语言模型可能会让人误会他说的是有道理的，即使它们只符合形式逻辑。因此，不能简单地拿它当作搜索引擎用，并且只有明确地知道它返回结果的意义，才能更好地让它为人服务。
+
+本文以容易理解的二维场作例子，试图说明在采用不同的计算方法时，场的叠加可能会得到截然不同的结果，即使这些结果看上去都还行，但是否能够反映实际情况，则有待分析。本文的例子可见我的前端笔记本
+
+[The gravity field of two stars III](https://observablehq.com/@listenzcc/the-gravity-field-of-two-stars-iii "The gravity field of two stars III")
 
 ## 扩散模型-1
 
