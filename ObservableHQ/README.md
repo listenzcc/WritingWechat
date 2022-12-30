@@ -171,6 +171,12 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 效果看着还行，所以最后还有一点碎碎念。
 
+## 函数映射
+
+本文在 Observable 提供了一个好用的函数可视化工具。
+
+[Mathmatic notebook III](https://observablehq.com/@listenzcc/mathmatic-notebook-iii "Mathmatic notebook III")
+
 ## 前端输入微调交互样例
 
 Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它的过程中，遇到了很多提升用户交互效率的小 Trick。
@@ -538,6 +544,18 @@ INTEL新近发布了第`12`代CPU，
 本文是十分应景的一文，
 正好有一个良好的实验，
 来说明“睿频”这个功能为计算资源的释放提供了怎样颠覆性的贡献。
+
+## 跳舞火柴人
+
+本文以 Openpose 的骨架识别能力为基础，从视频中解析出人体关节的实时位置，并进行绘制。
+
+解析代码可见我的 GitHub 仓库
+
+[https://github.com/listenzcc/dancing-body](https://github.com/listenzcc/dancing-body "https://github.com/listenzcc/dancing-body")
+
+绘制代码可见我的前端笔记本
+
+[Dancing Body](https://observablehq.com/@listenzcc/dancing-body "Dancing Body")
 
 ## 辛普森悖论
 

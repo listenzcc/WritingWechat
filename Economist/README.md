@@ -117,6 +117,11 @@ Catch up quickly on the global stories that matter
 
 Catch up quickly on the global stories that matter
 
+## The world in brief 【2022-12-24】
+
+Catch up quickly on the global stories that matter
+_Updated 4 hours ago (21:02 GMT / 05:02 Hong Kong)_
+
 ## The world in brief【2022-12-17】
 
 Catch up quickly on the global stories that matter
