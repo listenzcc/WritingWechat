@@ -144,6 +144,11 @@ Catch up quickly on the global stories that matter
 Catch up quickly on the global stories that matter
 _Updated 4 hours ago (21:02 GMT / 05:02 Hong Kong)_
 
+## The world in brief 【2022-12-31】
+
+Catch up quickly on the global stories that matter
+_Updated 9 hours ago (17:11 GMT London)_
+
 ## The world in brief【2022-12-17】
 
 Catch up quickly on the global stories that matter
@@ -1694,6 +1699,12 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 
 那么如果病毒感染的速度比人类生育的速度快呢？
 
+## MLP需要适当的规模
+
+由于上次 MLP 回归失败，因此我决定对它进行改进。在增加了网络层数之后，我发现回归精度和收敛速度均有所提高。
+
+[https://github.com/listenzcc/MLP-notebook](https://github.com/listenzcc/MLP-notebook "https://github.com/listenzcc/MLP-notebook")
+
 ## Mapbox 与 GeoJson
 
 与 Canvas 相比，Mapbox 的原生 Layer 显然是更加优雅的解决方案，但它需要 GeoJson 的支持。
@@ -2034,6 +2045,16 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 
 当这段时间短到毫秒级的时候，
 问题就来了。
+
+## 记MLP的一次回归失败
+
+多层感知机（MLP）是常用的神经网络结构，在数学上证明它可以用来表达几乎全部连续函数。
+
+但由于函数的复杂性和训练算法设计的不足，它有时候并不能很好地完成给定的任务。
+
+本文是记录一次用 MLP 进行回归的失败尝试，代码可见我的 GITHUB 仓库
+
+[https://github.com/listenzcc/MLP-notebook](https://github.com/listenzcc/MLP-notebook "https://github.com/listenzcc/MLP-notebook")
 
 ## 语法分析（Online）
 
