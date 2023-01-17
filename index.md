@@ -139,6 +139,16 @@ Catch up quickly on the global stories that matter
 
 Catch up quickly on the global stories that matter
 
+## The world in brief 【2022-12-24】
+
+Catch up quickly on the global stories that matter
+_Updated 4 hours ago (21:02 GMT / 05:02 Hong Kong)_
+
+## The world in brief 【2022-12-31】
+
+Catch up quickly on the global stories that matter
+_Updated 9 hours ago (17:11 GMT London)_
+
 ## The world in brief【2022-12-17】
 
 Catch up quickly on the global stories that matter
@@ -321,6 +331,18 @@ Knowing them means knowing everything.
 
 从矩阵的角度来看“卷积定理”，
 仿佛它只是数字角频率完备正交基下的一个特例。
+
+## 抛物线是圆角的三角形
+
+有点羊，所以本文有点短。
+
+本文试图证明抛物线的弓面积与内接三角形面积之间的关系。
+
+## 抛物线是圆角的三角形 2
+
+有点羊，所以本文有点短。
+
+本文试图证明抛物线的弓面积与内接三角形面积之间的关系。
 
 ## 数列
 
@@ -700,6 +722,12 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 效果看着还行，所以最后还有一点碎碎念。
 
+## 函数映射
+
+本文在 Observable 提供了一个好用的函数可视化工具。
+
+[Mathmatic notebook III](https://observablehq.com/@listenzcc/mathmatic-notebook-iii "Mathmatic notebook III")
+
 ## 前端输入微调交互样例
 
 Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它的过程中，遇到了很多提升用户交互效率的小 Trick。
@@ -1067,6 +1095,18 @@ INTEL新近发布了第`12`代CPU，
 本文是十分应景的一文，
 正好有一个良好的实验，
 来说明“睿频”这个功能为计算资源的释放提供了怎样颠覆性的贡献。
+
+## 跳舞火柴人
+
+本文以 Openpose 的骨架识别能力为基础，从视频中解析出人体关节的实时位置，并进行绘制。
+
+解析代码可见我的 GitHub 仓库
+
+[https://github.com/listenzcc/dancing-body](https://github.com/listenzcc/dancing-body "https://github.com/listenzcc/dancing-body")
+
+绘制代码可见我的前端笔记本
+
+[Dancing Body](https://observablehq.com/@listenzcc/dancing-body "Dancing Body")
 
 ## 辛普森悖论
 
@@ -1659,6 +1699,12 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 
 那么如果病毒感染的速度比人类生育的速度快呢？
 
+## MLP需要适当的规模
+
+由于上次 MLP 回归失败，因此我决定对它进行改进。在增加了网络层数之后，我发现回归精度和收敛速度均有所提高。
+
+[https://github.com/listenzcc/MLP-notebook](https://github.com/listenzcc/MLP-notebook "https://github.com/listenzcc/MLP-notebook")
+
 ## Mapbox 与 GeoJson
 
 与 Canvas 相比，Mapbox 的原生 Layer 显然是更加优雅的解决方案，但它需要 GeoJson 的支持。
@@ -1999,6 +2045,16 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 
 当这段时间短到毫秒级的时候，
 问题就来了。
+
+## 记MLP的一次回归失败
+
+多层感知机（MLP）是常用的神经网络结构，在数学上证明它可以用来表达几乎全部连续函数。
+
+但由于函数的复杂性和训练算法设计的不足，它有时候并不能很好地完成给定的任务。
+
+本文是记录一次用 MLP 进行回归的失败尝试，代码可见我的 GITHUB 仓库
+
+[https://github.com/listenzcc/MLP-notebook](https://github.com/listenzcc/MLP-notebook "https://github.com/listenzcc/MLP-notebook")
 
 ## 语法分析（Online）
 
