@@ -51,6 +51,12 @@ The Topic is about how to use software tools better.
 
 The folder contains following md files:
 
+## Socket之网络拥堵
+
+一直很好奇在网络拥堵时 Socket 通信质量会劣化成什么样子。
+
+于是今天做了个实验。
+
 ## Tensor flow 踩坑记
 
 Tensor flow 删除了 contrib 模块，这是万恶之源。

@@ -127,6 +127,22 @@ _Updated 4 hours ago (21:02 GMT / 05:02 Hong Kong)_
 Catch up quickly on the global stories that matter
 _Updated 9 hours ago (17:11 GMT London)_
 
+## The world in brief 【2023-01-07】
+
+汉堡起义（德语：Hamburger Aufstand），是1923年10月23—25日由德国共产党人领导的汉堡工人武装起义。主要领导者有恩斯特·台尔曼和拉狄克等人。
+
+而今年是 2023 年。
+
+## The world in brief 【2023-01-14】
+
+资本主义时代已然落幕，现在是债务主义。
+
+只要百姓在工作和消费，经济就不会衰退。
+
+国家强大在不于体量而在于潜力。
+
+助产士不会带着孩子回家。
+
 ## The world in brief【2022-12-17】
 
 Catch up quickly on the global stories that matter

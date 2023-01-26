@@ -149,6 +149,22 @@ _Updated 4 hours ago (21:02 GMT / 05:02 Hong Kong)_
 Catch up quickly on the global stories that matter
 _Updated 9 hours ago (17:11 GMT London)_
 
+## The world in brief 【2023-01-07】
+
+汉堡起义（德语：Hamburger Aufstand），是1923年10月23—25日由德国共产党人领导的汉堡工人武装起义。主要领导者有恩斯特·台尔曼和拉狄克等人。
+
+而今年是 2023 年。
+
+## The world in brief 【2023-01-14】
+
+资本主义时代已然落幕，现在是债务主义。
+
+只要百姓在工作和消费，经济就不会衰退。
+
+国家强大在不于体量而在于潜力。
+
+助产士不会带着孩子回家。
+
 ## The world in brief【2022-12-17】
 
 Catch up quickly on the global stories that matter
@@ -558,6 +574,16 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+## Bunny Render
+
+本文尝试通过 WebGL 渲染 Bunny 兔子模型，它的颜色受到一个简单的神经网络的控制。
+
+从结果上来看，虽然实验用的神经网络极其简单，但它可以用来高亮模型表面的任何区域。
+
+本文代码可见我的前端笔记本
+
+[Demo of Neural Network](https://observablehq.com/@listenzcc/demo-of-neural-network "Demo of Neural Network")
+
 ## Gabor 函数的参数空间-1
 
 Gabor 函数是常用的数学函数，可以用来对多种物理现象进行表达。
@@ -591,6 +617,14 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 这里 Perlin 噪声往往是很好的选择。
 
 比如我在前端页面做的一个小demo [Perlin Noise Contours with GeoProjection](https://observablehq.com/@listenzcc/perlin-noise-contours-with-geoprojection "Perlin Noise Contours with GeoProjection")
+
+## WebGL的实时渲染
+
+本文提供一个前端样例，用于实时捕捉流数据并进行计算和渲染。
+
+开源代码可见我的前端笔记本
+
+[Image Cookbook](https://observablehq.com/@listenzcc/image-cookbook "Image Cookbook")
 
 ## WebGL绘图（之一）
 
@@ -728,6 +762,14 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 [Mathmatic notebook III](https://observablehq.com/@listenzcc/mathmatic-notebook-iii "Mathmatic notebook III")
 
+## 前端的GPU渲染库
+
+GPU是强大的计算单元，擅长进行较大规模的并行计算。
+
+本文通过一款优秀的前端GPU渲染库，提供几个GPU渲染的前端样例。
+
+[Learning GPU-IO](https://observablehq.com/@listenzcc/learning-gpu-io "Learning GPU-IO")
+
 ## 前端输入微调交互样例
 
 Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它的过程中，遇到了很多提升用户交互效率的小 Trick。
@@ -752,6 +794,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 代码可见我的前端程序库
 
 [The pango-lineage of Covid-19](https://observablehq.com/@listenzcc/the-pango-lineage-of-covid-19 "The pango-lineage of Covid-19")
+
+## 后验概率的暴力计算
+
+本文提供一种后验概率的暴力计算思路，但很遗憾，暴力计算解的精度低于解析解，这也许就是数据驱动的机器学习和数据分析之间的差距。
+
+本文的开源代码可见我前端代码库
+
+[Simulation of Maximized Posterior Probabilities](https://observablehq.com/@listenzcc/simulation-of-maximized-posterior-probabilities "Simulation of Maximized Posterior Probabilities")
 
 ## 吹气球
 
@@ -799,6 +849,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 > 在平等交易的前提下，贫穷和富裕是如何诞生的？
 
 本文的分析结果偏向于认为贫穷和富裕是在自由交易的市场中自发形成的，动态平衡的经济学现象。
+
+## 基于GPU的快速Julia集计算
+
+本文记录一个利用GPU计算的前端程序，它用来在PC上快速计算和实时渲染大量迭代的 Julia 集。由于 GPU 算的实在是太快了，因此我决定让它成为一个实时计算和渲染程序。开源代码可见我的前端笔记本
+[The Fractal (Julia Set) on GPU](https://observablehq.com/@listenzcc/the-fractal-julia-set-on-gpu "The Fractal (Julia Set) on GPU")
+
+或GITHUB页面
+[JuliaSet-GPUIO](https://listenzcc.github.io/JuliaSet-GPUIO/ "JuliaSet-GPUIO")
 
 ## 大事记
 
@@ -1148,6 +1206,12 @@ INTEL新近发布了第`12`代CPU，
 
 本文试图解释一个可视化现象，那就是在单独改变某一个颜色通道的条件下，得到的颜色序列在颜色空间中如何分布。
 
+## 风雨
+
+风雨送人来，风雨留人住。草草杯盘话别离，风雨催人去。
+
+泪眼不曾晴，眉黛愁还聚。明日相思莫上楼，楼上多风雨。
+
 # oh-my-image
 
 The oh-my-image project.
@@ -1242,6 +1306,10 @@ The **Topic** is the handbook for the random analysis methods.
 The folder contains following md files:
 
 ---
+## Gamma 函数
+
+与 Gamma 函数有关的分析和证明，它在二项分布族的概率密度函数计算中十分有用。
+
 ## 从检验到瞎编
 
 本文将正式介绍统计检验的基本方法，并简要说明它的适用范围，以及它是怎么被玩坏的。
@@ -1251,12 +1319,21 @@ The folder contains following md files:
 本文将用一个简单的例子说明前文《从检验到瞎编》与《通往显著之路》中介绍的校正方法之必要性。
 
 
+## 平均分布的范围估计原理
+
+我一直觉得这顶多是个排列组合问题，但谁能想到，这样一个简单的计数问题能追溯到高斯超几何函数上去（Gauss’ hypergeometric function）。
+
 ## 我们与真相的距离
 
 俗话说“众口难调”，要摸底某个群体的真实情况往往是十分困难和意义重大的事情。
 那么，我们需要调研多少个样本，才能在较高的置信度下，确定该群体的真实情况呢？
 本文将通过概率分析方法，尝试分析并解决这一问题。
 那么，这个调研样本的数量要求，就是“我们与真相的距离”。
+
+## 概然而非必然的世界
+
+这是之前写过的一个系列，但之前写的过于散碎，因此重新编辑一下。
+我想通过这个大系列，慢慢地将全部概率统计知识囊括进来。
 
 ## 概然而非必然的世界（之一）
 
@@ -1641,6 +1718,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 这是一段将图片转换为铅笔素描版本的小程序。
 
+## 紧锣密鼓
+
+这两天看知乎，似乎有一种ZZZQ，那就是新 20 条时群众应该已经开始备药了，所以后来新 10 条出台后，没有药是自己的问题。
+
+好的，那么我们看看普通人怎么才能在 20 条和 10 条之间买到药。然而，经过简单分析可知，群众根本没有时间窗口买到充足的药品。
+
 ## 纹理与着色
 
 如果你喜欢某一张图的配色，想把颜色方案应用到另一张图上。本文提供的方法和代码可以帮你一把。
@@ -1728,6 +1811,12 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 The Topic is about how to use software tools better.
 
 The folder contains following md files:
+
+## Socket之网络拥堵
+
+一直很好奇在网络拥堵时 Socket 通信质量会劣化成什么样子。
+
+于是今天做了个实验。
 
 ## Tensor flow 踩坑记
 

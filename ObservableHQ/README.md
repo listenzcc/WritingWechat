@@ -7,6 +7,16 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+## Bunny Render
+
+本文尝试通过 WebGL 渲染 Bunny 兔子模型，它的颜色受到一个简单的神经网络的控制。
+
+从结果上来看，虽然实验用的神经网络极其简单，但它可以用来高亮模型表面的任何区域。
+
+本文代码可见我的前端笔记本
+
+[Demo of Neural Network](https://observablehq.com/@listenzcc/demo-of-neural-network "Demo of Neural Network")
+
 ## Gabor 函数的参数空间-1
 
 Gabor 函数是常用的数学函数，可以用来对多种物理现象进行表达。
@@ -40,6 +50,14 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 这里 Perlin 噪声往往是很好的选择。
 
 比如我在前端页面做的一个小demo [Perlin Noise Contours with GeoProjection](https://observablehq.com/@listenzcc/perlin-noise-contours-with-geoprojection "Perlin Noise Contours with GeoProjection")
+
+## WebGL的实时渲染
+
+本文提供一个前端样例，用于实时捕捉流数据并进行计算和渲染。
+
+开源代码可见我的前端笔记本
+
+[Image Cookbook](https://observablehq.com/@listenzcc/image-cookbook "Image Cookbook")
 
 ## WebGL绘图（之一）
 
@@ -177,6 +195,14 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 [Mathmatic notebook III](https://observablehq.com/@listenzcc/mathmatic-notebook-iii "Mathmatic notebook III")
 
+## 前端的GPU渲染库
+
+GPU是强大的计算单元，擅长进行较大规模的并行计算。
+
+本文通过一款优秀的前端GPU渲染库，提供几个GPU渲染的前端样例。
+
+[Learning GPU-IO](https://observablehq.com/@listenzcc/learning-gpu-io "Learning GPU-IO")
+
 ## 前端输入微调交互样例
 
 Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它的过程中，遇到了很多提升用户交互效率的小 Trick。
@@ -201,6 +227,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 代码可见我的前端程序库
 
 [The pango-lineage of Covid-19](https://observablehq.com/@listenzcc/the-pango-lineage-of-covid-19 "The pango-lineage of Covid-19")
+
+## 后验概率的暴力计算
+
+本文提供一种后验概率的暴力计算思路，但很遗憾，暴力计算解的精度低于解析解，这也许就是数据驱动的机器学习和数据分析之间的差距。
+
+本文的开源代码可见我前端代码库
+
+[Simulation of Maximized Posterior Probabilities](https://observablehq.com/@listenzcc/simulation-of-maximized-posterior-probabilities "Simulation of Maximized Posterior Probabilities")
 
 ## 吹气球
 
@@ -248,6 +282,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 > 在平等交易的前提下，贫穷和富裕是如何诞生的？
 
 本文的分析结果偏向于认为贫穷和富裕是在自由交易的市场中自发形成的，动态平衡的经济学现象。
+
+## 基于GPU的快速Julia集计算
+
+本文记录一个利用GPU计算的前端程序，它用来在PC上快速计算和实时渲染大量迭代的 Julia 集。由于 GPU 算的实在是太快了，因此我决定让它成为一个实时计算和渲染程序。开源代码可见我的前端笔记本
+[The Fractal (Julia Set) on GPU](https://observablehq.com/@listenzcc/the-fractal-julia-set-on-gpu "The Fractal (Julia Set) on GPU")
+
+或GITHUB页面
+[JuliaSet-GPUIO](https://listenzcc.github.io/JuliaSet-GPUIO/ "JuliaSet-GPUIO")
 
 ## 大事记
 
@@ -596,4 +638,10 @@ INTEL新近发布了第`12`代CPU，
 ## 颜色空间映射
 
 本文试图解释一个可视化现象，那就是在单独改变某一个颜色通道的条件下，得到的颜色序列在颜色空间中如何分布。
+
+## 风雨
+
+风雨送人来，风雨留人住。草草杯盘话别离，风雨催人去。
+
+泪眼不曾晴，眉黛愁还聚。明日相思莫上楼，楼上多风雨。
 
