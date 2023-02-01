@@ -7,9 +7,11 @@ The **Topic** is the handbook for the random analysis methods.
 The folder contains following md files:
 
 ---
-## Gamma 函数
+## Sterling 公式
 
-与 Gamma 函数有关的分析和证明，它在二项分布族的概率密度函数计算中十分有用。
+Sterling 公式将阶乘和幂函数统一起来，
+它在 Gamma 函数的分析和使用过程中十分有用，
+因此有必要将它的简要证明过程列写如下。
 
 ## 从检验到瞎编
 
