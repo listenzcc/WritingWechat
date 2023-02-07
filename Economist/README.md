@@ -143,6 +143,10 @@ _Updated 9 hours ago (17:11 GMT London)_
 
 助产士不会带着孩子回家。
 
+## The world in brief 【2023-02-04】
+
+本周话题还是能源、战争和 AI。
+
 ## The world in brief【2022-12-17】
 
 Catch up quickly on the global stories that matter

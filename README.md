@@ -165,6 +165,10 @@ _Updated 9 hours ago (17:11 GMT London)_
 
 助产士不会带着孩子回家。
 
+## The world in brief 【2023-02-04】
+
+本周话题还是能源、战争和 AI。
+
 ## The world in brief【2022-12-17】
 
 Catch up quickly on the global stories that matter
@@ -178,6 +182,10 @@ The **Subject** will explain the process.
 The folder contains following md files:
 
 ---
+## Edge 浏览器的历史记录本地数据库
+
+本文是一些代码，用于从你自己的电脑上提取你自己的浏览记录，也可以用来分析浏览习惯等动作，但是不用担心，它完全是本地数据，外人不会知道。至于如何利用这些信息则是之后的事情了。
+
 ## 三维模型解析及渲染
 
 解析`GLTF`文件的代码。
@@ -857,6 +865,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 或GITHUB页面
 [JuliaSet-GPUIO](https://listenzcc.github.io/JuliaSet-GPUIO/ "JuliaSet-GPUIO")
+
+## 增长的最优系数
+
+在前文中，我们论述了在指定生产矩阵的条件下，如何确定初始化资源比例，以及在这种比例下增长会如何发生。
+
+本文将这个过程反过来，尝试解决在给定初始条件和期望增长的前提下，如何选择生产方程的问题。
 
 ## 大事记
 

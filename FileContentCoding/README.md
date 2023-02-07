@@ -7,6 +7,10 @@ The **Subject** will explain the process.
 The folder contains following md files:
 
 ---
+## Edge 浏览器的历史记录本地数据库
+
+本文是一些代码，用于从你自己的电脑上提取你自己的浏览记录，也可以用来分析浏览习惯等动作，但是不用担心，它完全是本地数据，外人不会知道。至于如何利用这些信息则是之后的事情了。
+
 ## 三维模型解析及渲染
 
 解析`GLTF`文件的代码。
