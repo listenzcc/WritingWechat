@@ -291,6 +291,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 或GITHUB页面
 [JuliaSet-GPUIO](https://listenzcc.github.io/JuliaSet-GPUIO/ "JuliaSet-GPUIO")
 
+## 增长方程的两个不变性
+
+本文将在前文的基础上，对增长方程的性质进行简要分析，即从矩阵的行和列观点来看，分析它的两个不变性。分析和演示代码可见我的前端代码库
+
+[Generating the Optimized Production Matrix II](https://observablehq.com/@listenzcc/generating-the-optimized-production-matrix-ii)
+
 ## 增长的最优系数
 
 在前文中，我们论述了在指定生产矩阵的条件下，如何确定初始化资源比例，以及在这种比例下增长会如何发生。

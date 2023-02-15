@@ -866,6 +866,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 或GITHUB页面
 [JuliaSet-GPUIO](https://listenzcc.github.io/JuliaSet-GPUIO/ "JuliaSet-GPUIO")
 
+## 增长方程的两个不变性
+
+本文将在前文的基础上，对增长方程的性质进行简要分析，即从矩阵的行和列观点来看，分析它的两个不变性。分析和演示代码可见我的前端代码库
+
+[Generating the Optimized Production Matrix II](https://observablehq.com/@listenzcc/generating-the-optimized-production-matrix-ii)
+
 ## 增长的最优系数
 
 在前文中，我们论述了在指定生产矩阵的条件下，如何确定初始化资源比例，以及在这种比例下增长会如何发生。
@@ -1811,6 +1817,10 @@ The folder contains following md files:
 
 浏览器插件可以增强 Web 浏览体验。
 
+## Django后端与JS前端
+
+本文将以一个图像工程为线索，记录Django后端与JS前端的合作过程。虽然这些工作必将被 AI 取代，但现在还得有人干不是？这可能是一个较长期的记录，所以下次还会看到我，但是肯定会有些不一样。
+
 ## GIT-bug
 
 GIT 是常用的版本管理软件，它偶尔也会出问题。
@@ -1847,6 +1857,10 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/ "PubMed")
 
+## RDM与图像关系分析
+
+本文记录近期开发的一套前后端工具，它利用 RDM 矩阵进行图像关系分析，而 RDM 矩阵的来源为 fMRI 和 MEG 采集的神经影像数据。文中附录部分为 AI 补写的 RDM 矩阵的细节，虽然有点啰嗦但十分靠谱。
+
 ## Tools Knowledge
 
 The Topic is about how to use software tools better.
@@ -1862,6 +1876,12 @@ The folder contains following md files:
 ## Tensor flow 踩坑记
 
 Tensor flow 删除了 contrib 模块，这是万恶之源。
+
+## Terminal 伴侣
+
+我发现了 windows terminal 的一个盲点，那就是我不能从中复制出制表符 \t，这限制了它的内容在表格应用中的转换，所以我开发了一个在线的转换工具，它的功能是将复制内容中的空格重新转换为制表符 \t，由于它的存在，其他类表格 APP 才能正常识别这些表格化内容。
+
+[Suppose to be table](https://listenzcc.github.io/Suppose-to-be-table/)
 
 ## 三维大脑展示页面
 
@@ -2148,6 +2168,10 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 语法几乎是遥不可及的玩意，
 从来就没有弄明白过。
 但也许可视化的方法可以帮助解决这个问题。
+
+## 莫须有的两种 RDM
+
+这是我要求 AI 撰写 RDM 时它给我的两个答案，而我之前并不知道 Relative Dissimilar Matrix 是个什么东西，我想 AI 也不知道。所以说，使用 AI 的时候还要十分小心。当然，Reprensentational Dissimilarity Matrix 还是靠谱的。
 
 ## 蒙特卡洛方法
 
