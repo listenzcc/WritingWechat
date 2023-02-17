@@ -149,6 +149,26 @@ _Updated 4 hours ago (21:02 GMT / 05:02 Hong Kong)_
 Catch up quickly on the global stories that matter
 _Updated 9 hours ago (17:11 GMT London)_
 
+## The world in brief 【2023-01-07】
+
+汉堡起义（德语：Hamburger Aufstand），是1923年10月23—25日由德国共产党人领导的汉堡工人武装起义。主要领导者有恩斯特·台尔曼和拉狄克等人。
+
+而今年是 2023 年。
+
+## The world in brief 【2023-01-14】
+
+资本主义时代已然落幕，现在是债务主义。
+
+只要百姓在工作和消费，经济就不会衰退。
+
+国家强大在不于体量而在于潜力。
+
+助产士不会带着孩子回家。
+
+## The world in brief 【2023-02-04】
+
+本周话题还是能源、战争和 AI。
+
 ## The world in brief【2022-12-17】
 
 Catch up quickly on the global stories that matter
@@ -162,6 +182,10 @@ The **Subject** will explain the process.
 The folder contains following md files:
 
 ---
+## Edge 浏览器的历史记录本地数据库
+
+本文是一些代码，用于从你自己的电脑上提取你自己的浏览记录，也可以用来分析浏览习惯等动作，但是不用担心，它完全是本地数据，外人不会知道。至于如何利用这些信息则是之后的事情了。
+
 ## 三维模型解析及渲染
 
 解析`GLTF`文件的代码。
@@ -558,6 +582,16 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+## Bunny Render
+
+本文尝试通过 WebGL 渲染 Bunny 兔子模型，它的颜色受到一个简单的神经网络的控制。
+
+从结果上来看，虽然实验用的神经网络极其简单，但它可以用来高亮模型表面的任何区域。
+
+本文代码可见我的前端笔记本
+
+[Demo of Neural Network](https://observablehq.com/@listenzcc/demo-of-neural-network "Demo of Neural Network")
+
 ## Gabor 函数的参数空间-1
 
 Gabor 函数是常用的数学函数，可以用来对多种物理现象进行表达。
@@ -591,6 +625,14 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 这里 Perlin 噪声往往是很好的选择。
 
 比如我在前端页面做的一个小demo [Perlin Noise Contours with GeoProjection](https://observablehq.com/@listenzcc/perlin-noise-contours-with-geoprojection "Perlin Noise Contours with GeoProjection")
+
+## WebGL的实时渲染
+
+本文提供一个前端样例，用于实时捕捉流数据并进行计算和渲染。
+
+开源代码可见我的前端笔记本
+
+[Image Cookbook](https://observablehq.com/@listenzcc/image-cookbook "Image Cookbook")
 
 ## WebGL绘图（之一）
 
@@ -728,6 +770,14 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 [Mathmatic notebook III](https://observablehq.com/@listenzcc/mathmatic-notebook-iii "Mathmatic notebook III")
 
+## 前端的GPU渲染库
+
+GPU是强大的计算单元，擅长进行较大规模的并行计算。
+
+本文通过一款优秀的前端GPU渲染库，提供几个GPU渲染的前端样例。
+
+[Learning GPU-IO](https://observablehq.com/@listenzcc/learning-gpu-io "Learning GPU-IO")
+
 ## 前端输入微调交互样例
 
 Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它的过程中，遇到了很多提升用户交互效率的小 Trick。
@@ -752,6 +802,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 代码可见我的前端程序库
 
 [The pango-lineage of Covid-19](https://observablehq.com/@listenzcc/the-pango-lineage-of-covid-19 "The pango-lineage of Covid-19")
+
+## 后验概率的暴力计算
+
+本文提供一种后验概率的暴力计算思路，但很遗憾，暴力计算解的精度低于解析解，这也许就是数据驱动的机器学习和数据分析之间的差距。
+
+本文的开源代码可见我前端代码库
+
+[Simulation of Maximized Posterior Probabilities](https://observablehq.com/@listenzcc/simulation-of-maximized-posterior-probabilities "Simulation of Maximized Posterior Probabilities")
 
 ## 吹气球
 
@@ -799,6 +857,26 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 > 在平等交易的前提下，贫穷和富裕是如何诞生的？
 
 本文的分析结果偏向于认为贫穷和富裕是在自由交易的市场中自发形成的，动态平衡的经济学现象。
+
+## 基于GPU的快速Julia集计算
+
+本文记录一个利用GPU计算的前端程序，它用来在PC上快速计算和实时渲染大量迭代的 Julia 集。由于 GPU 算的实在是太快了，因此我决定让它成为一个实时计算和渲染程序。开源代码可见我的前端笔记本
+[The Fractal (Julia Set) on GPU](https://observablehq.com/@listenzcc/the-fractal-julia-set-on-gpu "The Fractal (Julia Set) on GPU")
+
+或GITHUB页面
+[JuliaSet-GPUIO](https://listenzcc.github.io/JuliaSet-GPUIO/ "JuliaSet-GPUIO")
+
+## 增长方程的两个不变性
+
+本文将在前文的基础上，对增长方程的性质进行简要分析，即从矩阵的行和列观点来看，分析它的两个不变性。分析和演示代码可见我的前端代码库
+
+[Generating the Optimized Production Matrix II](https://observablehq.com/@listenzcc/generating-the-optimized-production-matrix-ii)
+
+## 增长的最优系数
+
+在前文中，我们论述了在指定生产矩阵的条件下，如何确定初始化资源比例，以及在这种比例下增长会如何发生。
+
+本文将这个过程反过来，尝试解决在给定初始条件和期望增长的前提下，如何选择生产方程的问题。
 
 ## 大事记
 
@@ -1024,6 +1102,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 落实在本问题上，即使每个人都很大程度的包容自己的邻居，在群体层面也会呈现出极其严重的分类和隔离。
 
+## 生产与增长
+
+最近看到一个东西，叫做“增长方程”。它可以在一定程度上解决两个问题，一是在生产开始之前预知增长能否持续，二是预知生产的最优初始条件。它附带地解决了另一个问题，那就是为什么总有人说增长一旦停滞，就意味着 some thing is going very wrong.
+
+[Growth equation](https://observablehq.com/@listenzcc/growth-equation)
+
 ## 瞎画的艺术
 
 数据科学往往能在不经意间诞生艺术创作。
@@ -1096,6 +1180,14 @@ INTEL新近发布了第`12`代CPU，
 正好有一个良好的实验，
 来说明“睿频”这个功能为计算资源的释放提供了怎样颠覆性的贡献。
 
+## 贷款与存款
+
+这是在不考虑通胀的条件下，按揭、月供和储蓄之间相爱相杀的故事。
+首先，它回答了贷款一定金额时，其本息相当于在银行存了多少钱；
+之后，它回答了“等额本息”月供的计算方式，以及当确定首月还款特定数量的本金时，多少个月后能够结清贷款。
+
+[Saving & Loan Curve](https://observablehq.com/@listenzcc/saving-loan-curve)
+
 ## 跳舞火柴人
 
 本文以 Openpose 的骨架识别能力为基础，从视频中解析出人体关节的实时位置，并进行绘制。
@@ -1147,6 +1239,12 @@ INTEL新近发布了第`12`代CPU，
 ## 颜色空间映射
 
 本文试图解释一个可视化现象，那就是在单独改变某一个颜色通道的条件下，得到的颜色序列在颜色空间中如何分布。
+
+## 风雨
+
+风雨送人来，风雨留人住。草草杯盘话别离，风雨催人去。
+
+泪眼不曾晴，眉黛愁还聚。明日相思莫上楼，楼上多风雨。
 
 # oh-my-image
 
@@ -1242,6 +1340,12 @@ The **Topic** is the handbook for the random analysis methods.
 The folder contains following md files:
 
 ---
+## Sterling 公式
+
+Sterling 公式将阶乘和幂函数统一起来，
+它在 Gamma 函数的分析和使用过程中十分有用，
+因此有必要将它的简要证明过程列写如下。
+
 ## 从检验到瞎编
 
 本文将正式介绍统计检验的基本方法，并简要说明它的适用范围，以及它是怎么被玩坏的。
@@ -1251,12 +1355,21 @@ The folder contains following md files:
 本文将用一个简单的例子说明前文《从检验到瞎编》与《通往显著之路》中介绍的校正方法之必要性。
 
 
+## 平均分布的范围估计原理
+
+我一直觉得这顶多是个排列组合问题，但谁能想到，这样一个简单的计数问题能追溯到高斯超几何函数上去（Gauss’ hypergeometric function）。
+
 ## 我们与真相的距离
 
 俗话说“众口难调”，要摸底某个群体的真实情况往往是十分困难和意义重大的事情。
 那么，我们需要调研多少个样本，才能在较高的置信度下，确定该群体的真实情况呢？
 本文将通过概率分析方法，尝试分析并解决这一问题。
 那么，这个调研样本的数量要求，就是“我们与真相的距离”。
+
+## 概然而非必然的世界
+
+这是之前写过的一个系列，但之前写的过于散碎，因此重新编辑一下。
+我想通过这个大系列，慢慢地将全部概率统计知识囊括进来。
 
 ## 概然而非必然的世界（之一）
 
@@ -1365,6 +1478,17 @@ The folder contains following md files:
 当然，单纯的抱怨没有任何用处，就写写相关的东西吧。
 
 中国文人重游历，足迹遍及海内。充耳不闻天下事，一心只读圣贤书？你寒碜谁呐？
+
+# Economist
+
+The workshop in public.tableau.com
+
+The folder contains following md files:
+
+---
+## 汉堡指数
+
+他们发布了近20年来的汉堡指数原始数据，于是我通过 Tableau 工具对原始数据进行进一步拆解，以世界各国货币购买力为对象，分别在人民币和美元的度量下，分析它们的平价购买力变化趋势。
 
 # Talk with Picture
 
@@ -1641,6 +1765,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 这是一段将图片转换为铅笔素描版本的小程序。
 
+## 紧锣密鼓
+
+这两天看知乎，似乎有一种ZZZQ，那就是新 20 条时群众应该已经开始备药了，所以后来新 10 条出台后，没有药是自己的问题。
+
+好的，那么我们看看普通人怎么才能在 20 条和 10 条之间买到药。然而，经过简单分析可知，群众根本没有时间窗口买到充足的药品。
+
 ## 纹理与着色
 
 如果你喜欢某一张图的配色，想把颜色方案应用到另一张图上。本文提供的方法和代码可以帮你一把。
@@ -1687,6 +1817,10 @@ The folder contains following md files:
 
 浏览器插件可以增强 Web 浏览体验。
 
+## Django后端与JS前端
+
+本文将以一个图像工程为线索，记录Django后端与JS前端的合作过程。虽然这些工作必将被 AI 取代，但现在还得有人干不是？这可能是一个较长期的记录，所以下次还会看到我，但是肯定会有些不一样。
+
 ## GIT-bug
 
 GIT 是常用的版本管理软件，它偶尔也会出问题。
@@ -1723,15 +1857,31 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/ "PubMed")
 
+## RDM与图像关系分析
+
+本文记录近期开发的一套前后端工具，它利用 RDM 矩阵进行图像关系分析，而 RDM 矩阵的来源为 fMRI 和 MEG 采集的神经影像数据。文中附录部分为 AI 补写的 RDM 矩阵的细节，虽然有点啰嗦但十分靠谱。
+
 ## Tools Knowledge
 
 The Topic is about how to use software tools better.
 
 The folder contains following md files:
 
+## Socket之网络拥堵
+
+一直很好奇在网络拥堵时 Socket 通信质量会劣化成什么样子。
+
+于是今天做了个实验。
+
 ## Tensor flow 踩坑记
 
 Tensor flow 删除了 contrib 模块，这是万恶之源。
+
+## Terminal 伴侣
+
+我发现了 windows terminal 的一个盲点，那就是我不能从中复制出制表符 \t，这限制了它的内容在表格应用中的转换，所以我开发了一个在线的转换工具，它的功能是将复制内容中的空格重新转换为制表符 \t，由于它的存在，其他类表格 APP 才能正常识别这些表格化内容。
+
+[Suppose to be table](https://listenzcc.github.io/Suppose-to-be-table/)
 
 ## 三维大脑展示页面
 
@@ -2018,6 +2168,10 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 语法几乎是遥不可及的玩意，
 从来就没有弄明白过。
 但也许可视化的方法可以帮助解决这个问题。
+
+## 莫须有的两种 RDM
+
+这是我要求 AI 撰写 RDM 时它给我的两个答案，而我之前并不知道 Relative Dissimilar Matrix 是个什么东西，我想 AI 也不知道。所以说，使用 AI 的时候还要十分小心。当然，Reprensentational Dissimilarity Matrix 还是靠谱的。
 
 ## 蒙特卡洛方法
 
