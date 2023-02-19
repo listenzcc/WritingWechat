@@ -515,6 +515,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 [Over taking](https://observablehq.com/@listenzcc/over-taking "Over taking")
 
+## 激活函数的功率谱密度
+
+本文从量化的角度解释双曲正切激活函数对信号的 FFT 造成的影响。
+本文开源代码可见我的前端笔记本
+[FFT for Activation](https://observablehq.com/@listenzcc/fft-for-activation)
+
 ## 物以类聚
 
 都说物以类聚，人以群分。但又都说要兼容并包，兼收并蓄。
