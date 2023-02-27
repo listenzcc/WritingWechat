@@ -304,6 +304,14 @@ Putative rhythms in attentional switching can be explained by aperiodic temporal
 
 > 从纯数据的角度出发，这个 BIAS 是如此严重的吗？
 
+## 逻辑游戏1
+
+一天，鬼谷子随意从2-99中选取了两个数。他把这两个数的和告诉了庞涓， 把这两个数的乘积告诉了孙膑。但孙膑和庞涓彼此不知道对方得到的数。第二天， 庞涓很有自信的对孙膑说：虽然我不知道这两个数是什么，但我知道你一定也不知道。随后，孙膑说：那我知道了。庞涓说：那我也知道了。这两个数是什么？
+
+本文的开源代码可见我的前端笔记本
+
+[Logistic Game I](https://observablehq.com/@listenzcc/logistic-game-i)
+
 ## 群的边界
 
 从《群》的第一篇不难看出，
