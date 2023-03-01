@@ -247,6 +247,10 @@ There are several invariance by math.
 Knowing them means knowing everything.
 
 ---
+## Nystrom 方法
+
+本文尝试说明核函数与特征映射之间的关系，并借此介绍 Nystrom 的核函数加速方法。
+
 ## 一些不变性（之一）
 
 函数的本质是映射。
