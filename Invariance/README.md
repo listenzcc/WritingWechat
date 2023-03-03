@@ -4,6 +4,12 @@ There are several invariance by math.
 Knowing them means knowing everything.
 
 ---
+## Nystrom 方法 II
+
+本文尝试说明核函数与特征映射之间的关系，并借此介绍 Nystrom 的核函数加速方法。
+
+本文比前文增加的地方是改进了矩阵特征分解的方法描述，现在它更简洁易懂；增补了低秩表示方法的描述，现在它在逻辑上与 Nystrom 方法的衔接更加自然。
+
 ## Nystrom 方法
 
 本文尝试说明核函数与特征映射之间的关系，并借此介绍 Nystrom 的核函数加速方法。
