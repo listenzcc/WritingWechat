@@ -595,6 +595,13 @@ Putative rhythms in attentional switching can be explained by aperiodic temporal
 
 本文试图说明为什么以及如何使用线性模型对随机变量进行解构。
 
+## 高斯过程 + Nystrom 方法
+
+由于高斯过程可以用于建模连续无限维空间中的函数,而 Nystrom 方法可以用于在有限维度空间中近似计算高斯过程, 因此将两者结合可以有效地解决大规模机器学习中的核方法问题。
+高斯过程的求解关键在于核函数，而 Nystrom 方法则说明了这样一个事实，那就是在观测空间的随机采样对核函数估计的准确性影响有限。于是本文对这个原理提供一个可交互的可视化平台。
+
+[Gaussian Process with ChartJS Interactive](https://observablehq.com/@listenzcc/gaussian-process-with-chartjs-interactive)
+
 # Observable HQ
 
 JAVASCRIPT gives HTML amazing Abilities to present Things.
@@ -647,6 +654,12 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 这里 Perlin 噪声往往是很好的选择。
 
 比如我在前端页面做的一个小demo [Perlin Noise Contours with GeoProjection](https://observablehq.com/@listenzcc/perlin-noise-contours-with-geoprojection "Perlin Noise Contours with GeoProjection")
+
+## THREEJS 的三阶魔方
+
+春去江花红胜火，春来江水绿如蓝，能不忆江南。这个周末气温回暖，草木发芽，于是在家有前端做了个虚拟化的三阶魔方。本文的开源代码可见我的前端笔记本
+
+[Rolling magic cube with THREE.js](https://observablehq.com/@listenzcc/rolling-magic-cube-with-three-js)
 
 ## WebGL的实时渲染
 

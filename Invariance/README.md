@@ -352,3 +352,10 @@ Putative rhythms in attentional switching can be explained by aperiodic temporal
 
 本文试图说明为什么以及如何使用线性模型对随机变量进行解构。
 
+## 高斯过程 + Nystrom 方法
+
+由于高斯过程可以用于建模连续无限维空间中的函数,而 Nystrom 方法可以用于在有限维度空间中近似计算高斯过程, 因此将两者结合可以有效地解决大规模机器学习中的核方法问题。
+高斯过程的求解关键在于核函数，而 Nystrom 方法则说明了这样一个事实，那就是在观测空间的随机采样对核函数估计的准确性影响有限。于是本文对这个原理提供一个可交互的可视化平台。
+
+[Gaussian Process with ChartJS Interactive](https://observablehq.com/@listenzcc/gaussian-process-with-chartjs-interactive)
+

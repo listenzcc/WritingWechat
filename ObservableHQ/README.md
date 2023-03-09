@@ -51,6 +51,12 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 比如我在前端页面做的一个小demo [Perlin Noise Contours with GeoProjection](https://observablehq.com/@listenzcc/perlin-noise-contours-with-geoprojection "Perlin Noise Contours with GeoProjection")
 
+## THREEJS 的三阶魔方
+
+春去江花红胜火，春来江水绿如蓝，能不忆江南。这个周末气温回暖，草木发芽，于是在家有前端做了个虚拟化的三阶魔方。本文的开源代码可见我的前端笔记本
+
+[Rolling magic cube with THREE.js](https://observablehq.com/@listenzcc/rolling-magic-cube-with-three-js)
+
 ## WebGL的实时渲染
 
 本文提供一个前端样例，用于实时捕捉流数据并进行计算和渲染。
