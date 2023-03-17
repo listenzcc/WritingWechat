@@ -602,6 +602,10 @@ Putative rhythms in attentional switching can be explained by aperiodic temporal
 
 [Gaussian Process with ChartJS Interactive](https://observablehq.com/@listenzcc/gaussian-process-with-chartjs-interactive)
 
+## 高斯过程与方差“齐次性”
+
+在这里有一个假设，那就是多元高斯分布的协方差矩阵的先验可以通过样本的核函数来确定。在这个假设条件下，高斯过程其实并不涉及任何优化，只是简单地求解多元高斯分布的条件概率密度。在这里面有一些贝叶斯方法的影子。
+
 # Observable HQ
 
 JAVASCRIPT gives HTML amazing Abilities to present Things.
@@ -804,6 +808,10 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 本文在 Observable 提供了一个好用的函数可视化工具。
 
 [Mathmatic notebook III](https://observablehq.com/@listenzcc/mathmatic-notebook-iii "Mathmatic notebook III")
+
+## 前端是个好东西，但需要数据支撑
+
+前端是个好东西，但需要数据支撑。所谓产业赋能就是强大的后台+好用（好看）的前端。本文以地铁为例做一次眼高手低的尝试。
 
 ## 前端的GPU渲染库
 
@@ -1581,6 +1589,12 @@ Coco数据集是通用较强的数据集，
 
 当然，目前的算法很粗糙，提取的信息也很朴实。
 
+## Who are they
+
+为纪念两会胜利召开，本文提供一个前端工具，分析代表们的性别、年龄、民族和地域分布。当然，这些都是 baidu 上搜来的公开信息。
+
+[Who are they](https://observablehq.com/@listenzcc/who-are-they)
+
 ## World trade data
 
 The analysis script and data are provided in
@@ -2002,6 +2016,10 @@ As a whole.
 ## 中日颜色风格
 
 这两网站是配色苦手的福音。
+
+## 习惯数据库之MongoDB
+
+本文记录了使用 MongoDB 实现日常信息汇总的程序样例，和我对数据库的一些碎碎念。
 
 ## 借助深度估计的点云场景重建
 

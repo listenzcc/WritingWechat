@@ -44,6 +44,12 @@ Coco数据集是通用较强的数据集，
 
 当然，目前的算法很粗糙，提取的信息也很朴实。
 
+## Who are they
+
+为纪念两会胜利召开，本文提供一个前端工具，分析代表们的性别、年龄、民族和地域分布。当然，这些都是 baidu 上搜来的公开信息。
+
+[Who are they](https://observablehq.com/@listenzcc/who-are-they)
+
 ## World trade data
 
 The analysis script and data are provided in

@@ -359,3 +359,7 @@ Putative rhythms in attentional switching can be explained by aperiodic temporal
 
 [Gaussian Process with ChartJS Interactive](https://observablehq.com/@listenzcc/gaussian-process-with-chartjs-interactive)
 
+## 高斯过程与方差“齐次性”
+
+在这里有一个假设，那就是多元高斯分布的协方差矩阵的先验可以通过样本的核函数来确定。在这个假设条件下，高斯过程其实并不涉及任何优化，只是简单地求解多元高斯分布的条件概率密度。在这里面有一些贝叶斯方法的影子。
+

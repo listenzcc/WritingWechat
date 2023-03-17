@@ -201,6 +201,10 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 [Mathmatic notebook III](https://observablehq.com/@listenzcc/mathmatic-notebook-iii "Mathmatic notebook III")
 
+## 前端是个好东西，但需要数据支撑
+
+前端是个好东西，但需要数据支撑。所谓产业赋能就是强大的后台+好用（好看）的前端。本文以地铁为例做一次眼高手低的尝试。
+
 ## 前端的GPU渲染库
 
 GPU是强大的计算单元，擅长进行较大规模的并行计算。
