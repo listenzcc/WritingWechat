@@ -545,6 +545,12 @@ Knowing them means knowing everything.
 而好车通常采用直列八缸发动机，
 本文将解释这是因为什么，以及如何使用群进行分析。
 
+## 这个世界比我预想的更讲道理
+
+我承认这是个标题党，因为本文既不是讨论逻辑问题，也不是讨论世界观问题，这里的道理是万物有道，万物有理之意。本文通过高斯过程在图像中的一个应用，说明仅使用图像的散碎局部信息，就可以用它们来还原整张图像。本文的开源代码可见我的 Github 页面
+
+[https://github.com/listenzcc/Gaussian-Process-Image-Reconstruct](https://github.com/listenzcc/Gaussian-Process-Image-Reconstruct)
+
 ## 这可能是一种 BIAS
 
 今天与同学讨论，聊到这么一篇文章
