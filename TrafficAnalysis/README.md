@@ -5,6 +5,10 @@ The Topic is about Analysis the Traffic Situations.
 The folder contains following md files:
 
 ---
+## MBS的负凸性
+
+数学是一门严谨的学问，它里面有公理、有定理和推论。同样和数字有关的还有经济，也就是钱，但钱不怎么讲道理，即使负凸性是个描述函数趋势的概念，当它和经济上的 MBS 结合起来时，后者表现出来的负凸性却不是因为它服从数学定理，而是理性经济人的可预测行为的统计结果。
+
 ## 以空间换时间
 
 为了解决《私人订制》一文中遇到的，由于计算规模扩大所导致的，

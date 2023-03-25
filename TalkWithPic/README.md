@@ -264,6 +264,14 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 本文借用《再售期权理论（Resale Option Theory）》中的一个例子，
 试图说明经济泡沫也许可以解释成异质信念条件下的资产交易属性。
 
+## 硅谷银行暴了一颗“低风险”的雷
+
+最近美国 Silicon Valley Bank 爆雷，我从 FDIC 上下载了近 30 年美国银行的暴雷统计，总觉得这次和往年的有点不太一样，因为这次的存款比重太大了。
+
+如果对暴雷过程感兴趣的话，请阅读附录：SVB 的死亡倒计时。
+
+[FDIC: Bank Failures in Brief](https://www.fdic.gov/bank/historical/bank/bfb2023.html)
+
 ## 科里奥利力
 
 本体论追求并提炼万物的本源，

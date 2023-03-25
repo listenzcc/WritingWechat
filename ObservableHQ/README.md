@@ -687,3 +687,9 @@ INTEL新近发布了第`12`代CPU，
 
 泪眼不曾晴，眉黛愁还聚。明日相思莫上楼，楼上多风雨。
 
+## 黄金分割探测器
+
+所谓闭门造车，出门合辙。如果你遇到一个构图问题，比如摄影或者做 PPT 什么的，那么黄金分割律就是你要合的辙。本文提供了一个可交互的前端工具，用来从好看的图中找到其中的黄金分割律
+
+[Golden Ratio in Image](https://observablehq.com/@listenzcc/golden-ratio-in-image)
+

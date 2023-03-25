@@ -1301,6 +1301,12 @@ INTEL新近发布了第`12`代CPU，
 
 泪眼不曾晴，眉黛愁还聚。明日相思莫上楼，楼上多风雨。
 
+## 黄金分割探测器
+
+所谓闭门造车，出门合辙。如果你遇到一个构图问题，比如摄影或者做 PPT 什么的，那么黄金分割律就是你要合的辙。本文提供了一个可交互的前端工具，用来从好看的图中找到其中的黄金分割律
+
+[Golden Ratio in Image](https://observablehq.com/@listenzcc/golden-ratio-in-image)
+
 # oh-my-image
 
 The oh-my-image project.
@@ -1815,6 +1821,14 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 本文借用《再售期权理论（Resale Option Theory）》中的一个例子，
 试图说明经济泡沫也许可以解释成异质信念条件下的资产交易属性。
 
+## 硅谷银行暴了一颗“低风险”的雷
+
+最近美国 Silicon Valley Bank 爆雷，我从 FDIC 上下载了近 30 年美国银行的暴雷统计，总觉得这次和往年的有点不太一样，因为这次的存款比重太大了。
+
+如果对暴雷过程感兴趣的话，请阅读附录：SVB 的死亡倒计时。
+
+[FDIC: Bank Failures in Brief](https://www.fdic.gov/bank/historical/bank/bfb2023.html)
+
 ## 科里奥利力
 
 本体论追求并提炼万物的本源，
@@ -2327,6 +2341,10 @@ The Topic is about Analysis the Traffic Situations.
 The folder contains following md files:
 
 ---
+## MBS的负凸性
+
+数学是一门严谨的学问，它里面有公理、有定理和推论。同样和数字有关的还有经济，也就是钱，但钱不怎么讲道理，即使负凸性是个描述函数趋势的概念，当它和经济上的 MBS 结合起来时，后者表现出来的负凸性却不是因为它服从数学定理，而是理性经济人的可预测行为的统计结果。
+
 ## 以空间换时间
 
 为了解决《私人订制》一文中遇到的，由于计算规模扩大所导致的，
