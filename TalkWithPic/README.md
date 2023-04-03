@@ -318,6 +318,14 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 这一篇酸臭味道很冲的文章。
 
+## 雾里看花：从MLP看验证集的作用
+
+机器学习难，难在观测到的数据稀疏，从稀疏数据中估计总体分布如隔岸观火，如隔靴搔痒，如雾里看花。因此，交叉验证方法能利用有限的数据对估计出的分类器进行辅助评价和验证。
+
+本文开源代码可见我的 GITHUB 仓库
+
+[MLP-notebook/experiment-6 at main · listenzcc/MLP-notebook](https://github.com/listenzcc/MLP-notebook/tree/main/experiment-6)
+
 ## 鱼眼看世界
 
 很好奇鱼眼镜头里的“扭曲”是如何生成的，于是就有了这个模拟计算。

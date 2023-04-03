@@ -55,6 +55,14 @@ MLP可以用来估计信号的相位。通过训练带有相位估计目标的ML
 
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/ "PubMed")
 
+## Python 进程与线程的使用指南
+
+我们的目标是让 Python 多快好省地完成计算任务，本文实现了进程间的共享内存方法，在分布式计算的同时实现进程间的数据交互。另外，本文还使用代数计算的样例对进程、线程的并行计算性能进行测试和分析，讨论如何选择更合理的计算方式，才能通过并行计算提升整体计算效能。
+
+本文代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/python-parallel](https://github.com/listenzcc/python-parallel)
+
 ## RDM与图像关系分析
 
 本文记录近期开发的一套前后端工具，它利用 RDM 矩阵进行图像关系分析，而 RDM 矩阵的来源为 fMRI 和 MEG 采集的神经影像数据。文中附录部分为 AI 补写的 RDM 矩阵的细节，虽然有点啰嗦但十分靠谱。

@@ -173,6 +173,19 @@ _Updated 9 hours ago (17:11 GMT London)_
 
 Catch up quickly on the global stories that matter
 
+# Every document
+
+The development process of every-document.
+
+The folder contains following md files:
+
+---
+## Every document
+
+本工程的最终目的是提供一个易用的本地文件搜索和管理器，它不仅能实现全部本地文件的按名称管理，就像 Everything 对于文件名的管理那样，也能以同样方便的方法实现全部本地文件的按内容管理。工程在施工中，开源代码可见我的 Github 页面
+
+[https://github.com/listenzcc/every-document](https://github.com/listenzcc/every-document)
+
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -1551,6 +1564,12 @@ The workshop in public.tableau.com
 The folder contains following md files:
 
 ---
+## 春来江水绿如蓝
+
+本文介绍一个道听途说的科学方法，它能够对春天到来的准确时间进行定位。通过将春天到来的日期与平均气温进行比较，可以发现它们之间的巧妙关联。这个关联如同废话一般：气温越高则春天来得越早。原始数据和交互式数据表可见我的 Tableau 工作薄
+
+[](https://public.tableau.com/app/profile/chuncheng1883/viz/Temperature-vs-sprintComming/Dashboard1#1)
+
 ## 汉堡指数
 
 他们发布了近20年来的汉堡指数原始数据，于是我通过 Tableau 工具对原始数据进行进一步拆解，以世界各国货币购买力为对象，分别在人民币和美元的度量下，分析它们的平价购买力变化趋势。
@@ -1875,6 +1894,14 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 这一篇酸臭味道很冲的文章。
 
+## 雾里看花：从MLP看验证集的作用
+
+机器学习难，难在观测到的数据稀疏，从稀疏数据中估计总体分布如隔岸观火，如隔靴搔痒，如雾里看花。因此，交叉验证方法能利用有限的数据对估计出的分类器进行辅助评价和验证。
+
+本文开源代码可见我的 GITHUB 仓库
+
+[MLP-notebook/experiment-6 at main · listenzcc/MLP-notebook](https://github.com/listenzcc/MLP-notebook/tree/main/experiment-6)
+
 ## 鱼眼看世界
 
 很好奇鱼眼镜头里的“扭曲”是如何生成的，于是就有了这个模拟计算。
@@ -1941,6 +1968,14 @@ MLP可以用来估计信号的相位。通过训练带有相位估计目标的ML
 简单来说，你不需要再点击进入任何一篇文章，而是可以直接在搜索界面上完成想要的操作。
 
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/ "PubMed")
+
+## Python 进程与线程的使用指南
+
+我们的目标是让 Python 多快好省地完成计算任务，本文实现了进程间的共享内存方法，在分布式计算的同时实现进程间的数据交互。另外，本文还使用代数计算的样例对进程、线程的并行计算性能进行测试和分析，讨论如何选择更合理的计算方式，才能通过并行计算提升整体计算效能。
+
+本文代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/python-parallel](https://github.com/listenzcc/python-parallel)
 
 ## RDM与图像关系分析
 
