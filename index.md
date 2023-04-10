@@ -173,6 +173,19 @@ _Updated 9 hours ago (17:11 GMT London)_
 
 Catch up quickly on the global stories that matter
 
+# Every document
+
+The development process of every-document.
+
+The folder contains following md files:
+
+---
+## Every document
+
+本工程的最终目的是提供一个易用的本地文件搜索和管理器，它不仅能实现全部本地文件的按名称管理，就像 Everything 对于文件名的管理那样，也能以同样方便的方法实现全部本地文件的按内容管理。工程在施工中，开源代码可见我的 Github 页面
+
+[https://github.com/listenzcc/every-document](https://github.com/listenzcc/every-document)
+
 # File = Content + Coding
 
 In Computer System, the files are the real-world content in coding.
@@ -247,6 +260,16 @@ There are several invariance by math.
 Knowing them means knowing everything.
 
 ---
+## Nystrom 方法 II
+
+本文尝试说明核函数与特征映射之间的关系，并借此介绍 Nystrom 的核函数加速方法。
+
+本文比前文增加的地方是改进了矩阵特征分解的方法描述，现在它更简洁易懂；增补了低秩表示方法的描述，现在它在逻辑上与 Nystrom 方法的衔接更加自然。
+
+## Nystrom 方法
+
+本文尝试说明核函数与特征映射之间的关系，并借此介绍 Nystrom 的核函数加速方法。
+
 ## 一些不变性（之一）
 
 函数的本质是映射。
@@ -482,6 +505,10 @@ Knowing them means knowing everything.
 一个方程组摆在面前，
 你猜我想让你干点啥？
 
+## 精度消失
+
+本文尝试说明一个案例，该案例通过适当的数学约束，解决在概率密度函数计算过程中遇到的浮点数计算精度消失的问题。
+
 ## 群
 
 群是个神奇的概念。
@@ -531,6 +558,12 @@ Knowing them means knowing everything.
 而好车通常采用直列八缸发动机，
 本文将解释这是因为什么，以及如何使用群进行分析。
 
+## 这个世界比我预想的更讲道理
+
+我承认这是个标题党，因为本文既不是讨论逻辑问题，也不是讨论世界观问题，这里的道理是万物有道，万物有理之意。本文通过高斯过程在图像中的一个应用，说明仅使用图像的散碎局部信息，就可以用它们来还原整张图像。本文的开源代码可见我的 Github 页面
+
+[https://github.com/listenzcc/Gaussian-Process-Image-Reconstruct](https://github.com/listenzcc/Gaussian-Process-Image-Reconstruct)
+
 ## 这可能是一种 BIAS
 
 今天与同学讨论，聊到这么一篇文章
@@ -546,6 +579,14 @@ Putative rhythms in attentional switching can be explained by aperiodic temporal
 我无意讨论后面的问题，只是单纯地好奇
 
 > 从纯数据的角度出发，这个 BIAS 是如此严重的吗？
+
+## 逻辑游戏1
+
+一天，鬼谷子随意从2-99中选取了两个数。他把这两个数的和告诉了庞涓， 把这两个数的乘积告诉了孙膑。但孙膑和庞涓彼此不知道对方得到的数。第二天， 庞涓很有自信的对孙膑说：虽然我不知道这两个数是什么，但我知道你一定也不知道。随后，孙膑说：那我知道了。庞涓说：那我也知道了。这两个数是什么？
+
+本文的开源代码可见我的前端笔记本
+
+[Logistic Game I](https://observablehq.com/@listenzcc/logistic-game-i)
 
 ## 群的边界
 
@@ -572,6 +613,17 @@ Putative rhythms in attentional switching can be explained by aperiodic temporal
 ## 知识、经验和随机性
 
 本文试图说明为什么以及如何使用线性模型对随机变量进行解构。
+
+## 高斯过程 + Nystrom 方法
+
+由于高斯过程可以用于建模连续无限维空间中的函数,而 Nystrom 方法可以用于在有限维度空间中近似计算高斯过程, 因此将两者结合可以有效地解决大规模机器学习中的核方法问题。
+高斯过程的求解关键在于核函数，而 Nystrom 方法则说明了这样一个事实，那就是在观测空间的随机采样对核函数估计的准确性影响有限。于是本文对这个原理提供一个可交互的可视化平台。
+
+[Gaussian Process with ChartJS Interactive](https://observablehq.com/@listenzcc/gaussian-process-with-chartjs-interactive)
+
+## 高斯过程与方差“齐次性”
+
+在这里有一个假设，那就是多元高斯分布的协方差矩阵的先验可以通过样本的核函数来确定。在这个假设条件下，高斯过程其实并不涉及任何优化，只是简单地求解多元高斯分布的条件概率密度。在这里面有一些贝叶斯方法的影子。
 
 # Observable HQ
 
@@ -625,6 +677,12 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 这里 Perlin 噪声往往是很好的选择。
 
 比如我在前端页面做的一个小demo [Perlin Noise Contours with GeoProjection](https://observablehq.com/@listenzcc/perlin-noise-contours-with-geoprojection "Perlin Noise Contours with GeoProjection")
+
+## THREEJS 的三阶魔方
+
+春去江花红胜火，春来江水绿如蓝，能不忆江南。这个周末气温回暖，草木发芽，于是在家有前端做了个虚拟化的三阶魔方。本文的开源代码可见我的前端笔记本
+
+[Rolling magic cube with THREE.js](https://observablehq.com/@listenzcc/rolling-magic-cube-with-three-js)
 
 ## WebGL的实时渲染
 
@@ -769,6 +827,10 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 本文在 Observable 提供了一个好用的函数可视化工具。
 
 [Mathmatic notebook III](https://observablehq.com/@listenzcc/mathmatic-notebook-iii "Mathmatic notebook III")
+
+## 前端是个好东西，但需要数据支撑
+
+前端是个好东西，但需要数据支撑。所谓产业赋能就是强大的后台+好用（好看）的前端。本文以地铁为例做一次眼高手低的尝试。
 
 ## 前端的GPU渲染库
 
@@ -1090,6 +1152,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 [Over taking](https://observablehq.com/@listenzcc/over-taking "Over taking")
 
+## 激活函数的功率谱密度
+
+本文从量化的角度解释双曲正切激活函数对信号的 FFT 造成的影响。
+本文开源代码可见我的前端笔记本
+[FFT for Activation](https://observablehq.com/@listenzcc/fft-for-activation)
+
 ## 物以类聚
 
 都说物以类聚，人以群分。但又都说要兼容并包，兼收并蓄。
@@ -1246,6 +1314,12 @@ INTEL新近发布了第`12`代CPU，
 
 泪眼不曾晴，眉黛愁还聚。明日相思莫上楼，楼上多风雨。
 
+## 黄金分割探测器
+
+所谓闭门造车，出门合辙。如果你遇到一个构图问题，比如摄影或者做 PPT 什么的，那么黄金分割律就是你要合的辙。本文提供了一个可交互的前端工具，用来从好看的图中找到其中的黄金分割律
+
+[Golden Ratio in Image](https://observablehq.com/@listenzcc/golden-ratio-in-image)
+
 # oh-my-image
 
 The oh-my-image project.
@@ -1345,6 +1419,10 @@ The folder contains following md files:
 Sterling 公式将阶乘和幂函数统一起来，
 它在 Gamma 函数的分析和使用过程中十分有用，
 因此有必要将它的简要证明过程列写如下。
+
+## 中值与均值的方差差异
+
+本文尝试计算标准正态分布的中值的方差，并尝试分析它与均值方差之间的差异。
 
 ## 从检验到瞎编
 
@@ -1486,6 +1564,12 @@ The workshop in public.tableau.com
 The folder contains following md files:
 
 ---
+## 春来江水绿如蓝
+
+本文介绍一个道听途说的科学方法，它能够对春天到来的准确时间进行定位。通过将春天到来的日期与平均气温进行比较，可以发现它们之间的巧妙关联。这个关联如同废话一般：气温越高则春天来得越早。原始数据和交互式数据表可见我的 Tableau 工作薄
+
+[](https://public.tableau.com/app/profile/chuncheng1883/viz/Temperature-vs-sprintComming/Dashboard1#1)
+
 ## 汉堡指数
 
 他们发布了近20年来的汉堡指数原始数据，于是我通过 Tableau 工具对原始数据进行进一步拆解，以世界各国货币购买力为对象，分别在人民币和美元的度量下，分析它们的平价购买力变化趋势。
@@ -1535,6 +1619,12 @@ Coco数据集是通用较强的数据集，
 如果你实在是没有时间看电影，不妨让算法把相似的信息提取出来。
 
 当然，目前的算法很粗糙，提取的信息也很朴实。
+
+## Who are they
+
+为纪念两会胜利召开，本文提供一个前端工具，分析代表们的性别、年龄、民族和地域分布。当然，这些都是 baidu 上搜来的公开信息。
+
+[Who are they](https://observablehq.com/@listenzcc/who-are-they)
 
 ## World trade data
 
@@ -1750,6 +1840,14 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 本文借用《再售期权理论（Resale Option Theory）》中的一个例子，
 试图说明经济泡沫也许可以解释成异质信念条件下的资产交易属性。
 
+## 硅谷银行暴了一颗“低风险”的雷
+
+最近美国 Silicon Valley Bank 爆雷，我从 FDIC 上下载了近 30 年美国银行的暴雷统计，总觉得这次和往年的有点不太一样，因为这次的存款比重太大了。
+
+如果对暴雷过程感兴趣的话，请阅读附录：SVB 的死亡倒计时。
+
+[FDIC: Bank Failures in Brief](https://www.fdic.gov/bank/historical/bank/bfb2023.html)
+
 ## 科里奥利力
 
 本体论追求并提炼万物的本源，
@@ -1796,6 +1894,14 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 这一篇酸臭味道很冲的文章。
 
+## 雾里看花：从MLP看验证集的作用
+
+机器学习难，难在观测到的数据稀疏，从稀疏数据中估计总体分布如隔岸观火，如隔靴搔痒，如雾里看花。因此，交叉验证方法能利用有限的数据对估计出的分类器进行辅助评价和验证。
+
+本文开源代码可见我的 GITHUB 仓库
+
+[MLP-notebook/experiment-6 at main · listenzcc/MLP-notebook](https://github.com/listenzcc/MLP-notebook/tree/main/experiment-6)
+
 ## 鱼眼看世界
 
 很好奇鱼眼镜头里的“扭曲”是如何生成的，于是就有了这个模拟计算。
@@ -1833,6 +1939,12 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 
 那么如果病毒感染的速度比人类生育的速度快呢？
 
+## MLP的相位估计
+
+MLP可以用来估计信号的相位。通过训练带有相位估计目标的MLP,可以学习输入信号和相位之间的复杂非线性关系,从而产生相位估计。
+
+上一句话是 AI 写的，但我有点怀疑 MLP 的能力，于是有此实验。而实验结果说明用 MLP 做相位估计具有较大的潜在风险。 
+
 ## MLP需要适当的规模
 
 由于上次 MLP 回归失败，因此我决定对它进行改进。在增加了网络层数之后，我发现回归精度和收敛速度均有所提高。
@@ -1856,6 +1968,14 @@ GIT 是常用的版本管理软件，它偶尔也会出问题。
 简单来说，你不需要再点击进入任何一篇文章，而是可以直接在搜索界面上完成想要的操作。
 
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/ "PubMed")
+
+## Python 进程与线程的使用指南
+
+我们的目标是让 Python 多快好省地完成计算任务，本文实现了进程间的共享内存方法，在分布式计算的同时实现进程间的数据交互。另外，本文还使用代数计算的样例对进程、线程的并行计算性能进行测试和分析，讨论如何选择更合理的计算方式，才能通过并行计算提升整体计算效能。
+
+本文代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/python-parallel](https://github.com/listenzcc/python-parallel)
 
 ## RDM与图像关系分析
 
@@ -1951,6 +2071,10 @@ As a whole.
 ## 中日颜色风格
 
 这两网站是配色苦手的福音。
+
+## 习惯数据库之MongoDB
+
+本文记录了使用 MongoDB 实现日常信息汇总的程序样例，和我对数据库的一些碎碎念。
 
 ## 借助深度估计的点云场景重建
 
@@ -2086,9 +2210,19 @@ As a whole.
 但转念想想，
 这个思路用来整理琐碎的调研工作似乎更合适。
 
+## 深度网络与大脑区域的 RDM 度量
+
+本文使用的 RDM 方法用于度量神经网络不同层次与大脑不同脑区之间的相似性。对简单图像的分析表明，在图像出现时的脑响应与神经网络最为相似，之后随时间递减。但对复杂图像的分析表明，它随时间变化呈现先低后高，单调上升的趋势。这是与简单图像相反的。
+
 ## 狭义相对论的简单图解
 
 偶然看到一个狭义相对论的简单图解，很有意思
+
+## 用激活函数“纠正”脑电数据
+
+这是使脑电数据“看上去”正常的一个方法，但它的安全性我还没有考察。
+
+本文的目的是开一个头，要追究的问题是“神经网络是如何看待和处理脑电数据的”，于是首当其冲的就是激活函数对信号的变换原理。本文只阐述现象，原理等我弄明白再补充。
 
 ## 神经网络的表达能力
 
@@ -2242,6 +2376,10 @@ The Topic is about Analysis the Traffic Situations.
 The folder contains following md files:
 
 ---
+## MBS的负凸性
+
+数学是一门严谨的学问，它里面有公理、有定理和推论。同样和数字有关的还有经济，也就是钱，但钱不怎么讲道理，即使负凸性是个描述函数趋势的概念，当它和经济上的 MBS 结合起来时，后者表现出来的负凸性却不是因为它服从数学定理，而是理性经济人的可预测行为的统计结果。
+
 ## 以空间换时间
 
 为了解决《私人订制》一文中遇到的，由于计算规模扩大所导致的，
