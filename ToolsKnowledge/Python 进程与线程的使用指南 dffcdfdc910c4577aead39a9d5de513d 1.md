@@ -2,6 +2,10 @@
 
 我们的目标是让 Python 多快好省地完成计算任务，本文实现了进程间的共享内存方法，在分布式计算的同时实现进程间的数据交互。另外，本文还使用代数计算的样例对进程、线程的并行计算性能进行测试和分析，讨论如何选择更合理的计算方式，才能通过并行计算提升整体计算效能。
 
+本文代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/python-parallel](https://github.com/listenzcc/python-parallel)
+
 ---
 - [Python 进程与线程的使用指南](#python-进程与线程的使用指南)
   - [测试结果与使用指南](#测试结果与使用指南)
