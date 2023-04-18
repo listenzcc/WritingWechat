@@ -144,6 +144,12 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 今天刮大风，刮的建筑像要被吹跑似的。
 所以趁着机会做一个简单的粒子运动模拟。
 
+## 从地理交互看 Walmart 的时间线
+
+本文是结合地理数据与 Walmart 经营数据的可视化尝试，尝试使用可交互的手段提升对数据的理解。从静态图中可以明显看出 Walmart 发迹于美国中东部，而后逐渐向东、西两个海岸发展。虽然这个趋势非常明显，但会忽略它发展轨迹中的一些细节，这些细节可以从可交互的可视化分析中得到生动的补充。
+
+[An animation demo of Walmart in America / Chuncheng | Observable (observablehq.com)](https://observablehq.com/@listenzcc/an-animation-demo-of-walmart-in-america)
+
 ## 便携的深度网络
 
 最近 ChatGPT 从实验室走到了千家万户，这说明虽然深度网络是极其依赖于计算资源的服务方式，但只要通过合适的技术途径，是可以实现轻计算终端接入的。在神经网络计算功能日益强大的今天，这是复杂计算落地的必由之路。因此，本文提供一个 DEMO，将预训练好的轻量图像计算网络直接放在前端进行图像识别计算。
@@ -180,6 +186,12 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 本工程做出一些尝试，
 希望让它的分析和呈现能够变得像“上网”一样简单。
 目前，离这个目标还相当之遥远。
+
+## 光场渲染的 MRI 点云
+
+Nerf 是用深度神经网络表达某个物体，虽然我没有这个本事构造深度神经网络，但好在我并不需要这么做，因为我只要能根据已知的点云，把 MRI 数据渲染出来就达到目的了。本文开源代码可见我的在线代码笔记本
+
+[3D MRI volume rendering in slices with WebGL](https://observablehq.com/@listenzcc/3d-mri-volume-rendering-in-slices-with-webgl)
 
 ## 全国铁路站点
 

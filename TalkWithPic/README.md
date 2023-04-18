@@ -244,6 +244,16 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 当然，有时候你需要一些`JS`提供的帮助。
 
+## 收益率诱导的均富或分化
+
+我们将世界抽象成为一个金融机器，简单来说，就是一些人有一些钱。我们让每个人的财富开始增长，这里开始体现阶层之间的差异。我假设钱多的人把钱都拿出来进行投资，而钱少的人则把钱都花在了自我消费上，导致越有钱的人他的收益率就越高，越穷的人他的收益率就越低。接下来就是求解带约束的二次规划问题。
+
+我们不能理想化地假设 $r_m \gt r_g$，事实上也没有人能够一定跑得过超高的社会总财富增长率，因此我们在实验中将它设定为可变的（max_interest_ratio = 0.05, 0.1, 0.15），用来模拟社会财富的分配情况。实验结果表明，最终的财富分配情况对该值十分敏感，它几乎决定了社会走向共同富裕、两极分化或者拥有庞大的中产阶级。
+
+本文开源代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/economy-experiment-1](https://github.com/listenzcc/economy-experiment-1)
+
 ## 文化自信
 
 自信就是相信自己，进而相信自己的邻居和同胞能够成就伟大的生活和事业。
@@ -255,6 +265,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 ## 星链
 
 马斯克搞的这个星链就很有意思，它既依靠大量小卫星覆盖全球，又让这些卫星的使用和发射成本足够小，像蜂群一样为地球服务。
+
+## 来自 2018 的美国就业数据
+
+本文是对美国 2018 年就业数据的搬运和简单可视化分析，该数据不仅是包括各行业门类，也包括这些门类中对不同教育水平人才的需求量和期望薪资，这些材料对青年的教育及就业选择极其重要。所谓“男怕入错行，三分钟带你选好专业”是也。本文使用的分析工具是 Tableau，开源地址如下
+
+[tableau](https://public.tableau.com/app/profile/chuncheng1883/viz/Jobs-in-2018/sheet0?publish=yes)
 
 ## 泡沫
 

@@ -37,6 +37,16 @@ MLP可以用来估计信号的相位。通过训练带有相位估计目标的ML
 
 [https://github.com/listenzcc/MLP-notebook](https://github.com/listenzcc/MLP-notebook "https://github.com/listenzcc/MLP-notebook")
 
+## MRI 体积点云的旋转与渲染
+
+体积数据的规模是表面面片数据的数十倍，导致框架设计困难，且渲染开销较大。本文使用坐标表示的方法实现 MRI 数据旋转截面的实时渲染，后端负责将点云数据及其坐标编辑成数据表的形式，而前端在一次性获取该数据表后独立完成旋转和渲染计算。
+
+本工程的渲染开销相当于用前端孱弱计算的能力来实时解算 4K 视频，性能表现大约为每秒 3 帧，这对于 CPU 来说已经不错了吧？又不是不能用。
+
+本文的开源代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/3D-brain-viewer](https://github.com/listenzcc/3D-brain-viewer)
+
 ## Mapbox 与 GeoJson
 
 与 Canvas 相比，Mapbox 的原生 Layer 显然是更加优雅的解决方案，但它需要 GeoJson 的支持。
@@ -63,6 +73,10 @@ MLP可以用来估计信号的相位。通过训练带有相位估计目标的ML
 
 [https://github.com/listenzcc/python-parallel](https://github.com/listenzcc/python-parallel)
 
+## Python 进程与线程的使用指南
+
+我们的目标是让 Python 多快好省地完成计算任务，本文实现了进程间的共享内存方法，在分布式计算的同时实现进程间的数据交互。另外，本文还使用代数计算的样例对进程、线程的并行计算性能进行测试和分析，讨论如何选择更合理的计算方式，才能通过并行计算提升整体计算效能。
+
 ## RDM与图像关系分析
 
 本文记录近期开发的一套前后端工具，它利用 RDM 矩阵进行图像关系分析，而 RDM 矩阵的来源为 fMRI 和 MEG 采集的神经影像数据。文中附录部分为 AI 补写的 RDM 矩阵的细节，虽然有点啰嗦但十分靠谱。
@@ -88,6 +102,10 @@ Tensor flow 删除了 contrib 模块，这是万恶之源。
 我发现了 windows terminal 的一个盲点，那就是我不能从中复制出制表符 \t，这限制了它的内容在表格应用中的转换，所以我开发了一个在线的转换工具，它的功能是将复制内容中的空格重新转换为制表符 \t，由于它的存在，其他类表格 APP 才能正常识别这些表格化内容。
 
 [Suppose to be table](https://listenzcc.github.io/Suppose-to-be-table/)
+
+## Vedo 的体积点云计算
+
+Vedo 是很好用的 3D 点云操作工具，本文使用该工具进行体积点云的初步计算。
 
 ## 三维大脑展示页面
 
@@ -153,6 +171,10 @@ As a whole.
 之后你无须再看电影，
 就可以回顾起当时的感觉。
 当然也方便分享。
+
+## 不同源的 MRI 数据点阵匹配
+
+假设我们已经通过技术手段完成了 MRI 数据到标准模板的头动校正，但这并不能保证新数据与标准模板是同源的。为了解决该问题本文介绍快速配准的算法原理，该方法能够对不同源的 MRI 数据点阵进行匹配。
 
 ## 中日颜色风格
 
