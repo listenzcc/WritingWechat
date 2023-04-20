@@ -771,6 +771,12 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 今天刮大风，刮的建筑像要被吹跑似的。
 所以趁着机会做一个简单的粒子运动模拟。
 
+## 从地理交互看 Walmart 的时间线
+
+本文是结合地理数据与 Walmart 经营数据的可视化尝试，尝试使用可交互的手段提升对数据的理解。从静态图中可以明显看出 Walmart 发迹于美国中东部，而后逐渐向东、西两个海岸发展。虽然这个趋势非常明显，但会忽略它发展轨迹中的一些细节，这些细节可以从可交互的可视化分析中得到生动的补充。
+
+[An animation demo of Walmart in America / Chuncheng | Observable (observablehq.com)](https://observablehq.com/@listenzcc/an-animation-demo-of-walmart-in-america)
+
 ## 便携的深度网络
 
 最近 ChatGPT 从实验室走到了千家万户，这说明虽然深度网络是极其依赖于计算资源的服务方式，但只要通过合适的技术途径，是可以实现轻计算终端接入的。在神经网络计算功能日益强大的今天，这是复杂计算落地的必由之路。因此，本文提供一个 DEMO，将预训练好的轻量图像计算网络直接放在前端进行图像识别计算。
@@ -807,6 +813,12 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 本工程做出一些尝试，
 希望让它的分析和呈现能够变得像“上网”一样简单。
 目前，离这个目标还相当之遥远。
+
+## 光场渲染的 MRI 点云
+
+Nerf 是用深度神经网络表达某个物体，虽然我没有这个本事构造深度神经网络，但好在我并不需要这么做，因为我只要能根据已知的点云，把 MRI 数据渲染出来就达到目的了。本文开源代码可见我的在线代码笔记本
+
+[3D MRI volume rendering in slices with WebGL](https://observablehq.com/@listenzcc/3d-mri-volume-rendering-in-slices-with-webgl)
 
 ## 全国铁路站点
 
@@ -1820,6 +1832,16 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 当然，有时候你需要一些`JS`提供的帮助。
 
+## 收益率诱导的均富或分化
+
+我们将世界抽象成为一个金融机器，简单来说，就是一些人有一些钱。我们让每个人的财富开始增长，这里开始体现阶层之间的差异。我假设钱多的人把钱都拿出来进行投资，而钱少的人则把钱都花在了自我消费上，导致越有钱的人他的收益率就越高，越穷的人他的收益率就越低。接下来就是求解带约束的二次规划问题。
+
+我们不能理想化地假设 $r_m \gt r_g$，事实上也没有人能够一定跑得过超高的社会总财富增长率，因此我们在实验中将它设定为可变的（max_interest_ratio = 0.05, 0.1, 0.15），用来模拟社会财富的分配情况。实验结果表明，最终的财富分配情况对该值十分敏感，它几乎决定了社会走向共同富裕、两极分化或者拥有庞大的中产阶级。
+
+本文开源代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/economy-experiment-1](https://github.com/listenzcc/economy-experiment-1)
+
 ## 文化自信
 
 自信就是相信自己，进而相信自己的邻居和同胞能够成就伟大的生活和事业。
@@ -1831,6 +1853,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 ## 星链
 
 马斯克搞的这个星链就很有意思，它既依靠大量小卫星覆盖全球，又让这些卫星的使用和发射成本足够小，像蜂群一样为地球服务。
+
+## 来自 2018 的美国就业数据
+
+本文是对美国 2018 年就业数据的搬运和简单可视化分析，该数据不仅是包括各行业门类，也包括这些门类中对不同教育水平人才的需求量和期望薪资，这些材料对青年的教育及就业选择极其重要。所谓“男怕入错行，三分钟带你选好专业”是也。本文使用的分析工具是 Tableau，开源地址如下
+
+[tableau](https://public.tableau.com/app/profile/chuncheng1883/viz/Jobs-in-2018/sheet0?publish=yes)
 
 ## 泡沫
 
@@ -1951,6 +1979,16 @@ MLP可以用来估计信号的相位。通过训练带有相位估计目标的ML
 
 [https://github.com/listenzcc/MLP-notebook](https://github.com/listenzcc/MLP-notebook "https://github.com/listenzcc/MLP-notebook")
 
+## MRI 体积点云的旋转与渲染
+
+体积数据的规模是表面面片数据的数十倍，导致框架设计困难，且渲染开销较大。本文使用坐标表示的方法实现 MRI 数据旋转截面的实时渲染，后端负责将点云数据及其坐标编辑成数据表的形式，而前端在一次性获取该数据表后独立完成旋转和渲染计算。
+
+本工程的渲染开销相当于用前端孱弱计算的能力来实时解算 4K 视频，性能表现大约为每秒 3 帧，这对于 CPU 来说已经不错了吧？又不是不能用。
+
+本文的开源代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/3D-brain-viewer](https://github.com/listenzcc/3D-brain-viewer)
+
 ## Mapbox 与 GeoJson
 
 与 Canvas 相比，Mapbox 的原生 Layer 显然是更加优雅的解决方案，但它需要 GeoJson 的支持。
@@ -1977,6 +2015,10 @@ MLP可以用来估计信号的相位。通过训练带有相位估计目标的ML
 
 [https://github.com/listenzcc/python-parallel](https://github.com/listenzcc/python-parallel)
 
+## Python 进程与线程的使用指南
+
+我们的目标是让 Python 多快好省地完成计算任务，本文实现了进程间的共享内存方法，在分布式计算的同时实现进程间的数据交互。另外，本文还使用代数计算的样例对进程、线程的并行计算性能进行测试和分析，讨论如何选择更合理的计算方式，才能通过并行计算提升整体计算效能。
+
 ## RDM与图像关系分析
 
 本文记录近期开发的一套前后端工具，它利用 RDM 矩阵进行图像关系分析，而 RDM 矩阵的来源为 fMRI 和 MEG 采集的神经影像数据。文中附录部分为 AI 补写的 RDM 矩阵的细节，虽然有点啰嗦但十分靠谱。
@@ -2002,6 +2044,10 @@ Tensor flow 删除了 contrib 模块，这是万恶之源。
 我发现了 windows terminal 的一个盲点，那就是我不能从中复制出制表符 \t，这限制了它的内容在表格应用中的转换，所以我开发了一个在线的转换工具，它的功能是将复制内容中的空格重新转换为制表符 \t，由于它的存在，其他类表格 APP 才能正常识别这些表格化内容。
 
 [Suppose to be table](https://listenzcc.github.io/Suppose-to-be-table/)
+
+## Vedo 的体积点云计算
+
+Vedo 是很好用的 3D 点云操作工具，本文使用该工具进行体积点云的初步计算。
 
 ## 三维大脑展示页面
 
@@ -2067,6 +2113,10 @@ As a whole.
 之后你无须再看电影，
 就可以回顾起当时的感觉。
 当然也方便分享。
+
+## 不同源的 MRI 数据点阵匹配
+
+假设我们已经通过技术手段完成了 MRI 数据到标准模板的头动校正，但这并不能保证新数据与标准模板是同源的。为了解决该问题本文介绍快速配准的算法原理，该方法能够对不同源的 MRI 数据点阵进行匹配。
 
 ## 中日颜色风格
 
