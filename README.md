@@ -1092,6 +1092,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 它形象地展示了为啥一个月有大约`30`天，
 以及为什么月相会呈现一种奇妙的周期性。
 
+## 时间的漩涡
+
+在时间的河流中，日子容易过得头昏脑涨。我觉得时间像个齿轮令人眩晕，人在眩晕中顾不上看年华老去。本工程希望通过螺旋的时间线来传达我的感受。怎么说呢，反正看上去可能有点晕。
+
+开源代码如下
+
+[How do the time pass?](https://observablehq.com/@listenzcc/how-do-the-time-pass)
+
 ## 最速降线的蒙特卡洛逼近
 
 本文进行了一次尝试，尝试通过简单粗暴的蒙特卡洛方法逼近一条“最速降线”。
@@ -1301,6 +1309,12 @@ INTEL新近发布了第`12`代CPU，
 ## 那抹五彩斑斓的黑
 
 感谢 Apple，让我们见识到了传说中五彩斑斓的黑。
+
+## 钢笔大厂的产品特点一览
+
+我下载了一份关于钢笔的统计文档，里面收录了不同品牌钢笔的长度及重量信息，稍作统计如下。为了增强分析的可视性，我将派克笔厂现在仍然在产的较为经典的 Duofold International 系列作为参考，用红色十字线来表示，并且对大笔厂产品的重量分布也稍做统计，本文的可交互分析图可见我的前端笔记本
+
+[Fountain pen database / Chuncheng | Observable (observablehq.com)](https://observablehq.com/@listenzcc/fountain-pen-database)
 
 ## 长津湖
 
@@ -2205,6 +2219,14 @@ As a whole.
 
 这是一篇极其无聊的工作记录。
 它涉及如何固定一个机械臂，让它在固定的平台上安全地自由运动。
+
+## 封装的方法不一定更优
+
+本文比较无聊，是针对 javascript 语言中的 flatMap 和自定义的 for-loop 方法进行速度比较，比较结果表明，其封装的 flatMap 方法在速度上略差于自定义的 for-loop。这说明虽然 javascript 脚本执行效率已经很高，但仍具有较大的优化空间。
+
+本文代码可见我的前端笔记本
+
+[Compare speed between .flatMap and for-loop in javascript](https://observablehq.com/@listenzcc/compare-speed-between-flatmap-and-for-loop-in-javascript)
 
 ## 小程序开发记录
 

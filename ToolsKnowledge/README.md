@@ -264,6 +264,14 @@ As a whole.
 这是一篇极其无聊的工作记录。
 它涉及如何固定一个机械臂，让它在固定的平台上安全地自由运动。
 
+## 封装的方法不一定更优
+
+本文比较无聊，是针对 javascript 语言中的 flatMap 和自定义的 for-loop 方法进行速度比较，比较结果表明，其封装的 flatMap 方法在速度上略差于自定义的 for-loop。这说明虽然 javascript 脚本执行效率已经很高，但仍具有较大的优化空间。
+
+本文代码可见我的前端笔记本
+
+[Compare speed between .flatMap and for-loop in javascript](https://observablehq.com/@listenzcc/compare-speed-between-flatmap-and-for-loop-in-javascript)
+
 ## 小程序开发记录
 
 微信小程序是基于微信的独特交互方式，
