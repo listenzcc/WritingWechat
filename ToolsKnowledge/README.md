@@ -129,6 +129,16 @@ As a whole.
 
 本文将记录使用 WebSocket 的一些实用方案，比如如何建立和测试连接，如何判断失联并实现重联等。
 
+## Websocket 通信的方法取舍
+
+本文设想了两种 websocket 使用场景，一种是面向低延时的单路串行场景；另一种是面向大吞吐量的多路并行场景。针对两种场景分别设计了 websocket 服务和客户端对，并进行通信实验。
+
+实验结果表明多路并行方法吞吐量更大，但延时稍不可控；而单路串行方法准时性强，但数据阻塞现象严重。两种方法各有所长，使用时应根据具体要求，因地制宜地进行选择。
+
+开源代码可见我的 github 仓库
+
+[https://github.com/listenzcc/websocket-speed-test](https://github.com/listenzcc/websocket-speed-test)
+
 ## Websocket 的极简后端
 
 在对连接不敏感的情况下，Websocket 能够给 Web 后端开发带来极其轻便的开发体验。
