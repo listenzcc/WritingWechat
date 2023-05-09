@@ -367,6 +367,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 工作流可见我的[GITHUB工程](https://github.com/listenzcc/freesurferAnalysisScripts "GITHUB工程")，
 可视化代码可见我的[ObservableHQ工程](https://observablehq.com/@listenzcc/free-surfer-cortex-v2 "ObservableHQ工程")。
 
+## 布朗桥（Brownian Bridges）
+
+在建立某个随机动力过程时，我们虽然希望其随机性尽可能大，但又要防止它的范围过分扩张。通过使用合适的约束手段，我们可以达到这一目的，Brownian bridge 是其中之一。
+
+本文的开源代码可见我的 ObservableHQ 笔记本
+
+[Brownian Bridges](https://observablehq.com/@listenzcc/brownian-bridges)
+
 ## 弯道超车
 
 滑冰也好，赛车也好，
