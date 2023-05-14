@@ -17,6 +17,12 @@ The folder contains following md files:
 
 [Demo of Neural Network](https://observablehq.com/@listenzcc/demo-of-neural-network "Demo of Neural Network")
 
+## Enigma 的原理示意
+
+Enigma（译为恩尼格码）密码机是一种使用配对设备进行同步加密和解码的机械式密码机，本文是在前人代码的基础上，通过添加着色的方法使其原理更加便于理解。本文的开源代码可见我的 ObservableHQ 笔记本
+
+[Enigma machine demo](https://observablehq.com/@listenzcc/enigma-machine-demo)
+
 ## Gabor 函数的参数空间-1
 
 Gabor 函数是常用的数学函数，可以用来对多种物理现象进行表达。
@@ -50,6 +56,14 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 这里 Perlin 噪声往往是很好的选择。
 
 比如我在前端页面做的一个小demo [Perlin Noise Contours with GeoProjection](https://observablehq.com/@listenzcc/perlin-noise-contours-with-geoprojection "Perlin Noise Contours with GeoProjection")
+
+## Observable HQ
+
+JAVASCRIPT gives HTML amazing Abilities to present Things.
+
+The **Subject** tries to explain the benefits of the environment.
+
+The folder contains following md files:
 
 ## THREEJS 的三阶魔方
 
@@ -700,6 +714,12 @@ INTEL新近发布了第`12`代CPU，
 ## 长津湖
 
 这篇很俗，但值得一写。
+
+## 随机游走片段的距离度量
+
+本文尝试对随机游走过程得到的随机时间序列进行度量分析，通过分析这些时间序列之间的欧氏距离建立度量空间，并对该空间进行呈现。本文的开源代码可见我的 ObservableHQ 笔记本
+
+[Distance between the brownian bridges](https://observablehq.com/@listenzcc/distance-between-the-brownian-bridges)
 
 ## 雨滴打在窗户上
 
