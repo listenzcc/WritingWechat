@@ -54,6 +54,18 @@ November 5, 2022 1:29 AMShare
 
 October 13, 2022 6:10 PM | WASHINGTON, DC
 
+## 左右逢源的当今美国
+
+Conservative Americans are building a parallel economy
+
+[United States](https://www.economist.com/united-states/) | The red and the black
+
+有些东西它不是东方或者西方独有的，只是人在其中有时会看不清楚。但有了 ChatGPT 的帮忙，这些晦涩的语言变得更加容易理解。
+
+本文是某杂志的一篇文章，它讲述了美国社会，甚至美国的商业秩序正在被政治的左和右撕裂，而将它们绑在一块的，竟然是消费（主义）。
+
+June 1, 2023 8:58 PM | WASHINGTON, DC
+
 ## Elon Musk buys Twitter at last
 
 马云想吃外卖，所以买了肯德基；马斯克想吐槽，所以买了推特。
