@@ -92,6 +92,10 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 从分析中可以看出，对于 AP7 来说，宝岛的投资价值无论从数量和质量来说，都是高于大陆的，可能很多西方国家也都这么想吧。
 
+## 仿生人眼中的电子羊
+
+我手里有两个模型，一个是 stable-diffusion 的 txt2img，一个是最近开源的 minigpt-4，它能够做到 img2txt，我让他们开始左右互搏。AI 的飞速发展给我们带来了一个契机，让我们有机会“看到” AI 心中的鱼，有机会“计算” AI 心中的鱼是悲还是乐。本文采取的做法是让一个 AI 模型去解读图像，之后让另一个 AI 模型根据他的解读来复现原始图像。这个过程能够解决这样一个问题：**两位仿生人眼中的电子羊是不是一只羊？**
+
 ## 全面开往小康社会
 
 过年嘛，既然日子也就那么回事，
@@ -341,6 +345,16 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 本文开源代码可见我的 GITHUB 仓库
 
 [MLP-notebook/experiment-6 at main · listenzcc/MLP-notebook](https://github.com/listenzcc/MLP-notebook/tree/main/experiment-6)
+
+## 高台跳水还是平稳着陆？
+
+这个世界上什么都有，但就是没有意外。
+
+有人诟病中国在 2000 年后发生了新生儿数量断崖式下跌的情况。虽然从国家的宏观层面上来看确实如此，但从个人的视角来看，其实这个过程相当平稳。
+本文尝试说明，如今所谓“跳水式下跌”并不是某个特殊原因引起的，也不是某个特殊因素集中爆发的，而是生育水平在长达 30 年的时间内保持低位的必然结果。世上本无事，只是看上去比较吓人罢了。
+
+本文数据及分析代码可见我的 Github 页面
+[Github: population-vs-birth](https://github.com/listenzcc/population-vs-birth)
 
 ## 鱼眼看世界
 

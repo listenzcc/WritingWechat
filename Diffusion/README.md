@@ -13,6 +13,10 @@ The folder contains following md files:
 
 [Diffusion of the curve](https://observablehq.com/@listenzcc/diffusion-of-the-curve)
 
+## 扩散模型入门（七）
+
+本文将对前文内容进行总结，最终列出扩散模型的损失函数。
+
 ## 扩散模型入门（三）
 
 我在前文抛出一个概念，那就是随机性先于一切而存在，而我们观测到的信号只是对某个高维的随机变量进行了一次采样。本文尝试从协方差矩阵的角度来说明有意义的信号处于更低秩的状态，说明其背后的逻辑更加简单。从这个观点来看，噪声比信号更加复杂，那么我们用复杂的噪声去表达简单的信号，这个思路应该是可行的。
