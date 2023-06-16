@@ -99,6 +99,14 @@ Will it backfire?
 2DJW59X Silhouette Cranes Against Sky During Sunset
 Oct 5th 2022
 
+## Should you send your children to private school?
+
+[International](https://www.economist.com/international/) | Studying for success
+
+**As shortcuts to elite universities, American schools work better than British ones**
+
+June 8, 2023 9:48 PMShare
+
 ## The hunt for the weakest link in global finance
 
 Credit Suisse won’t be the last firm to fall under the spotlight

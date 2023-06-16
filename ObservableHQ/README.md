@@ -17,6 +17,12 @@ The folder contains following md files:
 
 [Demo of Neural Network](https://observablehq.com/@listenzcc/demo-of-neural-network "Demo of Neural Network")
 
+## Delaunay算法与应用一例
+
+本文尝试使用Delauney算法进行快速次近邻检索。该方法在d3.js库的帮助下，能够在数十毫秒内解决10000个点的次近邻问题求解。本文的开源代码可见我的在线开源笔记本
+
+[Find the closest Two points using the delaunay](https://observablehq.com/@listenzcc/find-the-closest-two-points-using-the-delaunay)
+
 ## Enigma 的原理示意
 
 Enigma（译为恩尼格码）密码机是一种使用配对设备进行同步加密和解码的机械式密码机，本文是在前人代码的基础上，通过添加着色的方法使其原理更加便于理解。本文的开源代码可见我的 ObservableHQ 笔记本

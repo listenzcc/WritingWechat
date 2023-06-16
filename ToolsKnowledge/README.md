@@ -55,6 +55,14 @@ MLP可以用来估计信号的相位。通过训练带有相位估计目标的ML
 
 [Mapbox with hex grids](https://observablehq.com/@listenzcc/mapbox-with-hex-grids)
 
+## ONNX 下的 Transformer.js
+
+你的浏览器远比你想象的强大。比方说，它可以在 ONNX runtime 下直接跑通 transformer.js 进行 NLP。
+
+本文代码可见我的前端笔记本
+
+[Transformer.js in browser](https://observablehq.com/@listenzcc/transformer-js-in-browser)
+
 ## Pubmed 搜索扩展的浏览器插件
 
 我一直觉得搜索结果应该尽可能地方便用户使用，而不是单纯了吸引人点进去的入口。
