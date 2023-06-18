@@ -231,6 +231,14 @@ Will it backfire?
 2DJW59X Silhouette Cranes Against Sky During Sunset
 Oct 5th 2022
 
+## Should you send your children to private school?
+
+[International](https://www.economist.com/international/) | Studying for success
+
+**As shortcuts to elite universities, American schools work better than British ones**
+
+June 8, 2023 9:48 PMShare
+
 ## The hunt for the weakest link in global finance
 
 Credit Suisse won’t be the last firm to fall under the spotlight
@@ -772,6 +780,12 @@ The folder contains following md files:
 本文代码可见我的前端笔记本
 
 [Demo of Neural Network](https://observablehq.com/@listenzcc/demo-of-neural-network "Demo of Neural Network")
+
+## Delaunay算法与应用一例
+
+本文尝试使用Delauney算法进行快速次近邻检索。该方法在d3.js库的帮助下，能够在数十毫秒内解决10000个点的次近邻问题求解。本文的开源代码可见我的在线开源笔记本
+
+[Find the closest Two points using the delaunay](https://observablehq.com/@listenzcc/find-the-closest-two-points-using-the-delaunay)
 
 ## Enigma 的原理示意
 
@@ -2201,6 +2215,14 @@ MLP可以用来估计信号的相位。通过训练带有相位估计目标的ML
 本文的代码可见我的开源前端库
 
 [Mapbox with hex grids](https://observablehq.com/@listenzcc/mapbox-with-hex-grids)
+
+## ONNX 下的 Transformer.js
+
+你的浏览器远比你想象的强大。比方说，它可以在 ONNX runtime 下直接跑通 transformer.js 进行 NLP。
+
+本文代码可见我的前端笔记本
+
+[Transformer.js in browser](https://observablehq.com/@listenzcc/transformer-js-in-browser)
 
 ## Pubmed 搜索扩展的浏览器插件
 
