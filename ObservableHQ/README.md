@@ -17,6 +17,14 @@ The folder contains following md files:
 
 [Demo of Neural Network](https://observablehq.com/@listenzcc/demo-of-neural-network "Demo of Neural Network")
 
+## Delaunay 算法的边界风险和规避
+
+在边界处发生未连接的Delaunay邻居存在一些特定的风险，它是由于算法“误认为”两个点之间的有邻居关系，但它们的连接点又位于边界之外。本文对这种现象进行解释，并尝试进行规避。
+
+本文开源代码可见我的 ObservableHQ 笔记本
+
+[Delaunay neighbours / Chuncheng | Observable (observablehq.com)](https://observablehq.com/@listenzcc/delaunay-neighbours)
+
 ## Delaunay算法与应用一例
 
 本文尝试使用Delauney算法进行快速次近邻检索。该方法在d3.js库的帮助下，能够在数十毫秒内解决10000个点的次近邻问题求解。本文的开源代码可见我的在线开源笔记本
@@ -122,6 +130,16 @@ The folder contains following md files:
 于是我尝试用模拟的方法解释日-地式的双星系统可以不稳定到什么程度。欢迎访问我的前端笔记本
 
 [Play ground: Law of universal gravitation](https://observablehq.com/@listenzcc/play-ground-law-of-universal-gravitation "Play ground: Law of universal gravitation")
+
+## 不圆的轮子：Reuleaux 三角
+
+人总要摆脱经验造成的路径依赖，比如能够稳定转动的东西不一定就是轮子。本文介绍一种不是圆形的轮子 Reuleaux 三角，它是一种“等宽闭曲线”，能够像圆轮子一样平稳转动。
+
+本文尝试以数据驱动的方式解决解析几何问题，让人可以不依赖几何知识就可以验证以上结果。由于我得到的 Reuleaux 三角是纯数值的，不依赖于几何公式推导，因此，我可以用工程学的方法来模拟它在等宽范围内的转动。结果发现，即使这种曲线能够在水平方向上进行平稳转动，但其转速却并不平稳。另外，曲线不同位置的线速度和轨迹也不尽相同。
+
+这说明这种三角轮子的转动稳定性并不理想。路径依赖虽然有保守的风险，但至少可以规避一些创新风险。本文的开源代码可见我的 ObservableHQ 开源代码库
+
+[Reuleaux triangle](https://observablehq.com/@listenzcc/reuleaux-triangle)
 
 ## 乌合之众
 
@@ -330,6 +348,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 > 在平等交易的前提下，贫穷和富裕是如何诞生的？
 
 本文的分析结果偏向于认为贫穷和富裕是在自由交易的市场中自发形成的，动态平衡的经济学现象。
+
+## 基于Delaunay算法的自组织纹理
+
+本文将“人以群分”的原则应用在随机分布的点集中，其中Delaunay算法用于确定每个点的邻居及其阶数。如果某个点类别不是其邻居点集的简单多数时，他就选择搬家。无数个这样的个体会导致整体上呈现某种纹理，实验结果说明多样性越低，邻居的外延性越强，越容易生成较大的连片”集合“。
+
+[Crazy neighbours by delaunay](https://observablehq.com/@listenzcc/crazy-neighbours-by-delaunay)
 
 ## 基于GPU的快速Julia集计算
 

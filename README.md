@@ -781,6 +781,14 @@ The folder contains following md files:
 
 [Demo of Neural Network](https://observablehq.com/@listenzcc/demo-of-neural-network "Demo of Neural Network")
 
+## Delaunay 算法的边界风险和规避
+
+在边界处发生未连接的Delaunay邻居存在一些特定的风险，它是由于算法“误认为”两个点之间的有邻居关系，但它们的连接点又位于边界之外。本文对这种现象进行解释，并尝试进行规避。
+
+本文开源代码可见我的 ObservableHQ 笔记本
+
+[Delaunay neighbours / Chuncheng | Observable (observablehq.com)](https://observablehq.com/@listenzcc/delaunay-neighbours)
+
 ## Delaunay算法与应用一例
 
 本文尝试使用Delauney算法进行快速次近邻检索。该方法在d3.js库的帮助下，能够在数十毫秒内解决10000个点的次近邻问题求解。本文的开源代码可见我的在线开源笔记本
@@ -886,6 +894,16 @@ The folder contains following md files:
 于是我尝试用模拟的方法解释日-地式的双星系统可以不稳定到什么程度。欢迎访问我的前端笔记本
 
 [Play ground: Law of universal gravitation](https://observablehq.com/@listenzcc/play-ground-law-of-universal-gravitation "Play ground: Law of universal gravitation")
+
+## 不圆的轮子：Reuleaux 三角
+
+人总要摆脱经验造成的路径依赖，比如能够稳定转动的东西不一定就是轮子。本文介绍一种不是圆形的轮子 Reuleaux 三角，它是一种“等宽闭曲线”，能够像圆轮子一样平稳转动。
+
+本文尝试以数据驱动的方式解决解析几何问题，让人可以不依赖几何知识就可以验证以上结果。由于我得到的 Reuleaux 三角是纯数值的，不依赖于几何公式推导，因此，我可以用工程学的方法来模拟它在等宽范围内的转动。结果发现，即使这种曲线能够在水平方向上进行平稳转动，但其转速却并不平稳。另外，曲线不同位置的线速度和轨迹也不尽相同。
+
+这说明这种三角轮子的转动稳定性并不理想。路径依赖虽然有保守的风险，但至少可以规避一些创新风险。本文的开源代码可见我的 ObservableHQ 开源代码库
+
+[Reuleaux triangle](https://observablehq.com/@listenzcc/reuleaux-triangle)
 
 ## 乌合之众
 
@@ -1094,6 +1112,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 > 在平等交易的前提下，贫穷和富裕是如何诞生的？
 
 本文的分析结果偏向于认为贫穷和富裕是在自由交易的市场中自发形成的，动态平衡的经济学现象。
+
+## 基于Delaunay算法的自组织纹理
+
+本文将“人以群分”的原则应用在随机分布的点集中，其中Delaunay算法用于确定每个点的邻居及其阶数。如果某个点类别不是其邻居点集的简单多数时，他就选择搬家。无数个这样的个体会导致整体上呈现某种纹理，实验结果说明多样性越低，邻居的外延性越强，越容易生成较大的连片”集合“。
+
+[Crazy neighbours by delaunay](https://observablehq.com/@listenzcc/crazy-neighbours-by-delaunay)
 
 ## 基于GPU的快速Julia集计算
 
@@ -2059,6 +2083,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 所谓中国是世界上最大的美分，这句话似乎没有原则上的错误。
 
+## 日本排放核废水给大洋做了 PET
+
+最近糟心的新闻比较多，不敢骂想骂的，就阴阳怪气儿一下八竿子打不着的。
+
+日本前两天宣布向太平洋排放核废水，我想如果用分析大洋垃圾的方法来分析这些废物是可行的数据驱动方法。具体来说，如果将大洋当作病人，那么日本这次的行为相当于给他注射了放射性示踪剂，剂量极大且半衰期极长，追踪如此大量放射性同位素的轨迹可以帮助人类进一步弄清楚洋流的动力学特性。（运气好的话，这项工作有希望在 10 年后发 Nature，甚至获得诺贝尔核平奖）。
+
 ## 星链
 
 马斯克搞的这个星链就很有意思，它既依靠大量小卫星覆盖全球，又让这些卫星的使用和发射成本足够小，像蜂群一样为地球服务。
@@ -2477,6 +2507,12 @@ As a whole.
 
 本文借助`Scopus`和`VOSViewer`两个工具联合来帮你捋清文献的脉络。
 
+## 异步程序设计中的“同步”机制
+
+在现代的软件设计中，异步编程模型变得越来越重要，特别是在处理网络通信、并发操作和用户界面响应等方面。异步操作可以提高程序的性能、可扩展性和用户体验。
+
+然而，与人交互的程序就需要有一些同步的特点。这就要求程序能够“等待”某些操作完成之后才能进行下一个步骤。在异步场景中，有两种常见的临时同步策略，分别是**通过异步等待实现同步和通过可控启停实现同步。**
+
 ## 快速序列视觉呈现
 
 快速序列视觉呈现是很折磨人的脑-机接口实验范式。
@@ -2635,6 +2671,18 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 当这段时间短到毫秒级的时候，
 问题就来了。
 
+## 让 Python 更好用，OmegaConf
+
+问：写一套好用的程序分几部？
+
+答：分三步！第一步是功能抽象，第二步是为功能配置参数，第三步是让这些参数跑起来。
+
+感谢 OmegaConf 提供的配置项解决方案，它能够让第二步走得更加容易。
+
+本文的详细说明可见我的 Github 文档库
+
+[https://github.com/listenzcc/better-config.git](https://github.com/listenzcc/better-config.git)
+
 ## 记MLP的一次回归失败
 
 多层感知机（MLP）是常用的神经网络结构，在数学上证明它可以用来表达几乎全部连续函数。
@@ -2656,6 +2704,14 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 
 这是一个纯工程的方法，
 尝试解决多轴连动的运动参数与终点轨迹之间的关系。
+
+## 马斯克口中的第一原则-first principle
+
+端午安康，等等……，康，康德的康？
+
+今天放假，我看了几个鸡血视频。承蒙大数据的关照，这些视频以 Elon Musk 的采访为主。他反复强调 first principle 这概念。
+
+我想我能用康德提到的分析和综合判断对它进行解释，即**第一原则既是分析判断的结果，也是综合判断的起点。**也能用休谟的观点进行解释，**它是我们对过去经验的总结和概括，用来指导我们对新的情境和问题的理解和解决。**二者并不冲突，也许这种方法论就叫唯物主义。
 
 ## 魑魅魍魉
 
