@@ -194,6 +194,14 @@ The folder contains following md files:
 
 [An animation demo of Walmart in America / Chuncheng | Observable (observablehq.com)](https://observablehq.com/@listenzcc/an-animation-demo-of-walmart-in-america)
 
+## 使用二维拓扑表示三维魔方
+
+二维拓扑是指在平面上表示物体的形状和关系，而三维魔方是一个由小立方体组成的立体结构。虽然二维拓扑无法直接表示三维魔方的立体性质，但我们可以使用映射的方法通过二维拓扑表示魔方的交换群特性。
+
+本文的可交互代码可见我的 ObservableHQ 在线笔记本
+
+[Magic cube in 2D space](https://observablehq.com/@listenzcc/magic-cube-in-2d-space)
+
 ## 便携的深度网络
 
 最近 ChatGPT 从实验室走到了千家万户，这说明虽然深度网络是极其依赖于计算资源的服务方式，但只要通过合适的技术途径，是可以实现轻计算终端接入的。在神经网络计算功能日益强大的今天，这是复杂计算落地的必由之路。因此，本文提供一个 DEMO，将预训练好的轻量图像计算网络直接放在前端进行图像识别计算。
@@ -416,6 +424,22 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 工作流可见我的[GITHUB工程](https://github.com/listenzcc/freesurferAnalysisScripts "GITHUB工程")，
 可视化代码可见我的[ObservableHQ工程](https://observablehq.com/@listenzcc/free-surfer-cortex-v2 "ObservableHQ工程")。
+
+## 局部最优如何随机地填满整个空间
+
+本文继续用 Delaunay 算法构造一个二维连通图，一些点按照局部最优的规则进行随机游走，我记录了整个连通图中各个节点数量密度的动态变化，并且记录了这些点从源到漏的可能路径。我原本的假设是这些有一定自主性的点会自发地形成较短或较稳定的通路，但事实并不是这样。相反，这些局部最优的点会随机地填满整个空间，并且整个分布模式随时间变化。
+
+本文的开源代码可见的 ObservableHQ 笔记本
+
+[Random walkers](https://observablehq.com/@listenzcc/random-walkers)
+
+## 布朗桥噪声的三种可视化方法
+
+布朗桥噪声具有回归性质，该特性使得布朗桥噪声在金融建模和信号处理等领域中有广泛的应用。本文通过可视化的方法说明，随着时间的变化，一系列布朗桥的时序变化是统一的，都呈现了先扩散、再收敛的趋势。
+
+另外，我使用 Plotly 工具将全部点绘制在三维图上，用来表示其在三维空间中可以更加全面地展示整体分布。本文的开源代码可见的 ObservableHQ 笔记本
+
+[Simulate diffusion using Brownian Bridge](https://observablehq.com/@listenzcc/simulate-diffusion-using-brownian-bridge)
 
 ## 布朗桥（Brownian Bridges）
 
@@ -664,6 +688,16 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 花鸟鱼虫皆入笔下，魑魅魍魉信手拈来。绘画素描应该是个挺有意思的事情，但可惜我并不会。
 
 但不妨碍我看到一张图，就看看它用素描的方法画出来，是个啥样子。纯属好奇。
+
+## 统计检验工具-F分布的可视化和速查工具
+
+本文构造了一个方便的前端工具，能够以可交互的方式展示 F 检验中 F 值与 p 值之间的关系。这种工作本身没有意思，因为它除了根据已有的知识构造一个工具之外别无科学价值。
+
+但本文在代码方面能够解决两个问题，首先它提供了 javascript 标准库引用的方法，其次它以更直观的方式展示了 F 分布在实数域的全貌。
+
+本文开源代码与可交互页面如下：
+
+[Stats of F Distribution](https://observablehq.com/@listenzcc/stats-of-f-distribution)
 
 ## 三维场景的受力模拟
 
