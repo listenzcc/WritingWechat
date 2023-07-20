@@ -492,6 +492,15 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 
 [https://github.com/listenzcc/better-config.git](https://github.com/listenzcc/better-config.git)
 
+## 让 python 更快一点
+
+本文要解决的问题是如何在 Python 环境下，在 100 毫秒之内稳定处理随机的大量 4k （$3840 \times2160$）图像线性运算。由于图像信息具有特殊性，我们通过并行计算和GPU加速的方式进行优化。本文对这两种加速方法都进行尝试，实验结果表明，Python加速的有效手段并非并行计算，而是装到GPU中进行计算，加速效果可以达到 $2$ 倍。
+
+接下来，我决定再进一步，将数据全部放入 GPU 中进行计算，省去临时装载和读取的开销，实验结果如下图中 cuda 所示。这样做的加速效果可以达到 $200 \sim 1200$ 倍不等，但计算负荷越高则加速效果越差。
+
+本文开源代码可见我的 Github 仓库
+[python-speed-validation](https://github.com/listenzcc/python-speed-validation)
+
 ## 记MLP的一次回归失败
 
 多层感知机（MLP）是常用的神经网络结构，在数学上证明它可以用来表达几乎全部连续函数。

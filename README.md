@@ -771,6 +771,18 @@ The **Subject** tries to explain the benefits of the environment.
 The folder contains following md files:
 
 ---
+## 2023 年北京中考成绩的按区分布
+
+东城、海淀和朝阳三个区的加权平均成绩高于 600 分。
+
+虽然东城区的加权平均值最高，但主要得益于参考人数较少。初中阶段教育质量最高的属海淀区，从分布上看属于遥遥领先。另外，朝阳区和西城区处于二者之间。
+
+至于其他的区，洗洗睡吧。
+
+本文很无聊，代码可见我的 ObservableHQ 笔记本
+
+[Beijing high school entrance exam](https://observablehq.com/@listenzcc/beijing-high-school-entrance-exam)
+
 ## Bunny Render
 
 本文尝试通过 WebGL 渲染 Bunny 兔子模型，它的颜色受到一个简单的神经网络的控制。
@@ -794,6 +806,14 @@ The folder contains following md files:
 本文尝试使用Delauney算法进行快速次近邻检索。该方法在d3.js库的帮助下，能够在数十毫秒内解决10000个点的次近邻问题求解。本文的开源代码可见我的在线开源笔记本
 
 [Find the closest Two points using the delaunay](https://observablehq.com/@listenzcc/find-the-closest-two-points-using-the-delaunay)
+
+## EEG 和 LFP 相互关系的动态展示
+
+本文对 LFP（局部场电位）和EEG（脑电图）的理解进行简单的可视化，要表达的信息是 LFP 是大脑内部 $Na^+, Ca^{2+}$等离子有序迁移引起的局部电位变化，而 EEG 是在头皮表面，以无创的方法采集到的电场强度变化。
+
+本文通过一段代码直观地展示了这一过程，你可以在这里找到它
+
+[LFP & EEG](https://observablehq.com/@listenzcc/lfp-eeg)
 
 ## Enigma 的原理示意
 
@@ -1047,6 +1067,16 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 本文复现了 Figma 上的一个十分用户友善的应用，它在前端输入时，允许用户采用鼠标拖动的方式对数值型输入进行微调。
 
+## 北京中考成绩的统计分析，我仿佛看到了城乡差异
+
+本文对 2023 年中考成绩分布，我仿佛看到了城乡差异。从成绩上看，北京的高中似乎只对东城、海淀、朝阳和西城区的初中生开放。其中，前 4 区的学生成绩明显优于其他区。另外，东城区没有海淀区名气这么大，但东城区的 CDF 曲线与另外三区之间有一定的间隔，说明这个区的学生成绩更高。
+
+另外，在 625 分以上的学生中，他们“均匀”来自 18 个区的假设不能成立。这说明成绩好的区在高成绩方面有近乎垄断的优势。
+
+本文涉及的理论内容见附件，本文的代码可见我 ObservableHQ 笔记本
+
+[Beijing high school entrance exam](https://observablehq.com/@listenzcc/beijing-high-school-entrance-exam)
+
 ## 历代君王
 
 刷B站看到一条弹幕，
@@ -1135,6 +1165,20 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 或GITHUB页面
 [JuliaSet-GPUIO](https://listenzcc.github.io/JuliaSet-GPUIO/ "JuliaSet-GPUIO")
 
+## 基于人口普查数据的性别比例分析
+
+出于偶然，本文尝试对第七次人口普查的公开数据进行分析，尝试将表 1-5 和 1-6 中的性别差异进行可视化。**本工程的特点是形成的数据更加像是数据库，因此更加便于进行可视化分析。**得到初步结论如下
+
+- 天津户籍人口，他参加高中入学考虑并考上高中的概率约为 $66 \% \sim 77 \%$；
+- 按照地区和年龄进行区分可知，我国男性青年多于女性，大约多 $10 \%$；老年女性多于男性，且二者差异随年龄不断扩大；
+- 如果中国有“重男轻女”的观点的话，那么它造成的恶果是小学升初中阶段失学女童数量多。而是之后的教育阶段中，除了攻读博士研究生女性较少之外，女性均强于男性。
+
+开源代码可见
+
+[https://github.com/listenzcc/population-by-gender-1](https://github.com/listenzcc/population-by-gender-1)
+
+[Population by gender - 1](https://observablehq.com/@listenzcc/population-by-gender-1)
+
 ## 增长方程的两个不变性
 
 本文将在前文的基础上，对增长方程的性质进行简要分析，即从矩阵的行和列观点来看，分析它的两个不变性。分析和演示代码可见我的前端代码库
@@ -1169,6 +1213,18 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 看上去还真是这么回事。
 本文的分析代码可见
 [我的代码本](https://observablehq.com/d/4037ab90a91424a7 "我的代码本")
+
+## 天津中考成绩的数值分析
+
+本文尝试对2023年度天津中考成绩进行分析，讨论学生和郊区学生在不同分数范围下的表现以及估计他们进入高中和大学的情况。
+
+市区学生在高分范围（>750）表现更好，而郊区学生在中等分数范围（~700）表现更好。高中录取方面，市区学生的录取要求分数约为580，而郊区学生为560。
+
+进入大学的情况根据高中入学考试成绩进行估算，其中郊区学生在985211工程大学录取中略处于劣势，而在总计录取中表现出优势。综合而言，学生的地区背景可能会对录取结果产生一定影响，
+
+本文的数据图可见我的 ObservableHQ 笔记本
+
+[High school entrance exam in TianJin](https://observablehq.com/@listenzcc/high-school-entrance-exam-in-tianjin)
 
 ## 字体比较工具
 
@@ -1874,6 +1930,16 @@ Coco数据集是通用较强的数据集，
 也许可以帮助我们了解一般的图像的统计特性。
 
 
+## EEG，LFP 和路径积分
+
+上篇文章中，我成功模拟了有限源数量下的头皮 EEG 处的电场强度。但如果您做过 EEG 实验的话，可能会觉得我是在胡扯，因为采集到的 EEG 信号是标量而非矢量。因此您心中会有疑惑：那些黑色矢量是干什么用的？
+
+本文将回答这个问题，在本文的代码中，**黑色矢量是局部电场梯度，而我使用路径积分的方式将电场梯度转化为 EEG 设备采集到的电压值。**
+
+本文代码开源，可见我的 ObservableHQ 笔记本
+
+[LFP & EEG and Path Integral](https://observablehq.com/@listenzcc/lfp-eeg-and-path-integral)
+
 ## Linux User Cookbook
 
 <aside>
@@ -2087,9 +2153,27 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 长太息以掩涕兮，哀民生之多艰。
 
+## 如果数据对得上
+
+这是一件值得高兴的事情，因为这个数据它吻合得很好。
+
+说是英国 2022 的新生儿名字排名第一名是 Muhammad，即伊斯兰教的教名“穆罕默德”。经过数据分析可知，这主要是因为穆斯林的命名习惯，而不是因为他们人多或者生育意愿更高。
+
+本工程的开源代码可见我的github仓库
+
+[https://github.com/listenzcc/baby-names-in-england](https://github.com/listenzcc/baby-names-in-england)
+
 ## 如果时间是条河
 
 尽管空间旅行的速度越来越快，但人类目前的技术还无法跨越时间。如果时间是条河，那么人们只能随波逐流，因此，你的起点就决定了你的终点。
+
+## 宝马司机醉驾撞人拖行案，有行为，但没有后果
+
+这件事情让我感到愤怒，我知道应该慎言，我也不会讲脏话，但人至少要有良心。
+
+肖做了两个行为，却只有第一个涉及交通肇事的行为受到了法律的制裁，第二个涉及故意伤害的行为没有任何代价。退一万步讲，即使认定“特别残忍手段”较为困难，那么至少应该有故意伤害致人重伤的行为吧？也就是说，肖至少欠了人民 3 年 9 个月。
+
+老爷们，难道将人活活地拖行 2100 米致重伤不算是“特别残忍手段”的“故意伤害”吗？
 
 ## 按需分配
 
@@ -2716,6 +2800,15 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 本文的详细说明可见我的 Github 文档库
 
 [https://github.com/listenzcc/better-config.git](https://github.com/listenzcc/better-config.git)
+
+## 让 python 更快一点
+
+本文要解决的问题是如何在 Python 环境下，在 100 毫秒之内稳定处理随机的大量 4k （$3840 \times2160$）图像线性运算。由于图像信息具有特殊性，我们通过并行计算和GPU加速的方式进行优化。本文对这两种加速方法都进行尝试，实验结果表明，Python加速的有效手段并非并行计算，而是装到GPU中进行计算，加速效果可以达到 $2$ 倍。
+
+接下来，我决定再进一步，将数据全部放入 GPU 中进行计算，省去临时装载和读取的开销，实验结果如下图中 cuda 所示。这样做的加速效果可以达到 $200 \sim 1200$ 倍不等，但计算负荷越高则加速效果越差。
+
+本文开源代码可见我的 Github 仓库
+[python-speed-validation](https://github.com/listenzcc/python-speed-validation)
 
 ## 记MLP的一次回归失败
 
