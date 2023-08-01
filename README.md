@@ -847,6 +847,16 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 [Parameter Space of Gabor (Gradient)](https://observablehq.com/d/e5f15050d1568991 "Parameter Space of Gabor (Gradient)")
 
+## NBA 赛季投篮数据可视化
+
+我使用开源工程下载典型的投篮数据库，记录的信息非常丰富，从表中可以查到这样的信息
+
+> 在某一节的某一分钟，某名球员在某场比赛中，在球场上的某个位置进行投篮。投篮的结果是投中 | 未中。
+
+我据此绘制了投篮出手的球场位置分布图和时间分布图，开源代码可见我的 ObservableHQ 笔记本
+
+[NBA Player Shot Statistic (2022-23 Regular Season)](https://observablehq.com/@listenzcc/nba-player-shot-statistic-2022-23-regular-season)
+
 ## Perlin 噪声与随机地形
 
 在许多情况下，需要生成随机的地形或者空间连续的随机变量。
@@ -1048,6 +1058,14 @@ Nerf 是用深度神经网络表达某个物体，虽然我没有这个本事构
 本文在 Observable 提供了一个好用的函数可视化工具。
 
 [Mathmatic notebook III](https://observablehq.com/@listenzcc/mathmatic-notebook-iii "Mathmatic notebook III")
+
+## 刹车对车流造成的持续性影响
+
+由于汽车的加速能力远不及刹停能力，因此在密集车流中，前车的刹车会对后车造成持续性影响。本文动态仿真了这一过程。本文构造了一个循环的车流系统，不许超车。在系统中，多辆小车沿圆形轨道自主行进，所有小车均**在恰好不与前车相撞的最佳车距的最佳时刻选择制动**。
+
+开源形码可见我的 ObservableHQ 笔记本
+
+[How can a break slow down the running cars](https://observablehq.com/@listenzcc/how-can-a-break-slow-down-the-running-cars)
 
 ## 前端是个好东西，但需要数据支撑
 
@@ -1429,6 +1447,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 不是物理模拟，
 而是看上去相似的一个动画。
 
+## 涂鸦玩具
+
+窗外在下雨，这种天气特别适合在家写程序。正好学一下 pixi.js，并与 perfect-freehand.js 结合，写了一个特别跟手的涂鸦绘板 demo。源程序可见我的 ObservableHQ 页面
+
+[Hand writing with Pixi.js & perfect-freehand](https://observablehq.com/@listenzcc/hand-writing-with-pixi-js-perfect-freehand)
+
 ## 滤波及失真
 
 针对信号进行滤波是信号处理的基本操作之一，它可以用来提取信号中我们感兴趣的特定成分。
@@ -1472,6 +1496,16 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 而群体行为的研究却有证据认为，群体行为往往不是个体行为的简单累积，而是具有混沌属性，往往与参与者的主观意愿相悖。
 
 落实在本问题上，即使每个人都很大程度的包容自己的邻居，在群体层面也会呈现出极其严重的分类和隔离。
+
+## 特斯拉阀水管的粗糙模拟
+
+特斯拉阀（又称 fluid diode）是一种单向阀门，也被称为流体二极管。
+
+出于好奇，我用之前的粒子模拟程序做了一个简单的 demo，实验结果表明顺向流动的出口流速大于逆向流动，在一定程度上模拟了 fluid diode 的特性。
+
+开源代码可见我的 ObservableHQ 笔记本
+
+[LiquidFun Tesla Fluid Diode explain](https://observablehq.com/@listenzcc/liquidfun-tesla-fluid-diode-explain)
 
 ## 生产与增长
 
@@ -2314,6 +2348,16 @@ The Topic is about how to use software tools better.
 The folder contains following md files:
 
 ---
+## AI 识图的易错场景
+
+AI 是人工智能的简称，由于 ChatGPT 等强力产品的问世，已经有很长时间没人诟病 AI 是“人工智障”了。但事实上，AI 还是极易受到攻击。本文尝试进行一个简单的实验，说明 AI 识图还不是特别可靠。
+
+首先，AI 模型对清晰的、未叠加的图像具有良好的识别能力。其次，叠加图的实验表明 AI 尚没有叠加的概念，叠加图的纹理会产生对抗攻击，导致 AI 得出错误结果。
+
+本文的代码可见我的 GitHub 仓库
+
+[https://github.com/listenzcc/hugging-face-image-player](https://github.com/listenzcc/hugging-face-image-player)
+
 ## Chrome 插件
 
 浏览器插件可以增强 Web 浏览体验。
@@ -2419,6 +2463,14 @@ Tensor flow 删除了 contrib 模块，这是万恶之源。
 我发现了 windows terminal 的一个盲点，那就是我不能从中复制出制表符 \t，这限制了它的内容在表格应用中的转换，所以我开发了一个在线的转换工具，它的功能是将复制内容中的空格重新转换为制表符 \t，由于它的存在，其他类表格 APP 才能正常识别这些表格化内容。
 
 [Suppose to be table](https://listenzcc.github.io/Suppose-to-be-table/)
+
+## LLM 中 Token 的通俗解释
+
+本文使用 python 的 transformers 包提供的预训练模型进行 token 解析，并尝试通过解析结果来回答 token 是什么的问题。通过几个例子看到，在不同的语境下，相同的 token 经过语言模型计算之后，可以得到不同的特征向量。这说明 LLM 在 token 的特征向量这一层级已经开始对语义信息进行处理，处理的基础是 token 对应的特征向量。
+
+本文开源代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/learn-tokenizer](https://github.com/listenzcc/learn-tokenizer)
 
 ## Vedo 的体积点云计算
 

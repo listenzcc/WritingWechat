@@ -83,6 +83,16 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 [Parameter Space of Gabor (Gradient)](https://observablehq.com/d/e5f15050d1568991 "Parameter Space of Gabor (Gradient)")
 
+## NBA 赛季投篮数据可视化
+
+我使用开源工程下载典型的投篮数据库，记录的信息非常丰富，从表中可以查到这样的信息
+
+> 在某一节的某一分钟，某名球员在某场比赛中，在球场上的某个位置进行投篮。投篮的结果是投中 | 未中。
+
+我据此绘制了投篮出手的球场位置分布图和时间分布图，开源代码可见我的 ObservableHQ 笔记本
+
+[NBA Player Shot Statistic (2022-23 Regular Season)](https://observablehq.com/@listenzcc/nba-player-shot-statistic-2022-23-regular-season)
+
 ## Perlin 噪声与随机地形
 
 在许多情况下，需要生成随机的地形或者空间连续的随机变量。
@@ -284,6 +294,14 @@ Nerf 是用深度神经网络表达某个物体，虽然我没有这个本事构
 本文在 Observable 提供了一个好用的函数可视化工具。
 
 [Mathmatic notebook III](https://observablehq.com/@listenzcc/mathmatic-notebook-iii "Mathmatic notebook III")
+
+## 刹车对车流造成的持续性影响
+
+由于汽车的加速能力远不及刹停能力，因此在密集车流中，前车的刹车会对后车造成持续性影响。本文动态仿真了这一过程。本文构造了一个循环的车流系统，不许超车。在系统中，多辆小车沿圆形轨道自主行进，所有小车均**在恰好不与前车相撞的最佳车距的最佳时刻选择制动**。
+
+开源形码可见我的 ObservableHQ 笔记本
+
+[How can a break slow down the running cars](https://observablehq.com/@listenzcc/how-can-a-break-slow-down-the-running-cars)
 
 ## 前端是个好东西，但需要数据支撑
 
@@ -665,6 +683,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 不是物理模拟，
 而是看上去相似的一个动画。
 
+## 涂鸦玩具
+
+窗外在下雨，这种天气特别适合在家写程序。正好学一下 pixi.js，并与 perfect-freehand.js 结合，写了一个特别跟手的涂鸦绘板 demo。源程序可见我的 ObservableHQ 页面
+
+[Hand writing with Pixi.js & perfect-freehand](https://observablehq.com/@listenzcc/hand-writing-with-pixi-js-perfect-freehand)
+
 ## 滤波及失真
 
 针对信号进行滤波是信号处理的基本操作之一，它可以用来提取信号中我们感兴趣的特定成分。
@@ -708,6 +732,16 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 而群体行为的研究却有证据认为，群体行为往往不是个体行为的简单累积，而是具有混沌属性，往往与参与者的主观意愿相悖。
 
 落实在本问题上，即使每个人都很大程度的包容自己的邻居，在群体层面也会呈现出极其严重的分类和隔离。
+
+## 特斯拉阀水管的粗糙模拟
+
+特斯拉阀（又称 fluid diode）是一种单向阀门，也被称为流体二极管。
+
+出于好奇，我用之前的粒子模拟程序做了一个简单的 demo，实验结果表明顺向流动的出口流速大于逆向流动，在一定程度上模拟了 fluid diode 的特性。
+
+开源代码可见我的 ObservableHQ 笔记本
+
+[LiquidFun Tesla Fluid Diode explain](https://observablehq.com/@listenzcc/liquidfun-tesla-fluid-diode-explain)
 
 ## 生产与增长
 

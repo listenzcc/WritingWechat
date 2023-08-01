@@ -5,6 +5,16 @@ The Topic is about how to use software tools better.
 The folder contains following md files:
 
 ---
+## AI 识图的易错场景
+
+AI 是人工智能的简称，由于 ChatGPT 等强力产品的问世，已经有很长时间没人诟病 AI 是“人工智障”了。但事实上，AI 还是极易受到攻击。本文尝试进行一个简单的实验，说明 AI 识图还不是特别可靠。
+
+首先，AI 模型对清晰的、未叠加的图像具有良好的识别能力。其次，叠加图的实验表明 AI 尚没有叠加的概念，叠加图的纹理会产生对抗攻击，导致 AI 得出错误结果。
+
+本文的代码可见我的 GitHub 仓库
+
+[https://github.com/listenzcc/hugging-face-image-player](https://github.com/listenzcc/hugging-face-image-player)
+
 ## Chrome 插件
 
 浏览器插件可以增强 Web 浏览体验。
@@ -110,6 +120,14 @@ Tensor flow 删除了 contrib 模块，这是万恶之源。
 我发现了 windows terminal 的一个盲点，那就是我不能从中复制出制表符 \t，这限制了它的内容在表格应用中的转换，所以我开发了一个在线的转换工具，它的功能是将复制内容中的空格重新转换为制表符 \t，由于它的存在，其他类表格 APP 才能正常识别这些表格化内容。
 
 [Suppose to be table](https://listenzcc.github.io/Suppose-to-be-table/)
+
+## LLM 中 Token 的通俗解释
+
+本文使用 python 的 transformers 包提供的预训练模型进行 token 解析，并尝试通过解析结果来回答 token 是什么的问题。通过几个例子看到，在不同的语境下，相同的 token 经过语言模型计算之后，可以得到不同的特征向量。这说明 LLM 在 token 的特征向量这一层级已经开始对语义信息进行处理，处理的基础是 token 对应的特征向量。
+
+本文开源代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/learn-tokenizer](https://github.com/listenzcc/learn-tokenizer)
 
 ## Vedo 的体积点云计算
 
