@@ -2251,6 +2251,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 [tableau](https://public.tableau.com/app/profile/chuncheng1883/viz/Jobs-in-2018/sheet0?publish=yes)
 
+## 汪淼的纳米丝：LK99，新型潜在室温超导材料的快问快答
+
+如果 LK99 具有常温超导能力的话，凡是用到电的领域，生产力将继续翻倍。至于翻几倍，则取决于人类的想象力。也说明刘慈欣的《三体》中对未来世界的想象是合理的，**原始突破性创新很可能诞生于应用物理。**
+
+如果不能的话，就当是科幻吧。
+
 ## 泡沫
 
 习惯了经济学价值叙事的我发现，价值叙事解释不了时下很多的经济学现象。
