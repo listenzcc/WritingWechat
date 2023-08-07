@@ -93,6 +93,12 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 
 [NBA Player Shot Statistic (2022-23 Regular Season)](https://observablehq.com/@listenzcc/nba-player-shot-statistic-2022-23-regular-season)
 
+## NBA 赛季投篮数据可视化（二）
+
+本文对 NBA 2022-23 赛季常规赛部分球员的投篮数据进行细化统计，开源代码可见我的 ObservableHQ 笔记本。
+
+[NBA Player Shot Statistic (2022-23 Regular Season)](https://observablehq.com/@listenzcc/nba-player-shot-statistic-2022-23-regular-season)
+
 ## Perlin 噪声与随机地形
 
 在许多情况下，需要生成随机的地形或者空间连续的随机变量。
@@ -330,6 +336,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 本文涉及的理论内容见附件，本文的代码可见我 ObservableHQ 笔记本
 
 [Beijing high school entrance exam](https://observablehq.com/@listenzcc/beijing-high-school-entrance-exam)
+
+## 北京西北水系与万里长城
+
+前两天跟老同学聊天儿，聊起北京洪灾。我说那边的地势比较容易受山洪影响，还给他画了张图。他看地图不错，于是想在上面看看长城。但我惊讶地发现，现在的地图工具没有提供这个功能，于是我就画了一个，在我的 ObservableHQ 笔记本上。
+
+[Great wall display](https://observablehq.com/@listenzcc/great-wall-display)
 
 ## 历代君王
 
