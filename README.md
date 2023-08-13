@@ -1157,6 +1157,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 但太阳最内部发出的光则需要10万年才能到达太阳表面，
 这是由于那里的光子需要不停的与其他光子发生碰撞。
 
+## 在线实验的信号边缘频率失真
+
+所谓在线实验就是将连续信号不断切断，并且在断口处进行实时分析的苦逼过程。然而信号的有些频率成分会在断口处出现较大的失真，这是离线算法不能直接移植到在线实验场景的重要原因之一。
+
+本文直观地显示了这一点，开源代码可见我的ObservableHQ 笔记本
+
+[EEG filters](https://observablehq.com/@listenzcc/eeg-filters)
+
 ## 地图工具 V0.1
 
 地图是一个让人能够更加理解地缘的好东西。
@@ -1255,6 +1263,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 本文的数据图可见我的 ObservableHQ 笔记本
 
 [High school entrance exam in TianJin](https://observablehq.com/@listenzcc/high-school-entrance-exam-in-tianjin)
+
+## 好界面是拖出来的
+
+本文提供一个大道至简的界面编辑框架，解决的痛点是普通人如何把“我要把这个框框画在那个位置”这个朴素的审美需求转化成程序员能看懂并用程序实现的设计需求。本工程的代码可见我的 ObservableHQ 笔记本
+
+[Layout player](https://observablehq.com/@listenzcc/layout-player)
 
 ## 字体比较工具
 
@@ -2276,6 +2290,14 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 本文借用《再售期权理论（Resale Option Theory）》中的一个例子，
 试图说明经济泡沫也许可以解释成异质信念条件下的资产交易属性。
+
+## 甜品卡的 AI 甜品速度
+
+我使用适当的模型对高清图像进行计算，以考察图像的处理速度。实验结果显示，普通电脑每秒能够处理 1 到 2 张图像。这个速度数据在家用机处理类似任务的情况下很重要，表明处理速度大约为每秒 1 张图像。
+
+这也暗示两个情况：
+- 系统无法处理流畅的视频信号，因为每秒只有 1 帧图像；
+- 对于时间分辨率小于 1 秒的信号，普通电脑已足够。
 
 ## 硅谷银行暴了一颗“低风险”的雷
 
