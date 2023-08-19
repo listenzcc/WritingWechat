@@ -209,6 +209,18 @@ The folder contains following md files:
 本文是在之前“等高线图”的基础上，
 开发了一个类似“云雾效果”或“封冻效果”的渲染生成方法。
 
+## 人口曲线再挖掘⛏️
+
+有的数据不公布了，这不是什么好事儿。虽然上面总有自己的考量，但这提醒我要学学如何从已知的数据进行猜测性分析。本文开始尝试从人口普查的年龄分布数据开始进行分析，初步代码可见我的 ObservableHQ 笔记本
+
+[How many females will have no child](https://observablehq.com/@listenzcc/how-many-females-will-have-no-child)
+
+## 人口曲线再挖掘⛏️【2】
+
+书接上回，继续从人口分布数据中估计未来丁克的女性数量。结论是，未来十数年内，我国不选择生育的女性数量约为 2500 万人。这是相当保守的估计，因为我目前的假设是所有新生儿都是一人一胎，杜绝多胞胎和一人多胎的情况。因此，未来 5 千万到 1 亿不生育的年轻人将是我国必将面临的新常态。开源代码还是在这里
+
+[How many females will have no child](https://observablehq.com/@listenzcc/how-many-females-will-have-no-child)
+
 ## 人口红利
 
 姜文电影有一句名言
