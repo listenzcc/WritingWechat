@@ -531,6 +531,12 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 本文开源代码可见我的 Github 仓库
 [python-speed-validation](https://github.com/listenzcc/python-speed-validation)
 
+## 记 python 与 LINUX 的 Xorg 配置交互
+
+本文的目的是使用 python 与 linux 的 lspci 命令进行交互，将交互结果交给 Xorg，用来搭建可用的 display。本文的开源代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/python-with-linux-xorg](https://github.com/listenzcc/python-with-linux-xorg)
+
 ## 记MLP的一次回归失败
 
 多层感知机（MLP）是常用的神经网络结构，在数学上证明它可以用来表达几乎全部连续函数。

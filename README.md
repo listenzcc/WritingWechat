@@ -1036,6 +1036,14 @@ The folder contains following md files:
 
 其实什么也没试出来。
 
+## 俯冲轰炸过程图解
+
+俯冲轰炸是一种军事战术，通常用于航空战中，特别是在飞机和目标之间的攻击阶段。本文仅仅是出于好奇，对这个过程进行模拟，模拟了炸弹下落和飞机逃逸的轨迹。由于受到重力影响，无动力的炸弹落点会在飞行员视线之后，距离约为 100 英尺。当飞机的俯冲航线角度与理想角度有偏差时，即使偏差角度较大（约25度），误差也能够控制在 200 英尺以内。
+
+开源代码可见我的 ObservableHQ 笔记本。
+
+[Dive bombing](https://observablehq.com/@listenzcc/dive-bombing)
+
 ## 像上网一样使用FSL
 
 `FSL`是个好软件，
@@ -2953,6 +2961,12 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 
 本文开源代码可见我的 Github 仓库
 [python-speed-validation](https://github.com/listenzcc/python-speed-validation)
+
+## 记 python 与 LINUX 的 Xorg 配置交互
+
+本文的目的是使用 python 与 linux 的 lspci 命令进行交互，将交互结果交给 Xorg，用来搭建可用的 display。本文的开源代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/python-with-linux-xorg](https://github.com/listenzcc/python-with-linux-xorg)
 
 ## 记MLP的一次回归失败
 
