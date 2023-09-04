@@ -1036,6 +1036,14 @@ The folder contains following md files:
 
 其实什么也没试出来。
 
+## 俯冲轰炸过程图解
+
+俯冲轰炸是一种军事战术，通常用于航空战中，特别是在飞机和目标之间的攻击阶段。本文仅仅是出于好奇，对这个过程进行模拟，模拟了炸弹下落和飞机逃逸的轨迹。由于受到重力影响，无动力的炸弹落点会在飞行员视线之后，距离约为 100 英尺。当飞机的俯冲航线角度与理想角度有偏差时，即使偏差角度较大（约25度），误差也能够控制在 200 英尺以内。
+
+开源代码可见我的 ObservableHQ 笔记本。
+
+[Dive bombing](https://observablehq.com/@listenzcc/dive-bombing)
+
 ## 像上网一样使用FSL
 
 `FSL`是个好软件，
@@ -1434,6 +1442,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 我用`ObservableHQ`平台搭建了一个好玩的`DEMO`。
 它形象地展示了为啥一个月有大约`30`天，
 以及为什么月相会呈现一种奇妙的周期性。
+
+## 时空坐标中 Grid 的变换
+
+本文对前文的分析进行补全，在时空坐标中，进一步绘制网格（Grid）在另一个坐标系中的变换图样。总体上看，静止坐标系中的矩形 grid 经过变换后形成类似菱形 grid 的新时空结构，这有点儿像一组平行四边形的架子，新坐标系运动的速度越快，架子扭曲就越强烈，时间和空间轴也就贴得越紧密。
+
+开源代码可见 ObservableHQ 笔记本
+
+[Easy understanding of why Light speed is a limit (grid version)](https://observablehq.com/@listenzcc/easy-understanding-of-why-light-speed-is-a-limit-grid-versio)
 
 ## 时间的漩涡
 
@@ -2597,6 +2613,14 @@ As a whole.
 
 ## notion和飞书
 
+## 一切皆文件：强化学习的 Xorg 虚拟环境
+
+对于任意一个文件，在权限范围内的任何人都可以读取和分享它，这是代码开源的基础。
+
+LINUX 系统的过人之处在于它将全部系统行为都和可分享的文件绑定，操作文件即等同于操作系统功能。
+
+为强化学习搭建 Xorg 虚拟环境的过程，深化了我对这一哲学设计的理解。
+
 ## 一种实用的chatgpt主从框架
 
 该系统框架通过主从架构解决了小型团队在使用ChatGPT类工具时的难题。服务端主机负责用户鉴权、提供界面和消息分发，而从属机通过长连接处理消息，格式化并向互联网服务商发送请求，保障统一身份和数据安全。该异步通信机制支持负载均衡，同时隔离了主机和梯子，提高了系统可维护性，有效解决了团队内部信息共享和安全问题。
@@ -2937,6 +2961,12 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 
 本文开源代码可见我的 Github 仓库
 [python-speed-validation](https://github.com/listenzcc/python-speed-validation)
+
+## 记 python 与 LINUX 的 Xorg 配置交互
+
+本文的目的是使用 python 与 linux 的 lspci 命令进行交互，将交互结果交给 Xorg，用来搭建可用的 display。本文的开源代码可见我的 Github 仓库
+
+[https://github.com/listenzcc/python-with-linux-xorg](https://github.com/listenzcc/python-with-linux-xorg)
 
 ## 记MLP的一次回归失败
 
