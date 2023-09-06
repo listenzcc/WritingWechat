@@ -121,6 +121,12 @@ The folder contains following md files:
 
 [Rolling magic cube with THREE.js](https://observablehq.com/@listenzcc/rolling-magic-cube-with-three-js)
 
+## WebGL渲染 与 D3.plot 绘图的结合
+
+WebGL 是一种基于 GPU 并行计算的高速渲染方法。而 D3.plot 绘图是基于 d3.js 的绘图库，它的优势在于规范化的图表制图。本文提供的工具是对另一款开源工具的修改，现在它将两类制图工具的数据通道打通，从而实现两层的渲染。
+
+[Observable Plot + regl (Animation I)](https://observablehq.com/@listenzcc/observable-plot-regl-animation-i)
+
 ## WebGL的实时渲染
 
 本文提供一个前端样例，用于实时捕捉流数据并进行计算和渲染。

@@ -23,6 +23,12 @@ AI 是人工智能的简称，由于 ChatGPT 等强力产品的问世，已经�
 
 本文将以一个图像工程为线索，记录Django后端与JS前端的合作过程。虽然这些工作必将被 AI 取代，但现在还得有人干不是？这可能是一个较长期的记录，所以下次还会看到我，但是肯定会有些不一样。
 
+## Docx 和 pptx 文档的再压缩
+
+本文使用 P 颜色模式对图像进行压缩，并提供一个 gradio 工具实现 docx 和 pptx 文档的高度压缩。
+
+[https://github.com/listenzcc/image-compress](https://github.com/listenzcc/image-compress)
+
 ## GIT-bug
 
 GIT 是常用的版本管理软件，它偶尔也会出问题。
