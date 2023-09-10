@@ -885,6 +885,12 @@ The folder contains following md files:
 
 [Rolling magic cube with THREE.js](https://observablehq.com/@listenzcc/rolling-magic-cube-with-three-js)
 
+## WebGL渲染 与 D3.plot 绘图的结合
+
+WebGL 是一种基于 GPU 并行计算的高速渲染方法。而 D3.plot 绘图是基于 d3.js 的绘图库，它的优势在于规范化的图表制图。本文提供的工具是对另一款开源工具的修改，现在它将两类制图工具的数据通道打通，从而实现两层的渲染。
+
+[Observable Plot + regl (Animation I)](https://observablehq.com/@listenzcc/observable-plot-regl-animation-i)
+
 ## WebGL的实时渲染
 
 本文提供一个前端样例，用于实时捕捉流数据并进行计算和渲染。
@@ -2454,6 +2460,12 @@ AI 是人工智能的简称，由于 ChatGPT 等强力产品的问世，已经�
 
 本文将以一个图像工程为线索，记录Django后端与JS前端的合作过程。虽然这些工作必将被 AI 取代，但现在还得有人干不是？这可能是一个较长期的记录，所以下次还会看到我，但是肯定会有些不一样。
 
+## Docx 和 pptx 文档的再压缩
+
+本文使用 P 颜色模式对图像进行压缩，并提供一个 gradio 工具实现 docx 和 pptx 文档的高度压缩。
+
+[https://github.com/listenzcc/image-compress](https://github.com/listenzcc/image-compress)
+
 ## GIT-bug
 
 GIT 是常用的版本管理软件，它偶尔也会出问题。
@@ -3089,4 +3101,19 @@ The folder contains following md files:
 本文将详述形成最小连通图的贪婪算法。
 在此基础上，我们才能说明捷径加入之后，原始算法是如何失效的。
 从而解决《改出路径依赖》一文所提出的问题。
+
+# Learning WebGL
+
+Learn WebGL in Baby's steps.
+
+---
+## REGL 简化了 WebGL 的什么？
+
+WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascript 上，但渲染过程中却会直接用到 C 代码。这样做的原因是由于它在渲染的实现过程中，需要用户自己定义每个 shader 的渲染行为。WebGL 的渲染过程是严格规范化的过程，因此 REGL 对它进行了包装。用户只需要调用这样的函数即可实现渲染。
+
+[How does regl help?](https://observablehq.com/@listenzcc/how-does-regl-help)
+
+## WebGL 的简要入门
+
+优秀的 WebGL 工程代码是开源的，但除了好看之外几乎利用不上。这些没有注释、难以理解其复杂计算过程的代码满天乱飞，乍看起来它们已经足够酷炫和好用，导致继续花时间开发相似的功能就只有成本，但没有意义。而事实是，一旦落实到实际需求上，除了被抄一遍之外，它们无一例外地没有进一步修改的余地。因此，为了让我自己能够在将来的某一天，看得懂、改得动这些代码，我决定开始这个话题。
 
