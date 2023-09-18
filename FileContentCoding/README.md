@@ -28,6 +28,14 @@ The folder contains following md files:
 本文给出了一个简单的实例，
 以便对这种变换进行直观说明。
 
+## 手写汉字对齐的可计算方法
+
+本人从小就困扰于一个问题，那就是写字不好看。家长对我的评价是写字大小不一，不够整齐。但我一直不服，主要是不解“什么叫整齐” 。本文尝试对这个问题进行计算，顺便解决 OpenCV 如何使用本地 TTF 字体的技术问题。
+
+开源代码如下
+
+[https://github.com/listenzcc/opencv-play-with-ttf](https://github.com/listenzcc/opencv-play-with-ttf)
+
 ## 文件 = 内容 + 编码 （之一）
 
 在目前主流的电脑系统中，所有的数据都可以看作一组二进制数所构成的具体的流。

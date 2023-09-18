@@ -346,6 +346,14 @@ The folder contains following md files:
 本文给出了一个简单的实例，
 以便对这种变换进行直观说明。
 
+## 手写汉字对齐的可计算方法
+
+本人从小就困扰于一个问题，那就是写字不好看。家长对我的评价是写字大小不一，不够整齐。但我一直不服，主要是不解“什么叫整齐” 。本文尝试对这个问题进行计算，顺便解决 OpenCV 如何使用本地 TTF 字体的技术问题。
+
+开源代码如下
+
+[https://github.com/listenzcc/opencv-play-with-ttf](https://github.com/listenzcc/opencv-play-with-ttf)
+
 ## 文件 = 内容 + 编码 （之一）
 
 在目前主流的电脑系统中，所有的数据都可以看作一组二进制数所构成的具体的流。
@@ -3112,6 +3120,12 @@ Learn WebGL in Baby's steps.
 WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascript 上，但渲染过程中却会直接用到 C 代码。这样做的原因是由于它在渲染的实现过程中，需要用户自己定义每个 shader 的渲染行为。WebGL 的渲染过程是严格规范化的过程，因此 REGL 对它进行了包装。用户只需要调用这样的函数即可实现渲染。
 
 [How does regl help?](https://observablehq.com/@listenzcc/how-does-regl-help)
+
+## WebGL 的 texture 入门
+
+缓冲器是 WebGL 的重要组成部分，它用来缓冲一张图像，本文说明它的基本使用逻辑。为了让本文不会过于无聊，本文实现了图像颜色空间的随机化，它保证了在原始图像上连续的颜色在新的颜色空间上还是连续的。又由于随机过程中含有时间变量，因此新的颜色空间是实时变化的。这就形成了一种奇怪的动态效果。得益于 WebGL 的优秀性能，这个过程是实时的，帧率可以达到显示器的刷新率。
+
+[WebGL Texture Usage](https://observablehq.com/@listenzcc/webgl-texture-usage)
 
 ## WebGL 的简要入门
 
