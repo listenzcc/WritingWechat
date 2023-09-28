@@ -2394,6 +2394,14 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 如果你喜欢某一张图的配色，想把颜色方案应用到另一张图上。本文提供的方法和代码可以帮你一把。
 
+## 蚌埠出差，读子养电
+
+最近来蚌埠出差，机缘巧合看到了粟裕将军曾写的“子养电”，实在佩服。电文从今天看来，更像是一篇毫无私心的建议书，又像是对后来事情发展趋势的精准寓言，高屋建瓴。
+
+本文记录的是我被电文纠正的几条成见。
+
+> 淮海战役，是共产党方面的命名。在国民党方面，这场战事称之为“徐蚌会战”。淮海战役最先提案者是粟裕将军，但后来以徐州为中心的大决战，已非彼“淮海”，后来发生的“淮海战役”，实际上已经名不符实。
+
 ## 记一个神奇的BUG
 
 今天遇到一个神奇的BUG，
@@ -3120,6 +3128,20 @@ Learn WebGL in Baby's steps.
 WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascript 上，但渲染过程中却会直接用到 C 代码。这样做的原因是由于它在渲染的实现过程中，需要用户自己定义每个 shader 的渲染行为。WebGL 的渲染过程是严格规范化的过程，因此 REGL 对它进行了包装。用户只需要调用这样的函数即可实现渲染。
 
 [How does regl help?](https://observablehq.com/@listenzcc/how-does-regl-help)
+
+## WebGL 中 buffer 的进一步理解
+
+借用出差的间隙想了 4 天，我似乎把 buffer 这个东西想明白了一些。但由于出差过程中实在摸不着电脑，所以基本上属于闭门造车。 但是万幸的是，从效果上看，我的理解似乎没什么大问题。
+
+感兴趣的话可以留意我的开源代码
+
+[Image histogram using the buffer in WebGL (II)](https://observablehq.com/@listenzcc/image-histogram-using-the-buffer-in-webgl-ii)
+
+## WebGL 初涉 buffer：像素的颜色直方图
+
+本文利用 WebGL 的 buffer 机制实现了图像的像素级颜色直方图绘制，虽然能实现功能，但我仍然没有弄透这个东西。
+
+[Image histogram using the buffer in WebGL](https://observablehq.com/@listenzcc/image-histogram-using-the-buffer-in-webgl)
 
 ## WebGL 的 texture 入门
 
