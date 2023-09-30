@@ -1683,6 +1683,12 @@ INTEL新近发布了第`12`代CPU，
 
 [Saving & Loan Curve](https://observablehq.com/@listenzcc/saving-loan-curve)
 
+## 赛博种树
+
+话说十年树木，百年树人。我没有自己的土地种一棵树，但我有一台电脑，可以通过分形算法随机生成许多树，可以称之为赛博种树。种的什么树？种的是基于分形的随机树。这些树既没有用到 Github，也没有用到非法信道，又无法产生任何经济价值，所以应该不会被没收……吧？
+
+[Fractal Tree Animation](https://observablehq.com/@listenzcc/fractal-tree-animation)
+
 ## 跳舞火柴人
 
 本文以 Openpose 的骨架识别能力为基础，从视频中解析出人体关节的实时位置，并进行绘制。
