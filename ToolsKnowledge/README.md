@@ -186,6 +186,12 @@ As a whole.
 70多亿分之一，
 今天过得怎么样？
 
+## js实现自省的简易语法
+
+本文继续解释 js 的递归启动器，将前文未言尽的部分补齐。
+
+[https://observablehq.com/@listenzcc/recursive-i](https://observablehq.com/@listenzcc/recursive-i)
+
 ## notion和飞书
 
 ## 一切皆文件：强化学习的 Xorg 虚拟环境
@@ -560,10 +566,20 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 - 前端词性快速解析；
 - 基于词性标签的文档可视化。
 
+## 转移矩阵-1
+
+这两天没有稳定的网络可用，也没有完整的编程环境，所以只能看看无聊的小东西。比如“**一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?**”
+
 ## 运动轨迹分析
 
 这是一个纯工程的方法，
 尝试解决多轴连动的运动参数与终点轨迹之间的关系。
+
+## 递归启动器
+
+递归的逻辑很简单，不是左脚踩右脚的虚无飘渺，而是不使用相同方法的不断挖掘。因此，只要规定了启动方向和边界条件，递归就能顺利进行。
+
+[https://observablehq.com/@listenzcc/recursive-i](https://observablehq.com/@listenzcc/recursive-i)
 
 ## 马斯克口中的第一原则-first principle
 
