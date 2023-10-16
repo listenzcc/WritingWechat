@@ -381,6 +381,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 > 淮海战役，是共产党方面的命名。在国民党方面，这场战事称之为“徐蚌会战”。淮海战役最先提案者是粟裕将军，但后来以徐州为中心的大决战，已非彼“淮海”，后来发生的“淮海战役”，实际上已经名不符实。
 
+## 被收购的一年：动视暴雪的股价过山车
+
+简单来说，动视暴雪的股价被自己的 CEO 作（zuo 一声）没了（A），微软看到了机会开始溢价收购（B），英国监管机构 CMA 反复横跳导致股价波动（C、D），美国监管机构 FTC 彻底败诉代表收购尘埃落定（E）。 从这个线条可以看到，当今世界的金融事件始终离不开英、美的 CMA 和 FTC 两家机构。金融世界的老大还是这些监管机构，他们的几条消息、几个上诉就可以操纵股价上天下地。
+
+[Stocks (2021-2023) of Activision Blizzard, Inc. (ATVI)](https://observablehq.com/@listenzcc/stocks-2021-2023-of-activision-blizzard-inc-atvi)
+
 ## 记一个神奇的BUG
 
 今天遇到一个神奇的BUG，

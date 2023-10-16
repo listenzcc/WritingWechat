@@ -65,6 +65,12 @@ WebGL 的 shader 渲染过程需要“编写” c 代码，由于实现了开源
 
 [Glslify](https://observablehq.com/@listenzcc/glslify)
 
+## 流浪像素：逐像素的微分偏移
+
+本文以前文这基础，在 WebGL 上实现了逐像素的微分偏移，使图像看上去像是在“流动”。
+
+[Image histogram using the buffer in WebGL (III)](https://observablehq.com/@listenzcc/image-histogram-using-the-buffer-in-webgl-iii)
+
 ## 离散、连续和插值：WebGL 的 vertex 与 fragment
 
 本篇是对上篇的进一步解释和说明，尝试说明在 WebGL 的渲染过程中，程序是如何处理端点（vertex）和光栅片（fragment）之间的关系。这是一种离散、连续和插值之间的微妙关系，它们的背后是令人叹为观止的优秀工程实现。

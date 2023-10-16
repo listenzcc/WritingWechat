@@ -570,6 +570,28 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 
 这两天没有稳定的网络可用，也没有完整的编程环境，所以只能看看无聊的小东西。比如“**一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?**”
 
+## 转移矩阵-2
+
+接着前文定义的转移矩阵，经过简单的计算可知它是满秩矩阵，且最大的特征值的模为 1，其他特征值的模均小于 1。因此，它是马尔可夫过程的转移矩阵。虽然收敛值可以计算得到，但似乎可以通过观察得到一种快速计算收敛值的等式，但我还是没想好如何证明它。
+
+[Matrix production](https://observablehq.com/@listenzcc/matrix-production)
+
+## 转移矩阵-3
+
+由于这两天的东西比较水，所以写两个事情。
+
+首先，前文中猜想的那个命题根本没有道理，这类矩阵也没有那么复杂，它就是典型的“右随机矩阵”。这类矩阵具有良好的性质，它最大特征值为实数 1，且对应的特征向量为全 1 向量，另外，其他特征值的模总小于 1，这导致它的连乘总收敛于全 1 向量。这种良好的性质是我之前产生误会的根源。这部分的随机值样例可见开源代码
+
+[Right Stochastic Matrix](https://observablehq.com/@listenzcc/right-stochastic-matrix)
+
+其次是除了说明这种现象之外，本文还尝试使用 vscode 中的 sourcery 插件进行代码分析，它可以自动理解代码、生成高质量的文档和测试用例。本文附录部分的全部内容都是由它自动生成的。我只是调整了一下格式。
+
+[Sourcery | Automatically Improve Code Quality](https://sourcery.ai/)
+
+也因为这个原因，本文的内容以英文为主，因为在 vim 模式中切换输入法实在是很不方便。本文的详细代码可见我的 github 仓库
+
+[https://github.com/listenzcc/stochastic-matrix](https://github.com/listenzcc/stochastic-matrix)
+
 ## 运动轨迹分析
 
 这是一个纯工程的方法，
