@@ -1795,6 +1795,12 @@ B 样条是一种经典的物体表面估计方法。
 
 立体渲染是一个充斥着工程师卓越智慧的领域。它的科学问题不多，但工程上的困难几乎无处不在。因此，这也是一个大坑。
 
+## 复矩阵的特征值点云
+
+本文将之前的转移矩阵更进一步，不再局限于右随机矩阵，尝试扩展到复矩阵，并且对复矩阵的特征值分布进行可视化。本文通过渲染点云的方式展示特征值分布，由于要绘制的内容较多，且与特征值的科学计算深度耦合，因此本文采用 pyOpenGL 实现点云渲染。这就又绕回到 OpenGL 来了。
+
+[https://github.com/listenzcc/stochastic-matrix.git](https://github.com/listenzcc/stochastic-matrix.git)
+
 ## 张量的缩并
 
 张量，Tensor，是个数学概念。在计算机应用中，它可以用来极大地对计算进行提速。
@@ -2407,6 +2413,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 本文记录的是我被电文纠正的几条成见。
 
 > 淮海战役，是共产党方面的命名。在国民党方面，这场战事称之为“徐蚌会战”。淮海战役最先提案者是粟裕将军，但后来以徐州为中心的大决战，已非彼“淮海”，后来发生的“淮海战役”，实际上已经名不符实。
+
+## 被收购的一年：动视暴雪的股价过山车
+
+简单来说，动视暴雪的股价被自己的 CEO 作（zuo 一声）没了（A），微软看到了机会开始溢价收购（B），英国监管机构 CMA 反复横跳导致股价波动（C、D），美国监管机构 FTC 彻底败诉代表收购尘埃落定（E）。 从这个线条可以看到，当今世界的金融事件始终离不开英、美的 CMA 和 FTC 两家机构。金融世界的老大还是这些监管机构，他们的几条消息、几个上诉就可以操纵股价上天下地。
+
+[Stocks (2021-2023) of Activision Blizzard, Inc. (ATVI)](https://observablehq.com/@listenzcc/stocks-2021-2023-of-activision-blizzard-inc-atvi)
 
 ## 记一个神奇的BUG
 
@@ -3029,6 +3041,28 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 
 这两天没有稳定的网络可用，也没有完整的编程环境，所以只能看看无聊的小东西。比如“**一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?**”
 
+## 转移矩阵-2
+
+接着前文定义的转移矩阵，经过简单的计算可知它是满秩矩阵，且最大的特征值的模为 1，其他特征值的模均小于 1。因此，它是马尔可夫过程的转移矩阵。虽然收敛值可以计算得到，但似乎可以通过观察得到一种快速计算收敛值的等式，但我还是没想好如何证明它。
+
+[Matrix production](https://observablehq.com/@listenzcc/matrix-production)
+
+## 转移矩阵-3
+
+由于这两天的东西比较水，所以写两个事情。
+
+首先，前文中猜想的那个命题根本没有道理，这类矩阵也没有那么复杂，它就是典型的“右随机矩阵”。这类矩阵具有良好的性质，它最大特征值为实数 1，且对应的特征向量为全 1 向量，另外，其他特征值的模总小于 1，这导致它的连乘总收敛于全 1 向量。这种良好的性质是我之前产生误会的根源。这部分的随机值样例可见开源代码
+
+[Right Stochastic Matrix](https://observablehq.com/@listenzcc/right-stochastic-matrix)
+
+其次是除了说明这种现象之外，本文还尝试使用 vscode 中的 sourcery 插件进行代码分析，它可以自动理解代码、生成高质量的文档和测试用例。本文附录部分的全部内容都是由它自动生成的。我只是调整了一下格式。
+
+[Sourcery | Automatically Improve Code Quality](https://sourcery.ai/)
+
+也因为这个原因，本文的内容以英文为主，因为在 vim 模式中切换输入法实在是很不方便。本文的详细代码可见我的 github 仓库
+
+[https://github.com/listenzcc/stochastic-matrix](https://github.com/listenzcc/stochastic-matrix)
+
 ## 运动轨迹分析
 
 这是一个纯工程的方法，
@@ -3206,6 +3240,12 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 WebGL 的 shader 渲染过程需要“编写” c 代码，由于实现了开源代码的随取随用，我们可以使用 promise 机制临时下载它们。
 
 [Glslify](https://observablehq.com/@listenzcc/glslify)
+
+## 流浪像素：逐像素的微分偏移
+
+本文以前文这基础，在 WebGL 上实现了逐像素的微分偏移，使图像看上去像是在“流动”。
+
+[Image histogram using the buffer in WebGL (III)](https://observablehq.com/@listenzcc/image-histogram-using-the-buffer-in-webgl-iii)
 
 ## 离散、连续和插值：WebGL 的 vertex 与 fragment
 
