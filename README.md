@@ -1203,6 +1203,12 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 [Circle inversion fractals step-by-step](https://observablehq.com/@listenzcc/circle-inversion-fractals-step-by-step)
 
+## 圆反演的不变性与相切关系的传递
+
+经过反演前后的圆的圆心和半径均相同，因此对于单位圆来说，与单位圆垂直的圆与其反演的圆相互重合。另外，只要圆有相切关系，那么它们经过映射后还是相切的。另外，当圆彼此相交时，反演映射关系会因之变得非常复杂，从而渲染出奇怪的纹理。这是圆反演分形图样的理论基础。
+
+[Circle inverse with joint circles using force simulation](https://observablehq.com/@listenzcc/circle-inverse-with-joint-circles-using-force-simulation)
+
 ## 圆反演的基本性质
 
 前文涉及一个有趣的数学问题，那就是为什么随机映射的点“总是”能收敛，形成互相相切的圆形图样？本文先解决一个圆的反演问题，之后再对多个圆的情况进行扩展
