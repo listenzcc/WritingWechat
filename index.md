@@ -1197,6 +1197,24 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 本样例的代码可见[我的开源代码](https://observablehq.com/@listenzcc/graph-network "我的开源代码")
 
+## 圆反演及其分形
+
+圆反演分形是通过应用圆反演（Circle inversion）变换来生成的一类特殊分形。它会从已有的圆开始进行迭代，不断解决满足 Apollonius' Problem 的解（见附录）的圆周上的点，将这些点渲染出来即可得到复杂的分型图样。本文是用 CPU 进行暴力计算，效率并不是很高。
+
+[Circle inversion fractals step-by-step](https://observablehq.com/@listenzcc/circle-inversion-fractals-step-by-step)
+
+## 圆反演的不变性与相切关系的传递
+
+经过反演前后的圆的圆心和半径均相同，因此对于单位圆来说，与单位圆垂直的圆与其反演的圆相互重合。另外，只要圆有相切关系，那么它们经过映射后还是相切的。另外，当圆彼此相交时，反演映射关系会因之变得非常复杂，从而渲染出奇怪的纹理。这是圆反演分形图样的理论基础。
+
+[Circle inverse with joint circles using force simulation](https://observablehq.com/@listenzcc/circle-inverse-with-joint-circles-using-force-simulation)
+
+## 圆反演的基本性质
+
+前文涉及一个有趣的数学问题，那就是为什么随机映射的点“总是”能收敛，形成互相相切的圆形图样？本文先解决一个圆的反演问题，之后再对多个圆的情况进行扩展
+
+[Inverse geometry I](https://observablehq.com/@listenzcc/inverse-geometry-i)
+
 ## 在太阳内部航行
 
 真空中的光速为每秒30万公里，
@@ -1732,6 +1750,18 @@ INTEL新近发布了第`12`代CPU，
 ## 长津湖
 
 这篇很俗，但值得一写。
+
+## 阿波罗尼奥斯问题
+
+WebGL 的强项是进行大量并行的迭代计算，因此为了继续深入掌握它的使用技巧，我需要找一些有意思的迭代问题。Apollonius’ Problem 是一个很有意思的切入点，它可以用于形成十分美观的分形纹理。本文解决其中最基础的代数计算问题，开源代码见我的 ObservableHQ 笔记本
+
+[Apollonius’ Problem for Multiple Circles](https://observablehq.com/@listenzcc/apollonius-problem-for-multiple-circles)
+
+## 随机弹跳产生的混沌现象
+
+本文是偶然看到一个模拟案例，在复现过程中意外发现一种混沌现象。在考虑了重力和反弹、不考虑摩擦和能量损失的情况下，小球在两个斜面之间弹跳可以导致混沌现象。本文的开源代码可见我的 ObservableHQ 笔记本。
+
+[Random jump](https://observablehq.com/@listenzcc/random-jump)
 
 ## 随机游走片段的距离度量
 
