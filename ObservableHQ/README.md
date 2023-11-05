@@ -779,6 +779,14 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 [Hand writing with Pixi.js & perfect-freehand](https://observablehq.com/@listenzcc/hand-writing-with-pixi-js-perfect-freehand)
 
+## 混淆矩阵的统计量绘制工具
+
+本文提供了一个简单易用的二分类混淆矩阵的统计量结果绘制工具，能够比较全面地绘制出分类模型在各种性能条件下的统计量分布。本工具对分类器所有可能的三个维度均设为可调的，这形成了可拖动的软件界面，方便使用者调整到自己想要的条件。另外，本软件还支持多种统计量的全局展示，
+
+软件工具的开源地址如下：
+
+[Confusion matrix computer (binary)](https://observablehq.com/@listenzcc/confusion-matrix-computer-binary)
+
 ## 滤波及失真
 
 针对信号进行滤波是信号处理的基本操作之一，它可以用来提取信号中我们感兴趣的特定成分。
