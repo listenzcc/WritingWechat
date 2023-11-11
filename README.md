@@ -27,12 +27,6 @@ The useful datasets and their codes.
 The folder contains following md files:
 
 ---
-## Dataset
-
-The useful datasets and their codes.
-
-The folder contains following md files:
-
 ## 细粒度的中国地理数据分析（一）
 
 如果有人让你解释什么是中国，你总不能告诉它这里是 960 万平方公里陆地面积的一只雄鸡，这太敷衍了，因为这么一大片土地上有着无数的细节。相信你也和我一样，想要了解这些细节。
@@ -878,14 +872,6 @@ Gabor 函数是常用的数学函数，可以用来对多种物理现象进行�
 这里 Perlin 噪声往往是很好的选择。
 
 比如我在前端页面做的一个小demo [Perlin Noise Contours with GeoProjection](https://observablehq.com/@listenzcc/perlin-noise-contours-with-geoprojection "Perlin Noise Contours with GeoProjection")
-
-## Observable HQ
-
-JAVASCRIPT gives HTML amazing Abilities to present Things.
-
-The **Subject** tries to explain the benefits of the environment.
-
-The folder contains following md files:
 
 ## THREEJS 的三阶魔方
 
@@ -2620,12 +2606,6 @@ MLP可以用来估计信号的相位。通过训练带有相位估计目标的ML
 
 本文记录近期开发的一套前后端工具，它利用 RDM 矩阵进行图像关系分析，而 RDM 矩阵的来源为 fMRI 和 MEG 采集的神经影像数据。文中附录部分为 AI 补写的 RDM 矩阵的细节，虽然有点啰嗦但十分靠谱。
 
-## Tools Knowledge
-
-The Topic is about how to use software tools better.
-
-The folder contains following md files:
-
 ## Socket之网络拥堵
 
 一直很好奇在网络拥堵时 Socket 通信质量会劣化成什么样子。
@@ -3007,6 +2987,14 @@ ERD和ERS是信号随机叠加的两种不同的现象，
 脑成像设备和数据都需要进行一定程度的标准化才能进行后续分析。
 本文是对其基本概念的一些介绍。
 
+## 脑电溯源方法简述（I）
+
+信号溯源是一种通过记录头皮表面的电信号或磁场，反推回大脑活动源头的方法。首先，需在被试者头部安置电极或磁力传感器以采集信号。接着，建立头部模型描述头部几何形状和组织特性。逆问题求解方法用于将头皮信号反推回源头，确定大脑中活动的具体位置。最后，通过在三维脑模型上显示结果，展示活动源的位置。信号溯源提供了有关大脑活动的空间定位信息，有助于研究特定神经活动发生的脑区。联合信号溯源和头皮脑电等技术可以为神经科学研究提供全面的信息。这一方法对于理解认知、感知、运动控制等大脑功能具有重要意义。
+
+本文通过 jupyter 笔记本用最简单的方法实现了脑电溯源，详见我的 github repo。
+
+[eeg-source-analysis](https://listenzcc.github.io/eeg-source-analysis/ "eeg-source-analysis")
+
 ## 脑磁图的探头位置坐标说明
 
 本文对脑磁图的探头位置坐标及其提取和干预方式进行简单说明。
@@ -3279,6 +3267,12 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [WebGL's Simple Animation & Stats & Code-Prettify](https://observablehq.com/@listenzcc/webgls-template)
 
+## WebGL 面与点的绘制方式对比
+
+绘制一个场景有两种方式，分别是按照面和按照点进行绘制。在 webgl 中，两种模式具有相似的形式。本文解释了两种绘图方式的差异。
+
+[WebGL Template](https://observablehq.com/@listenzcc/webgl-template)
+
 ## 三角 shader 的重心坐标系
 
 前文遗留了一个问题，那就是如何使用 WebGL 渲染平移不变的三角 shader。本文尝试使用重心坐标系解决这个问题。为了体现重心坐标的意义和作用，我还增加了 wireframe 的线绘制方法。另外，前文的三角形端点移动方法并不令人满意，因此本文更换成 simplex-noise 方法，它使端点的运动看上去更加自然、柔和。
@@ -3300,6 +3294,14 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 WebGL 的 shader 渲染过程需要“编写” c 代码，由于实现了开源代码的随取随用，我们可以使用 promise 机制临时下载它们。
 
 [Glslify](https://observablehq.com/@listenzcc/glslify)
+
+## 梯度粗解
+
+梯度就是局部效用最大的变化方向。对于给定的标量场，我们总能让某个点沿着它的梯度进行“移动”。移动的过程中，该点的值会不断增加。因此这个过程称为梯度上升。如果将这个场倒过来，那么不断增大的过程会转换成不断减小的过程，这个过程就是“梯度下降”。
+
+开源代码可见我的 ObservableHQ 笔记本
+
+[Searching maximum by gradient ascending](https://observablehq.com/@listenzcc/searching-maximum-by-gradient-ascending)
 
 ## 流浪像素：逐像素的微分偏移
 

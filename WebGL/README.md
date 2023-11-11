@@ -43,6 +43,12 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [WebGL's Simple Animation & Stats & Code-Prettify](https://observablehq.com/@listenzcc/webgls-template)
 
+## WebGL 面与点的绘制方式对比
+
+绘制一个场景有两种方式，分别是按照面和按照点进行绘制。在 webgl 中，两种模式具有相似的形式。本文解释了两种绘图方式的差异。
+
+[WebGL Template](https://observablehq.com/@listenzcc/webgl-template)
+
 ## 三角 shader 的重心坐标系
 
 前文遗留了一个问题，那就是如何使用 WebGL 渲染平移不变的三角 shader。本文尝试使用重心坐标系解决这个问题。为了体现重心坐标的意义和作用，我还增加了 wireframe 的线绘制方法。另外，前文的三角形端点移动方法并不令人满意，因此本文更换成 simplex-noise 方法，它使端点的运动看上去更加自然、柔和。
@@ -64,6 +70,14 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 WebGL 的 shader 渲染过程需要“编写” c 代码，由于实现了开源代码的随取随用，我们可以使用 promise 机制临时下载它们。
 
 [Glslify](https://observablehq.com/@listenzcc/glslify)
+
+## 梯度粗解
+
+梯度就是局部效用最大的变化方向。对于给定的标量场，我们总能让某个点沿着它的梯度进行“移动”。移动的过程中，该点的值会不断增加。因此这个过程称为梯度上升。如果将这个场倒过来，那么不断增大的过程会转换成不断减小的过程，这个过程就是“梯度下降”。
+
+开源代码可见我的 ObservableHQ 笔记本
+
+[Searching maximum by gradient ascending](https://observablehq.com/@listenzcc/searching-maximum-by-gradient-ascending)
 
 ## 流浪像素：逐像素的微分偏移
 
