@@ -3,6 +3,22 @@
 Learn WebGL in Baby's steps.
 
 ---
+## Hessian 与梯度结合
+
+本文讲述了利用 Hessian 提供的二阶信息确定梯度下降最优步长的方法，这种梯度下降法只进行了 10 次迭代即可找到极小值，这说明该方法大大提高了寻优效率，并且有机会跳出局部最优值，受起始点影响更小。
+
+本文代码还是在我的 ObservableHQ 笔记本上。
+
+[Searching maximum by Hessian (Improve)](https://observablehq.com/@listenzcc/searching-maximum-by-hessian-improve)
+
+## Hessian 粗解
+
+Newton 法是一种迭代优化算法，用于求解非线性优化问题。它利用目标函数的二阶导数信息（Hessian 矩阵）来进行迭代，以更快地收敛到局部最小值。尽管 Newton 法在很多情况下具有快速收敛的特性，但也存在一些问题，其中之一是它的稳定性可能较差，也更容易陷入鞍点。
+
+本文将其与梯度方法进行平行对比，开源代码可见我的 ObservableHQ 笔记本
+
+[Searching maximum by Hessian](https://observablehq.com/@listenzcc/searching-maximum-by-hessian)
+
 ## REGL 简化了 WebGL 的什么？
 
 WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascript 上，但渲染过程中却会直接用到 C 代码。这样做的原因是由于它在渲染的实现过程中，需要用户自己定义每个 shader 的渲染行为。WebGL 的渲染过程是严格规范化的过程，因此 REGL 对它进行了包装。用户只需要调用这样的函数即可实现渲染。
