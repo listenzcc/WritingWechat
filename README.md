@@ -3263,6 +3263,22 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [Image histogram using the buffer in WebGL](https://observablehq.com/@listenzcc/image-histogram-using-the-buffer-in-webgl)
 
+## WebGL 实现线积分卷积（1）：framebuffer 基础
+
+在现代图形编程中，Framebuffer 更常指代图形硬件或 API 中的一个对象，用于存储图像的像素数据。Framebuffer 可以包含颜色缓冲区、深度缓冲区、模板缓冲区等。在渲染流水线中，图形数据首先渲染到帧缓冲区，然后再传递到屏幕。通过反复渲染到不同的帧缓冲对象，可以实现图像像素的累积效果，达到一种积分计算的效果。这种技术在一些图形效果和计算中经常被使用，例如模糊效果、光照效果等。
+
+代码可见我的 ObservableHQ 笔记本。
+
+[Accumulate in the framebuffer](https://observablehq.com/@listenzcc/accumulate-in-the-framebuffer)
+
+## WebGL 实现线积分卷积（2）
+
+本文使用 WebGL 实现了线积分的基本前序功能。在迭代中，我使用局部梯度 $dFdx, dFdy$ 更新点的位置，让它沿梯度方向向下运动。并且采取了采用了双 framebuffer 耦合的方法，避免点的痕迹造成的影响。
+
+本文的开源代码可见我的 ObservableHQ 笔记本
+
+[Accumulate in the framebuffer (II)](https://observablehq.com/@listenzcc/accumulate-in-the-framebuffer-ii)
+
 ## WebGL 的 texture 入门
 
 缓冲器是 WebGL 的重要组成部分，它用来缓冲一张图像，本文说明它的基本使用逻辑。为了让本文不会过于无聊，本文实现了图像颜色空间的随机化，它保证了在原始图像上连续的颜色在新的颜色空间上还是连续的。又由于随机过程中含有时间变量，因此新的颜色空间是实时变化的。这就形成了一种奇怪的动态效果。得益于 WebGL 的优秀性能，这个过程是实时的，帧率可以达到显示器的刷新率。
