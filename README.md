@@ -1899,6 +1899,10 @@ Sterling 公式将阶乘和幂函数统一起来，
 
 本文尝试计算标准正态分布的中值的方差，并尝试分析它与均值方差之间的差异。
 
+## 从条件概率理解 Sigmoid 损失函数
+
+经过分析可知，它是线性方程或者二次方程的条件概率。线性方程的要求非常宽松，在两个类别的协方差矩阵相同时，只要求它们在特征$x$的空间中测度为$0$即可。在这种情况下，优化sigmoid损失函数等价于求解线性方程，寻找最合适的线性方程系数。
+
 ## 从检验到瞎编
 
 本文将正式介绍统计检验的基本方法，并简要说明它的适用范围，以及它是怎么被玩坏的。
@@ -1996,6 +2000,10 @@ Sterling 公式将阶乘和幂函数统一起来，
 
 上文《从检验到瞎编》介绍了统计检验的基本方法。
 并引出了多重比较校正的概念和经典的FWE校正方法，本文将介绍另一种多重比较校正方法。
+
+## 隐空间的可区分性
+
+前文涉及了多元高斯分布以及它的协方差矩阵的逆，列出了隐变量的二次方程，还从后验概率的角度阐述了它与sigmoid损失函数之间的关系。本文继续在这个隐空间中，阐述隐变量的可分性，尝试从最肤浅的角度回答一个基本问题，那就是“sigmoid损失函数是如何区分不同类别的”，暨二次方程的一次和二次项在何时生效的问题。分析表明，我们更希望隐变量的一次项起主导作用，这也是深度神经网络最后一层通常使用全连接层的原因。
 
 # Sun at Four
 
@@ -2731,6 +2739,10 @@ LINUX 系统的过人之处在于它将全部系统行为都和可分享的文�
 
 假设我们已经通过技术手段完成了 MRI 数据到标准模板的头动校正，但这并不能保证新数据与标准模板是同源的。为了解决该问题本文介绍快速配准的算法原理，该方法能够对不同源的 MRI 数据点阵进行匹配。
 
+## 两个bug合体成一个feature
+
+这个事情非常有趣。想象你是我，你改变了解码器的某个功能，但重启程序后发现这个新功能并没有实装。这时你开始怀疑一切，直到某个偶然的机会，你发现了一条看上去无关的进程占用了本应该释放的那个端口，你恍然大悟，原来解码服务一直驻留在系统中，已经守候了超过几个月的时间。
+
 ## 中日颜色风格
 
 这两网站是配色苦手的福音。
@@ -3222,6 +3234,32 @@ The folder contains following md files:
 在此基础上，我们才能说明捷径加入之后，原始算法是如何失效的。
 从而解决《改出路径依赖》一文所提出的问题。
 
+# WebApp
+
+记录一个基于 Python 的 Webapp 的开发过程。
+
+---## Fastapi + tailwindcss = 各司其职
+
+最近要写个功能稍微复杂的 APP，所以需要搭微型网络服务。出于好奇，我选择了时下流行的 fastapi 作为后台；选择了 tailwindcss 让我的 APP 免得过于难看。本系统将逐步记录开发过程。
+
+本文的主旨在于澄清一个误会。由于以上两个框架都较为流行，因此不免存在大量的网络文档试图将它们结合在一块来讲。但我觉得似乎并无必要：因为它们干的是不同的事情，让它们各司其职就好，二者不应该有太多的交互。
+
+本系列对应的开源代码位于我的 Github 仓库
+
+[https://github.com/listenzcc/eeg-for-everyone](https://github.com/listenzcc/eeg-for-everyone)
+
+## 曼德尔球的渲染及简要原理
+
+曼德尔球（Mandelbulb）是一个神奇的分型数学结构，我可以使用 Three.js 方便地渲染它。由于 ObservableHQ 不支持必要的插件，因此我将源码挂在了 github 的 page 上。
+
+[https://github.com/listenzcc/mandelbulb-in-three](https://github.com/listenzcc/mandelbulb-in-three)
+
+## 脑电电极在哪里
+
+本文将三个东西画在一起，它们分别是果冻形式的大脑、脑内功能区的代表性节点和标准配列的脑电电极。它展示了脑电电极如何将大脑包裹起来。代码托管在了 Github 的代码仓库。
+
+[https://github.com/listenzcc/where-are-the-eeg-sensors](https://github.com/listenzcc/where-are-the-eeg-sensors)
+
 # Learning WebGL
 
 Learn WebGL in Baby's steps.
@@ -3278,6 +3316,20 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 本文的开源代码可见我的 ObservableHQ 笔记本
 
 [Accumulate in the framebuffer (II)](https://observablehq.com/@listenzcc/accumulate-in-the-framebuffer-ii)
+
+## WebGL 实现线积分卷积（3）：改变像素形态
+
+前文实现了像素点沿梯度方向的移动，并且能够实时绘制它们。这距离实现线积分卷积的绘制还有一步之遥，那就是如何画线。具体来说是”如何改变像素形态，实现将像素绘制成成小线段“的功能。
+
+功能代码可见我的 ObservableHQ 笔记本
+
+[WebGL pixel shape](https://observablehq.com/@listenzcc/webgl-pixel-shape)
+
+## WebGL 实现线积分卷积（4）：组合
+
+终于把之前的东西组合起来，形成了完整的线积分渲染程序。开源代码可见我的 ObservableHQ 笔记本
+
+[Accumulate in the framebuffer (III)](https://observablehq.com/@listenzcc/accumulate-in-the-framebuffer-iii)
 
 ## WebGL 的 texture 入门
 

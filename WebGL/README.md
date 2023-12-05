@@ -55,6 +55,20 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [Accumulate in the framebuffer (II)](https://observablehq.com/@listenzcc/accumulate-in-the-framebuffer-ii)
 
+## WebGL 实现线积分卷积（3）：改变像素形态
+
+前文实现了像素点沿梯度方向的移动，并且能够实时绘制它们。这距离实现线积分卷积的绘制还有一步之遥，那就是如何画线。具体来说是”如何改变像素形态，实现将像素绘制成成小线段“的功能。
+
+功能代码可见我的 ObservableHQ 笔记本
+
+[WebGL pixel shape](https://observablehq.com/@listenzcc/webgl-pixel-shape)
+
+## WebGL 实现线积分卷积（4）：组合
+
+终于把之前的东西组合起来，形成了完整的线积分渲染程序。开源代码可见我的 ObservableHQ 笔记本
+
+[Accumulate in the framebuffer (III)](https://observablehq.com/@listenzcc/accumulate-in-the-framebuffer-iii)
+
 ## WebGL 的 texture 入门
 
 缓冲器是 WebGL 的重要组成部分，它用来缓冲一张图像，本文说明它的基本使用逻辑。为了让本文不会过于无聊，本文实现了图像颜色空间的随机化，它保证了在原始图像上连续的颜色在新的颜色空间上还是连续的。又由于随机过程中含有时间变量，因此新的颜色空间是实时变化的。这就形成了一种奇怪的动态效果。得益于 WebGL 的优秀性能，这个过程是实时的，帧率可以达到显示器的刷新率。
