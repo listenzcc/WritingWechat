@@ -131,6 +131,10 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 - 如果你会赢的话，尽量基于起始的牌，不要大换血；
 - 尽量留中间的牌，这样赢的概率更大。
 
+## 北京冰冷的腊月与 El Niño
+
+起源于太平洋赤道附近水域的El Niño现象导致Hadley circulation增加，由于Hadley circulation规模巨大，因此它的改变会大规模地引起全球气候短期变化。比如，导致中国北方冬天寒冷的西伯利亚高压（Siberian high）就受到它的影响而变得更强，这导致冬天更冷了。极端气候也会因此增多，所以今年冬天要注意防护。
+
 ## 商业精神
 
 《潜伏》里的谢若林同学曾说过一句名言，
