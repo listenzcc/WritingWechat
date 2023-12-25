@@ -89,17 +89,31 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [WebGL's Simple Animation & Stats & Code-Prettify](https://observablehq.com/@listenzcc/webgls-template)
 
+## WebGL绘制球协函数
+
+由于表面与球面对应关系的存在，我们总能用球面建模和绘制的方式进行物体建模和绘制。这是物体表面建模及绘图的基本原理之一。球协函数是三维函数，它可以用极坐标表示。为了说明它与球的对应关系，我对将它与一个球绘制在一起，用球的颜色表示它表面的各个点，用HSL颜色空间表示，其中，Hue表示$\varphi \in (0, 2\pi)$，Lightness表示$\varphi \in (0, \pi)$。绘图的代码可见我的ObservableHQ笔记本。
+
+[Spherical Harmonic](https://observablehq.com/@listenzcc/spherical-harmonic)
+
 ## WebGL 面与点的绘制方式对比
 
 绘制一个场景有两种方式，分别是按照面和按照点进行绘制。在 webgl 中，两种模式具有相似的形式。本文解释了两种绘图方式的差异。
 
 [WebGL Template](https://observablehq.com/@listenzcc/webgl-template)
 
+## 三维视角的vert变换
+
+本文用极简的语言说明如何在opengl的语境中实现vert的三维视角变换。再简单一点说，它可以表示为矩阵连乘的计算结果。
+
 ## 三角 shader 的重心坐标系
 
 前文遗留了一个问题，那就是如何使用 WebGL 渲染平移不变的三角 shader。本文尝试使用重心坐标系解决这个问题。为了体现重心坐标的意义和作用，我还增加了 wireframe 的线绘制方法。另外，前文的三角形端点移动方法并不令人满意，因此本文更换成 simplex-noise 方法，它使端点的运动看上去更加自然、柔和。
 
 [Barycentric coordinate in WebGL](https://observablehq.com/@listenzcc/barycentric-coordinate-in-webgl)
+
+## 使用WebGL实现简单的三维交互
+
+本文是纯粹工程实现的用例，它呈现的是低阶球协函数（Spherical Harmonic, SH）的随机叠加，并且这个三维构型可以与观察者进行实时交互。工程的难点有二，一是如何将观察者的MPV（Module, Projection, View）映射（详见前文）与用户在canvas上的鼠标操作联系起来；二是如何将大量的球协函数计算用最高效的方法计算出来，从而实现实时叠加。
 
 ## 在 WebGL 上画线：Wireframe
 
