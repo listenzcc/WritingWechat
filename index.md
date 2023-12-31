@@ -2181,6 +2181,11 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 从分析中可以看出，对于 AP7 来说，宝岛的投资价值无论从数量和质量来说，都是高于大陆的，可能很多西方国家也都这么想吧。
 
+## 价格从哪里来
+
+最近麦当劳涨价了，因此本文的观点有点解释不通。为了想清楚哪里不对，我先要把这些东西组织一下，正好写出来。矛盾的点集中在需求曲线上。现今的经济环境会导致需求曲线向下掉，即在相同价格下，消费更少的商品。在低价大量的消费品区间，企业为了生存下去，他只能选择降价提量的策略。
+此次麦当劳的涨价不太符合现在经济环境的大众认知。这也是我矛盾的起源。
+
 ## 仿生人眼中的电子羊
 
 我手里有两个模型，一个是 stable-diffusion 的 txt2img，一个是最近开源的 minigpt-4，它能够做到 img2txt，我让他们开始左右互搏。AI 的飞速发展给我们带来了一个契机，让我们有机会“看到” AI 心中的鱼，有机会“计算” AI 心中的鱼是悲还是乐。本文采取的做法是让一个 AI 模型去解读图像，之后让另一个 AI 模型根据他的解读来复现原始图像。这个过程能够解决这样一个问题：**两位仿生人眼中的电子羊是不是一只羊？**
@@ -2789,6 +2794,10 @@ LINUX 系统的过人之处在于它将全部系统行为都和可分享的文�
 
 同时这个设备也表明，经典的计算机结构需要进行一定程度的异化，才能适应新一代智能硬件的需求。
 
+## 从易用性的角度理解Python的装饰器
+
+最近使用fastapi写小项目，它的易用性非常棒，很多功能非常具有启发性。本文做一简要记录。
+
 ## 借助深度估计的点云场景重建
 
 所谓身怀利器，X心自起。
@@ -3385,17 +3394,31 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [WebGL's Simple Animation & Stats & Code-Prettify](https://observablehq.com/@listenzcc/webgls-template)
 
+## WebGL绘制球协函数
+
+由于表面与球面对应关系的存在，我们总能用球面建模和绘制的方式进行物体建模和绘制。这是物体表面建模及绘图的基本原理之一。球协函数是三维函数，它可以用极坐标表示。为了说明它与球的对应关系，我对将它与一个球绘制在一起，用球的颜色表示它表面的各个点，用HSL颜色空间表示，其中，Hue表示$\varphi \in (0, 2\pi)$，Lightness表示$\varphi \in (0, \pi)$。绘图的代码可见我的ObservableHQ笔记本。
+
+[Spherical Harmonic](https://observablehq.com/@listenzcc/spherical-harmonic)
+
 ## WebGL 面与点的绘制方式对比
 
 绘制一个场景有两种方式，分别是按照面和按照点进行绘制。在 webgl 中，两种模式具有相似的形式。本文解释了两种绘图方式的差异。
 
 [WebGL Template](https://observablehq.com/@listenzcc/webgl-template)
 
+## 三维视角的vert变换
+
+本文用极简的语言说明如何在opengl的语境中实现vert的三维视角变换。再简单一点说，它可以表示为矩阵连乘的计算结果。
+
 ## 三角 shader 的重心坐标系
 
 前文遗留了一个问题，那就是如何使用 WebGL 渲染平移不变的三角 shader。本文尝试使用重心坐标系解决这个问题。为了体现重心坐标的意义和作用，我还增加了 wireframe 的线绘制方法。另外，前文的三角形端点移动方法并不令人满意，因此本文更换成 simplex-noise 方法，它使端点的运动看上去更加自然、柔和。
 
 [Barycentric coordinate in WebGL](https://observablehq.com/@listenzcc/barycentric-coordinate-in-webgl)
+
+## 使用WebGL实现简单的三维交互
+
+本文是纯粹工程实现的用例，它呈现的是低阶球协函数（Spherical Harmonic, SH）的随机叠加，并且这个三维构型可以与观察者进行实时交互。工程的难点有二，一是如何将观察者的MPV（Module, Projection, View）映射（详见前文）与用户在canvas上的鼠标操作联系起来；二是如何将大量的球协函数计算用最高效的方法计算出来，从而实现实时叠加。
 
 ## 在 WebGL 上画线：Wireframe
 
