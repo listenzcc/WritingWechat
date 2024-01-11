@@ -3436,6 +3436,12 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [Contour demo of WebGL & glslify](https://observablehq.com/@listenzcc/contour-demo-of-webgl-glslify)
 
+## 将任意三角形规范化：简化计算SDF的尝试
+
+由于计算任意三角形SDF的代码显得过于臃肿，所以我想将它简化一下。仅通过一次映射将任意三角形转换为规范的三角形，在这个规范的二维空间中进行近似计算，似乎可以提升代码的简洁性。
+
+[Regular triangle](https://observablehq.com/@listenzcc/regular-triangle)
+
 ## 开源，就是随取随用
 
 程序员的生产工具和工作对象是二进制代码，但这是个很扭曲的群体，他们是最不喜欢敲代码的一群人，是能复制粘贴的就绝不多写一个字的一群人。这是把人从工具中解放出来的懒惰，这种极度的懒惰就是开源。
@@ -3463,6 +3469,10 @@ WebGL 的 shader 渲染过程需要“编写” c 代码，由于实现了开源
 本篇是对上篇的进一步解释和说明，尝试说明在 WebGL 的渲染过程中，程序是如何处理端点（vertex）和光栅片（fragment）之间的关系。这是一种离散、连续和插值之间的微妙关系，它们的背后是令人叹为观止的优秀工程实现。
 
 [How does regl help?](https://observablehq.com/@listenzcc/how-does-regl-help)
+
+## 随机三角形的SDF
+
+SDF（Signed Distance Field）是多边形空间中任意点到最近边缘的最短距离标量。通过重心坐标系，类似于三角形Shader的技巧，可实现三维模型的SDF。利用重心坐标化，可在片元着色器中计算距离场，用于绘制三角形边缘，实现视觉效果。
 
 # 时间序列分析
 
