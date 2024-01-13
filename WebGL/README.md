@@ -161,6 +161,12 @@ WebGL 的 shader 渲染过程需要“编写” c 代码，由于实现了开源
 
 [How does regl help?](https://observablehq.com/@listenzcc/how-does-regl-help)
 
+## 继续SDF：简单压倒一切
+
+本文尝试一种计算简单，且适用于任意凸多边形SDF计算的快速算法。在这个算法中，对于每条边只需要计算二次内积即可，因此这是一种复杂度为$N$的算法。
+
+[Easy to compute the SDF of triangle](https://observablehq.com/@listenzcc/easy-to-compute-the-sdf-of-triangle)
+
 ## 随机三角形的SDF
 
 SDF（Signed Distance Field）是多边形空间中任意点到最近边缘的最短距离标量。通过重心坐标系，类似于三角形Shader的技巧，可实现三维模型的SDF。利用重心坐标化，可在片元着色器中计算距离场，用于绘制三角形边缘，实现视觉效果。
