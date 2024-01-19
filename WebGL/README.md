@@ -25,9 +25,21 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [How does regl help?](https://observablehq.com/@listenzcc/how-does-regl-help)
 
+## REGL提供的上下文机制
+
+阅读regl源码的时候看到一个非常有趣的机制。在regl.frame中，可以通过上下文迭代的机制实现varying变量的复用，从代码中可以看到，这个变量是透过函数调用传递下去的。这好像是一种闭包机制，非常好用。它可以保证vert中变量的一致性，有效减少开发成本。
+
+[Game of Life](https://observablehq.com/@listenzcc/game-of-life)
+
 ## SDF中有趣的几何问题
 
 最近在看SDF（****Sign Distance Function****），但没看懂，不过发现了一些有意思的边角东西。我在学习SDF的过程中遇到它GeoGebra，更准确地讲，我是在学习如何绘制正五边形的SDF时遇到它的。再进一步讲，在绘制正五边形的SDF时，为了避免SHADER过于复杂，需要将任意位置的点映射到正五边形中的某个三角形中。在前人的经验中，这种映射“总是”能通过有限次的“翻转”来做到，而对于正五边形来说，翻转的次数不超过四次。
+
+## SDF在WebGL中的实现：以三角为例
+
+本文以三角为例，在WebGL中实现SDF计算和实时渲染。
+
+[SDF in WebGL](https://observablehq.com/@listenzcc/sdf-in-webgl)
 
 ## WebGL 中 buffer 的进一步理解
 

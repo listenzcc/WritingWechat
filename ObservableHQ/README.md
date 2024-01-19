@@ -771,3 +771,255 @@ Figma 是一个十分漂亮和高效的原型设计辅助软件，在使用它�
 
 [Hand writing with Pixi.js & perfect-freehand](https://observablehq.com/@listenzcc/hand-writing-with-pixi-js-perfect-freehand)
 
+## 混淆矩阵的统计量绘制工具
+
+本文提供了一个简单易用的二分类混淆矩阵的统计量结果绘制工具，能够比较全面地绘制出分类模型在各种性能条件下的统计量分布。本工具对分类器所有可能的三个维度均设为可调的，这形成了可拖动的软件界面，方便使用者调整到自己想要的条件。另外，本软件还支持多种统计量的全局展示，
+
+软件工具的开源地址如下：
+
+[Confusion matrix computer (binary)](https://observablehq.com/@listenzcc/confusion-matrix-computer-binary)
+
+## 滤波及失真
+
+针对信号进行滤波是信号处理的基本操作之一，它可以用来提取信号中我们感兴趣的特定成分。
+
+但操作必然会导致信息量的损失，失真就是这种损失的直观表现。
+
+这个话题很大，我就遇到哪写到哪。
+
+## 漂移变道
+
+最近常做梦，梦到买了辆车，车牌号很吉利，叫做 BJHJYD。
+
+买了车咱就开，那么问题就来了，为啥超车变道的时候需要后车刹车呢？
+
+为了回答这个问题，我写了个前端程序
+
+[Over taking](https://observablehq.com/@listenzcc/over-taking "Over taking")
+
+## 激活函数的功率谱密度
+
+本文从量化的角度解释双曲正切激活函数对信号的 FFT 造成的影响。
+本文开源代码可见我的前端笔记本
+[FFT for Activation](https://observablehq.com/@listenzcc/fft-for-activation)
+
+## 点集的着色及其生成顺序分析
+
+我们之前在给定图形之内构造了一组致密点云，本文进一步解决如何对这些点进行分类着色的问题，并分析点集的类别与生成顺序之间的关系。如果我们稍微放飞一下自我，也许它可以作为一个 demo，用于解释机器学习中的“涌现”现象。
+
+开源代码位置仍为
+
+[Plot population](https://observablehq.com/@listenzcc/plot-population)
+
+## 物以类聚
+
+都说物以类聚，人以群分。但又都说要兼容并包，兼收并蓄。
+
+后一个说教其实大家都不怎么喜欢听，因为它天然的假定物以类聚这个现象，是因为个体微观的不够包容而造成宏观现象。
+
+也就是说错在个人，社会是个人意愿的加和。
+
+而群体行为的研究却有证据认为，群体行为往往不是个体行为的简单累积，而是具有混沌属性，往往与参与者的主观意愿相悖。
+
+落实在本问题上，即使每个人都很大程度的包容自己的邻居，在群体层面也会呈现出极其严重的分类和隔离。
+
+## 特斯拉阀水管的粗糙模拟
+
+特斯拉阀（又称 fluid diode）是一种单向阀门，也被称为流体二极管。
+
+出于好奇，我用之前的粒子模拟程序做了一个简单的 demo，实验结果表明顺向流动的出口流速大于逆向流动，在一定程度上模拟了 fluid diode 的特性。
+
+开源代码可见我的 ObservableHQ 笔记本
+
+[LiquidFun Tesla Fluid Diode explain](https://observablehq.com/@listenzcc/liquidfun-tesla-fluid-diode-explain)
+
+## 生产与增长
+
+最近看到一个东西，叫做“增长方程”。它可以在一定程度上解决两个问题，一是在生产开始之前预知增长能否持续，二是预知生产的最优初始条件。它附带地解决了另一个问题，那就是为什么总有人说增长一旦停滞，就意味着 some thing is going very wrong.
+
+[Growth equation](https://observablehq.com/@listenzcc/growth-equation)
+
+## 瞎画的艺术
+
+数据科学往往能在不经意间诞生艺术创作。
+
+但这个过程可能有点过于不走心了，所以称为瞎画的艺术。
+
+## 程序员的格子
+
+我用 Mapbox 做了一个地图玩具，可以对地图进行精准定位，并且方便比较。
+
+工程可见我的代码笔记本
+
+[map-grid-by-mapbox](https://observablehq.com/@listenzcc/map-grid-by-mapbox "map-grid-by-mapbox")
+
+## 等高线图
+
+等高线图，又称为等势线图，
+是对样本点的场的势面进行可视化的制图方法。
+
+数学上，等高线图需要根据边界条件，
+对连续函数进行求解。
+但由于实际上并不可行，
+因此本文提供一个的生成式的离散逼近方法。
+
+## 素描
+
+花鸟鱼虫皆入笔下，魑魅魍魉信手拈来。绘画素描应该是个挺有意思的事情，但可惜我并不会。
+
+但不妨碍我看到一张图，就看看它用素描的方法画出来，是个啥样子。纯属好奇。
+
+## 统计检验工具-F分布的可视化和速查工具
+
+本文构造了一个方便的前端工具，能够以可交互的方式展示 F 检验中 F 值与 p 值之间的关系。这种工作本身没有意思，因为它除了根据已有的知识构造一个工具之外别无科学价值。
+
+但本文在代码方面能够解决两个问题，首先它提供了 javascript 标准库引用的方法，其次它以更直观的方式展示了 F 分布在实数域的全貌。
+
+本文开源代码与可交互页面如下：
+
+[Stats of F Distribution](https://observablehq.com/@listenzcc/stats-of-f-distribution)
+
+## 三维场景的受力模拟
+
+本文还是基于`THREE.js`的三维场景呈现。
+但缝合了`D3`的力模拟功能。
+
+## 脑皮层的褶皱渲染
+
+大脑皮层是高度卷曲的褶皱状结构。本
+[前端工具](https://observablehq.com/@listenzcc/vertices-render "前端工具")
+试图展示这一点。
+
+## 腿部运动轨迹重建
+
+这一个基于`THREE`的可视化工程尝试。
+基于`IMU`角度信号对行走过程中的腿部运动轨迹进行重建。
+
+## 致最可爱的天津地铁
+
+虽然规模不大，但换乘可是一点都不方便。
+
+与北京和上海相比，它会给你带来物超所值的通勤体验。
+
+本文开源代码可见
+
+[Subway stations v2](https://observablehq.com/@listenzcc/subway-stations-v2 "Subway stations v2")
+
+## 艺术细菌
+
+用了三种方法对图片进行艺术化渲染，分别是低分辨率化、马赛克化和动态化。
+工科狗的艺术细菌就长到这了。。
+
+## 蓝队加油
+
+INTEL新近发布了第`12`代CPU，
+在长时间挤牙膏之后，终于爆发了一次。
+虽然没有了当前“默秒全”的统治力，
+但新产品确实是让人大呼NB。
+
+本文是十分应景的一文，
+正好有一个良好的实验，
+来说明“睿频”这个功能为计算资源的释放提供了怎样颠覆性的贡献。
+
+## 贷款与存款
+
+这是在不考虑通胀的条件下，按揭、月供和储蓄之间相爱相杀的故事。
+首先，它回答了贷款一定金额时，其本息相当于在银行存了多少钱；
+之后，它回答了“等额本息”月供的计算方式，以及当确定首月还款特定数量的本金时，多少个月后能够结清贷款。
+
+[Saving & Loan Curve](https://observablehq.com/@listenzcc/saving-loan-curve)
+
+## 赛博种树
+
+话说十年树木，百年树人。我没有自己的土地种一棵树，但我有一台电脑，可以通过分形算法随机生成许多树，可以称之为赛博种树。种的什么树？种的是基于分形的随机树。这些树既没有用到 Github，也没有用到非法信道，又无法产生任何经济价值，所以应该不会被没收……吧？
+
+[Fractal Tree Animation](https://observablehq.com/@listenzcc/fractal-tree-animation)
+
+## 跳舞火柴人
+
+本文以 Openpose 的骨架识别能力为基础，从视频中解析出人体关节的实时位置，并进行绘制。
+
+解析代码可见我的 GitHub 仓库
+
+[https://github.com/listenzcc/dancing-body](https://github.com/listenzcc/dancing-body "https://github.com/listenzcc/dancing-body")
+
+绘制代码可见我的前端笔记本
+
+[Dancing Body](https://observablehq.com/@listenzcc/dancing-body "Dancing Body")
+
+## 辛普森悖论
+
+在统计学中有一个挺神奇的悖论，称为辛普森悖论（Simple’s Paradox）。
+
+简单来说，就是“在分组比较中都占优势的一方，在总评的时候有时反而是失势的一方。”
+
+本文试图通过交互式的可视化方法，对它进行解释。
+
+并且试图说明这种矛盾的情况并不是很偏僻的角落，甚至在合适的构造方法下，这种矛盾总能发生。
+
+## 那些弃籍的美国人
+
+根据一些奇奇怪怪的美国法律，
+它的国务院会公开一些奇奇怪怪的信息，
+其中就有放弃了美国国籍的人的名单。
+
+本文对这些“不穷”的美国人用脚投票的结果进行可视化。
+
+## 那抹五彩斑斓的黑
+
+感谢 Apple，让我们见识到了传说中五彩斑斓的黑。
+
+## 钢笔大厂的产品特点一览
+
+我下载了一份关于钢笔的统计文档，里面收录了不同品牌钢笔的长度及重量信息，稍作统计如下。为了增强分析的可视性，我将派克笔厂现在仍然在产的较为经典的 Duofold International 系列作为参考，用红色十字线来表示，并且对大笔厂产品的重量分布也稍做统计，本文的可交互分析图可见我的前端笔记本
+
+[Fountain pen database / Chuncheng | Observable (observablehq.com)](https://observablehq.com/@listenzcc/fountain-pen-database)
+
+## 长津湖
+
+这篇很俗，但值得一写。
+
+## 阿波罗尼奥斯问题
+
+WebGL 的强项是进行大量并行的迭代计算，因此为了继续深入掌握它的使用技巧，我需要找一些有意思的迭代问题。Apollonius’ Problem 是一个很有意思的切入点，它可以用于形成十分美观的分形纹理。本文解决其中最基础的代数计算问题，开源代码见我的 ObservableHQ 笔记本
+
+[Apollonius’ Problem for Multiple Circles](https://observablehq.com/@listenzcc/apollonius-problem-for-multiple-circles)
+
+## 随机弹跳产生的混沌现象
+
+本文是偶然看到一个模拟案例，在复现过程中意外发现一种混沌现象。在考虑了重力和反弹、不考虑摩擦和能量损失的情况下，小球在两个斜面之间弹跳可以导致混沌现象。本文的开源代码可见我的 ObservableHQ 笔记本。
+
+[Random jump](https://observablehq.com/@listenzcc/random-jump)
+
+## 随机游走片段的距离度量
+
+本文尝试对随机游走过程得到的随机时间序列进行度量分析，通过分析这些时间序列之间的欧氏距离建立度量空间，并对该空间进行呈现。本文的开源代码可见我的 ObservableHQ 笔记本
+
+[Distance between the brownian bridges](https://observablehq.com/@listenzcc/distance-between-the-brownian-bridges)
+
+## 雨滴打在窗户上
+
+本文使用 Canvas 模拟了雨滴打在窗户上的视觉效果。
+
+实现这个玩意需要在前端实现三个功能，分别是图像的径向模糊、Canvas 绘图的遮罩方式和动态帧动画。
+
+实现过程可见我的前端笔记本
+
+[Rain drop simulation](https://observablehq.com/@listenzcc/rain-drop-simulation "Rain drop simulation")
+
+## 颜色空间映射
+
+本文试图解释一个可视化现象，那就是在单独改变某一个颜色通道的条件下，得到的颜色序列在颜色空间中如何分布。
+
+## 风雨
+
+风雨送人来，风雨留人住。草草杯盘话别离，风雨催人去。
+
+泪眼不曾晴，眉黛愁还聚。明日相思莫上楼，楼上多风雨。
+
+## 黄金分割探测器
+
+所谓闭门造车，出门合辙。如果你遇到一个构图问题，比如摄影或者做 PPT 什么的，那么黄金分割律就是你要合的辙。本文提供了一个可交互的前端工具，用来从好看的图中找到其中的黄金分割律
+
+[Golden Ratio in Image](https://observablehq.com/@listenzcc/golden-ratio-in-image)
+
