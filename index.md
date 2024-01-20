@@ -2112,6 +2112,10 @@ Coco数据集是通用较强的数据集，
 
 [LFP & EEG and Path Integral](https://observablehq.com/@listenzcc/lfp-eeg-and-path-integral)
 
+## GDP与财政收入的年度变化
+
+有人说《繁花》说上海的富和《山海情》说西北的穷在时间上是同步的。我不信，于是找到了一些数据，非常有趣。80年代到90年代这段时间内，除了广东省的GDP一飞冲天之外，其他四个地区的排序和比例基本不变。上海市的GDP四倍于甘肃一个省。从财政收入占全国GDP的比例变化看，似乎可以反映祖国经济周期的变化，自1994年分税制改革开始，三条曲线的变化非常平稳，这也是祖国发展最快的时期之一，其中似乎有无为而治的精神内核在。第三产业所占的比例也在2016年超过50%，这印证了祖国大步迈进工业化，服务业也开始繁荣的说法。但从整个国民经济的比重来看，农业的发展是否过慢，这个我不太懂。
+
 ## Linux User Cookbook
 
 <aside>
@@ -3334,9 +3338,21 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [How does regl help?](https://observablehq.com/@listenzcc/how-does-regl-help)
 
+## REGL提供的上下文机制
+
+阅读regl源码的时候看到一个非常有趣的机制。在regl.frame中，可以通过上下文迭代的机制实现varying变量的复用，从代码中可以看到，这个变量是透过函数调用传递下去的。这好像是一种闭包机制，非常好用。它可以保证vert中变量的一致性，有效减少开发成本。
+
+[Game of Life](https://observablehq.com/@listenzcc/game-of-life)
+
 ## SDF中有趣的几何问题
 
 最近在看SDF（****Sign Distance Function****），但没看懂，不过发现了一些有意思的边角东西。我在学习SDF的过程中遇到它GeoGebra，更准确地讲，我是在学习如何绘制正五边形的SDF时遇到它的。再进一步讲，在绘制正五边形的SDF时，为了避免SHADER过于复杂，需要将任意位置的点映射到正五边形中的某个三角形中。在前人的经验中，这种映射“总是”能通过有限次的“翻转”来做到，而对于正五边形来说，翻转的次数不超过四次。
+
+## SDF在WebGL中的实现：以三角为例
+
+本文以三角为例，在WebGL中实现SDF计算和实时渲染。
+
+[SDF in WebGL](https://observablehq.com/@listenzcc/sdf-in-webgl)
 
 ## WebGL 中 buffer 的进一步理解
 
