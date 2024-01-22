@@ -105,6 +105,10 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [WebGL's Simple Animation & Stats & Code-Prettify](https://observablehq.com/@listenzcc/webgls-template)
 
+## WebGL的framebuffer渲染会受到depthStencil的影响
+
+简单来说，当使用framebuffer交互渲染时，应该关闭dephStencil选项。否则，会导致framebuffer无法按要求更新。这个经验是在绘制多个点的SDF时得到的。
+
 ## WebGL绘制球协函数
 
 由于表面与球面对应关系的存在，我们总能用球面建模和绘制的方式进行物体建模和绘制。这是物体表面建模及绘图的基本原理之一。球协函数是三维函数，它可以用极坐标表示。为了说明它与球的对应关系，我对将它与一个球绘制在一起，用球的颜色表示它表面的各个点，用HSL颜色空间表示，其中，Hue表示$\varphi \in (0, 2\pi)$，Lightness表示$\varphi \in (0, \pi)$。绘图的代码可见我的ObservableHQ笔记本。
