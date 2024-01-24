@@ -3456,6 +3456,12 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [Contour demo of WebGL & glslify](https://observablehq.com/@listenzcc/contour-demo-of-webgl-glslify)
 
+## 在SDF的基础上绘制光源投影
+
+本文介绍了基于 Signed Distance Field (SDF) 的光源追踪方法。通过动态确定迭代步长，使用 SDF 可以有效地判断光线是否经过物体，并避免了传统方法的采样问题和大量物体信息的输入。另外，还在迭代过程中记录最小 SDF 值用于绘制光线颜色，并展示了样例场景的光线强度图和彩色结果。末尾还附上了追踪的核心代码。
+
+[SDF and Ray Tracing (Dev. II)](https://observablehq.com/@listenzcc/sdf-and-ray-tracing-dev-ii)
+
 ## 将任意三角形规范化：简化计算SDF的尝试
 
 由于计算任意三角形SDF的代码显得过于臃肿，所以我想将它简化一下。仅通过一次映射将任意三角形转换为规范的三角形，在这个规范的二维空间中进行近似计算，似乎可以提升代码的简洁性。
