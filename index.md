@@ -3418,6 +3418,10 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [WebGL's Simple Animation & Stats & Code-Prettify](https://observablehq.com/@listenzcc/webgls-template)
 
+## WebGL的framebuffer渲染会受到depthStencil的影响
+
+简单来说，当使用framebuffer交互渲染时，应该关闭dephStencil选项。否则，会导致framebuffer无法按要求更新。这个经验是在绘制多个点的SDF时得到的。
+
 ## WebGL绘制球协函数
 
 由于表面与球面对应关系的存在，我们总能用球面建模和绘制的方式进行物体建模和绘制。这是物体表面建模及绘图的基本原理之一。球协函数是三维函数，它可以用极坐标表示。为了说明它与球的对应关系，我对将它与一个球绘制在一起，用球的颜色表示它表面的各个点，用HSL颜色空间表示，其中，Hue表示$\varphi \in (0, 2\pi)$，Lightness表示$\varphi \in (0, \pi)$。绘图的代码可见我的ObservableHQ笔记本。
@@ -3451,6 +3455,12 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 开源代码可见我的 ObservableHQ 笔记本
 
 [Contour demo of WebGL & glslify](https://observablehq.com/@listenzcc/contour-demo-of-webgl-glslify)
+
+## 在SDF的基础上绘制光源投影
+
+本文介绍了基于 Signed Distance Field (SDF) 的光源追踪方法。通过动态确定迭代步长，使用 SDF 可以有效地判断光线是否经过物体，并避免了传统方法的采样问题和大量物体信息的输入。另外，还在迭代过程中记录最小 SDF 值用于绘制光线颜色，并展示了样例场景的光线强度图和彩色结果。末尾还附上了追踪的核心代码。
+
+[SDF and Ray Tracing (Dev. II)](https://observablehq.com/@listenzcc/sdf-and-ray-tracing-dev-ii)
 
 ## 将任意三角形规范化：简化计算SDF的尝试
 
