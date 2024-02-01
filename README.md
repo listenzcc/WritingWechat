@@ -297,6 +297,10 @@ _Updated 9 hours ago (17:11 GMT London)_
 
 Catch up quickly on the global stories that matter
 
+## 你还是挣得太多：Your pay is still going up too fast
+
+央行是干什么用的？在2023年，它是抗通胀用的。从2022年以来，（发达国家）央行将通胀率从10.7%降低到了5.4%，但他们设定的目标是2%，行百里路半九十，最后一点最难降。2024年的最后一块拼图是降低劳动力报酬，因为之前它们太高了。
+
 # Every document
 
 The development process of every-document.
@@ -2202,6 +2206,14 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 今年据说是全面建成小康社会的一年。
 它标志着我们也许可以开始畅想着买小汽车的事情了。
 
+## 公务员，如何高收入？
+
+本文综合了从遥远的科普卢星区得到的信息，制作了2023年的公务员工资制度一览表，并结合了最新（2024年1月）发布的国民经济统计报告，进行了一些可视化展示。
+
+直观地解决两个问题，首先，如果你选择成为一名公务员，那么按照目前的标准，你如何获得高收入？其次是给大家提供一个视角，管中窥豹地、片面地、不负责任地推理，站在上层官员的视角，他们如何看待你的收入。
+
+[公务员工资制度一览表(2023)](https://observablehq.com/@listenzcc/2023)
+
 ## 初五迎财神
 
 一晃已经初五，
@@ -2393,6 +2405,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 但是国人近期对谷爱凌的关注，反映出了国人目前普遍崇拜美国归来的游子。
 
 所谓中国是世界上最大的美分，这句话似乎没有原则上的错误。
+
+## 旅居中国的生活成本
+
+本分析探讨了外籍人士在中国生活的成本。数据显示，外籍人士的月生活成本介于2698元至7100元之间，这与中国中等收入群体的生活水平相似。生活成本中，住房支出占比最大，反映出在中国，“消费通缩、住房通胀”的现象。在不同城市类别中，随着城市经济水平的下降，生活成本占收入的比例也呈下降趋势。然而，三线城市的房租成本相对较高，可能由于受到周边大城市影响，导致地产价格与收入不成正比，形成价格畸高现象。
+
+[如果外国人来我国生活，他的生活成本](https://observablehq.com/@listenzcc/if-you-are-living-in-china-for-expats)
 
 ## 日本排放核废水给大洋做了 PET
 
@@ -3443,6 +3461,13 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 前文遗留了一个问题，那就是如何使用 WebGL 渲染平移不变的三角 shader。本文尝试使用重心坐标系解决这个问题。为了体现重心坐标的意义和作用，我还增加了 wireframe 的线绘制方法。另外，前文的三角形端点移动方法并不令人满意，因此本文更换成 simplex-noise 方法，它使端点的运动看上去更加自然、柔和。
 
 [Barycentric coordinate in WebGL](https://observablehq.com/@listenzcc/barycentric-coordinate-in-webgl)
+
+## 任意三角形的SDF组合与阴影投射
+
+将之前的内容组合起来就得到了这样一个“利用SDF进行实时投影计算”的样例程序。
+在我的ObservableHQ开源笔记本可以找到它，
+
+[SDF and Ray Tracing (Dev. III)](https://observablehq.com/@listenzcc/sdf-and-ray-tracing-dev-iii)
 
 ## 使用WebGL实现简单的三维交互
 

@@ -171,3 +171,7 @@ _Updated 9 hours ago (17:11 GMT London)_
 
 Catch up quickly on the global stories that matter
 
+## 你还是挣得太多：Your pay is still going up too fast
+
+央行是干什么用的？在2023年，它是抗通胀用的。从2022年以来，（发达国家）央行将通胀率从10.7%降低到了5.4%，但他们设定的目标是2%，行百里路半九十，最后一点最难降。2024年的最后一块拼图是降低劳动力报酬，因为之前它们太高了。
+

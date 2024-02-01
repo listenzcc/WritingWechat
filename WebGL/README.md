@@ -131,6 +131,13 @@ WebGL 这类工具的学习曲线较为陡峭，因为它虽然工作在 javascr
 
 [Barycentric coordinate in WebGL](https://observablehq.com/@listenzcc/barycentric-coordinate-in-webgl)
 
+## 任意三角形的SDF组合与阴影投射
+
+将之前的内容组合起来就得到了这样一个“利用SDF进行实时投影计算”的样例程序。
+在我的ObservableHQ开源笔记本可以找到它，
+
+[SDF and Ray Tracing (Dev. III)](https://observablehq.com/@listenzcc/sdf-and-ray-tracing-dev-iii)
+
 ## 使用WebGL实现简单的三维交互
 
 本文是纯粹工程实现的用例，它呈现的是低阶球协函数（Spherical Harmonic, SH）的随机叠加，并且这个三维构型可以与观察者进行实时交互。工程的难点有二，一是如何将观察者的MPV（Module, Projection, View）映射（详见前文）与用户在canvas上的鼠标操作联系起来；二是如何将大量的球协函数计算用最高效的方法计算出来，从而实现实时叠加。
