@@ -155,6 +155,10 @@ Vedo 是很好用的 3D 点云操作工具，本文使用该工具进行体积�
 
 [Brain Atlas Gallery](https://observablehq.com/@listenzcc/brain-atlas-gallery)
 
+## Vscode更新不当人啦
+
+Linux很稳定，但稳定是有代价的。Vscode很好用，但好用也是有代价的。今天Vscode升级了，导致好用的V不再支持过老的L。好在我会一点IT，经过一番折腾，老机器还能暂时绕开它。
+
 ## We are So Strong
 
 As a whole.

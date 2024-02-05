@@ -2497,6 +2497,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 [Stocks (2021-2023) of Activision Blizzard, Inc. (ATVI)](https://observablehq.com/@listenzcc/stocks-2021-2023-of-activision-blizzard-inc-atvi)
 
+## 记一个实用的数据浏览、收集和绘图流程
+
+本文的重点不在数据分析，而在记录一个实用的数据浏览、收集和绘图的流程。这个流程的优势体现在充分使用互联网资源，使用TableCapture获取数据，使用GoogleSheet管理数据，使用Tableau展示数据。不消说数据展示会随数据积累和处理而实时变化，甚至除了浏览器之外，我的PC甚至都不需要安装硬盘。
+
+[tableau](https://public.tableau.com/app/profile/chuncheng.zhang5140/viz/cost-of-living/scatterGraph#2 "tableau")
+
 ## 记一个神奇的BUG
 
 今天遇到一个神奇的BUG，
@@ -2702,6 +2708,10 @@ Vedo 是很好用的 3D 点云操作工具，本文使用该工具进行体积�
 我很奇怪，都2022年了，竟然还没有人做这个事情。
 
 [Brain Atlas Gallery](https://observablehq.com/@listenzcc/brain-atlas-gallery)
+
+## Vscode更新不当人啦
+
+Linux很稳定，但稳定是有代价的。Vscode很好用，但好用也是有代价的。今天Vscode升级了，导致好用的V不再支持过老的L。好在我会一点IT，经过一番折腾，老机器还能暂时绕开它。
 
 ## We are So Strong
 
