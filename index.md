@@ -2058,7 +2058,7 @@ The folder contains following md files:
 
 中国文人重游历，足迹遍及海内。充耳不闻天下事，一心只读圣贤书？你寒碜谁呐？
 
-# Economist
+# Tableau
 
 The workshop in public.tableau.com
 
@@ -2497,6 +2497,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 [Stocks (2021-2023) of Activision Blizzard, Inc. (ATVI)](https://observablehq.com/@listenzcc/stocks-2021-2023-of-activision-blizzard-inc-atvi)
 
+## 记一个实用的数据浏览、收集和绘图流程
+
+本文的重点不在数据分析，而在记录一个实用的数据浏览、收集和绘图的流程。这个流程的优势体现在充分使用互联网资源，使用TableCapture获取数据，使用GoogleSheet管理数据，使用Tableau展示数据。不消说数据展示会随数据积累和处理而实时变化，甚至除了浏览器之外，我的PC甚至都不需要安装硬盘。
+
+[tableau](https://public.tableau.com/app/profile/chuncheng.zhang5140/viz/cost-of-living/scatterGraph#2 "tableau")
+
 ## 记一个神奇的BUG
 
 今天遇到一个神奇的BUG，
@@ -2703,6 +2709,10 @@ Vedo 是很好用的 3D 点云操作工具，本文使用该工具进行体积�
 
 [Brain Atlas Gallery](https://observablehq.com/@listenzcc/brain-atlas-gallery)
 
+## Vscode更新不当人啦
+
+Linux很稳定，但稳定是有代价的。Vscode很好用，但好用也是有代价的。今天Vscode升级了，导致好用的V不再支持过老的L。好在我会一点IT，经过一番折腾，老机器还能暂时绕开它。
+
 ## We are So Strong
 
 As a whole.
@@ -2769,6 +2779,10 @@ LINUX 系统的过人之处在于它将全部系统行为都和可分享的文�
 脑电信号一般具有较高的采样率，因此在实时系统中，如何对它进行快速传输是比较棘手的问题。
 
 本文提供了一个高效的、轻量化的压缩思路，能够在信号源头减少传输开销。
+
+## 三维场的体渲染样例
+
+将大脑的MRI-T1像视为标量场，并使用`yt`进行3D体积渲染，提供了一种将这些医学影像数据转化为连续变化场的方法。这种处理方式不仅允许从多个角度和深度全面理解大脑结构，而且通过半透明的可视化手段，有助于呈现大脑内部复杂的褶皱和结构。
 
 ## 不仅仅是播放器
 
@@ -3302,6 +3316,26 @@ The folder contains following md files:
 本文将详述形成最小连通图的贪婪算法。
 在此基础上，我们才能说明捷径加入之后，原始算法是如何失效的。
 从而解决《改出路径依赖》一文所提出的问题。
+
+# Transformer
+
+The workshop in learning transformer
+
+The folder contains following md files:
+
+---## SORA的盲人摸象
+
+从目前的消息来看，SORA是一个先进的视频生成模型，它通过变分自编码器（VAE）将视频编码为隐空间中的时空patches，然后利用基于Transformer的扩散模型对这些patches进行操作，以生成高质量的长视频内容。
+
+[Video generation models as world simulators](https://openai.com/research/video-generation-models-as-world-simulators)
+
+## 如何教会transformer生成文本
+
+什么是大模型？我想，至少在在2024年初，我可以简单地说：使用transformer的模型就是大模型。
+
+本文尝试开一个新坑，简述我对transformer网络结构的理解，并且尝试说明它是如何进行文本和图像处理的。
+
+[https://github.com/listenzcc/learn-ViT](https://github.com/listenzcc/learn-ViT)
 
 # WebApp
 
