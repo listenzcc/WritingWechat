@@ -2886,6 +2886,18 @@ LINUX 系统的过人之处在于它将全部系统行为都和可分享的文�
 > 那些说往年并不如此的言论，
 > 就是十足的“活在当下”而已。
 
+## 初识PGlite
+
+这是新冒出来的一款开源软件。简单来说，它让你在前端建立一个微SQL环境，满足小项目的增、删、改、查需求。目前的代码提交非常活跃，是上车现代SQL应用的很好的学习场景。
+
+[PGLite notebook](https://observablehq.com/@listenzcc/pglite-notebook)
+
+## 初识PGlite，数据库与关系
+
+数据库设计的核心在于表之间的关系，主要通过外键建立，包括一对一、一对多和多对多关系。利用联合查询、聚合函数、分组和排序等技术，可以高效地执行复杂查询，如通过颜色或标签检索图像并分析其分布。这些关系和查询方法使得关系型数据库在处理和分析复杂数据关系方面极为强大。
+
+[Wall Haven Papers](https://observablehq.com/@listenzcc/wall-haven-papers)
+
 ## 功能连接分析
 
 功能连接（Functional Connectivity Analysis）分析是认知神经科学重要的分析方法。
