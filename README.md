@@ -2649,6 +2649,12 @@ MLP可以用来估计信号的相位。通过训练带有相位估计目标的ML
 
 [Transformer.js in browser](https://observablehq.com/@listenzcc/transformer-js-in-browser)
 
+## PowerShell检索Windows注册表一例
+
+Windows注册表是系统和应用程序配置的关键存储库。它由键（key）、子键（subkey）和值（value）组成。键代表顶层结构，子键进一步组织信息，值存储配置数据。PowerShell可以用于检索注册表，包括查找、枚举、搜索和筛选注册表中的键和值。
+
+[https://github.com/listenzcc/dig-regedit-with-powershell](https://github.com/listenzcc/dig-regedit-with-powershell)
+
 ## Pubmed 搜索扩展的浏览器插件
 
 我一直觉得搜索结果应该尽可能地方便用户使用，而不是单纯了吸引人点进去的入口。
@@ -2885,6 +2891,12 @@ LINUX 系统的过人之处在于它将全部系统行为都和可分享的文�
 > 数据告诉我们每年的气温基本上都差不多，
 > 那些说往年并不如此的言论，
 > 就是十足的“活在当下”而已。
+
+## 初识PGLite，数据联合关系绘图
+
+使用Wallhaven随机图像数据，通过Tidy Treeview和Treemap Treeview展示了图像标签的层次关系和数量分布，以及图像颜色的分布情况。结果显示不同标签类别间的颜色趋势相似，但也有数量和颜色差异。
+
+[Treemap component](https://observablehq.com/@d3/treemap-component)
 
 ## 初识PGlite
 
