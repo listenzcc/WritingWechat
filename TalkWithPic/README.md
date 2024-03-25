@@ -271,6 +271,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 长太息以掩涕兮，哀民生之多艰。
 
+## 如何仅用圆规定位圆心
+
+这个问题不难，但以前没有想过，故记录下来。绘图的是一款开源的几何工具，非常好用。
+
+[GeoGebra Classic - GeoGebra](https://www.geogebra.org/classic)
+
 ## 如果数据对得上
 
 这是一件值得高兴的事情，因为这个数据它吻合得很好。

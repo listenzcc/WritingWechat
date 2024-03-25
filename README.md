@@ -2354,6 +2354,12 @@ Page: [jiangxiangkeji](https://listenzcc.github.io/jiangxiangkeji-powerBI-parse-
 
 长太息以掩涕兮，哀民生之多艰。
 
+## 如何仅用圆规定位圆心
+
+这个问题不难，但以前没有想过，故记录下来。绘图的是一款开源的几何工具，非常好用。
+
+[GeoGebra Classic - GeoGebra](https://www.geogebra.org/classic)
+
 ## 如果数据对得上
 
 这是一件值得高兴的事情，因为这个数据它吻合得很好。
@@ -2955,6 +2961,18 @@ LINUX 系统的过人之处在于它将全部系统行为都和可分享的文�
 本例提供了一个批量图像缩放工具，用于指定目录下的图像统一缩放。
 源码可见[GITHUB](https://github.com/listenzcc/resizeImages "GITHUB")
 
+## 基尼系数扩展定义：当允许一部分人资产为负时……
+
+前文使用资产的概率密度函数定义了基尼系数，这是一个闭式表达。在国民收入均为正时，该式与“面积比”的方法相同。它产生扩展的地方在于，它允许一部分人资产为负值。本文画图说明这种情况。结果表明，新定义可以使基尼系数突破$(0, 1)$的限制，并且在出现负资产时，基尼系数也并不稳定。
+
+本文的计算内容可见我的ObservableHQ笔记本
+
+[Two calculation of Gini Coefficient](https://observablehq.com/@listenzcc/two-calculation-of-gini-coefficient)
+
+## 基尼系数的扩展定义
+
+在计算Gini系数时，需要将国民收入的概率密度函数转换成洛伦兹曲线（Lorenz curve），经过简单的推导可知，Gini系数可以表示成概率密度函数的形式。
+
 ## 天气热不热，取决于记性好不好
 
 人往往囿于眼前的苦难，却淡忘过往的悲伤。
@@ -2965,6 +2983,12 @@ LINUX 系统的过人之处在于它将全部系统行为都和可分享的文�
 
 这是一篇极其无聊的工作记录。
 它涉及如何固定一个机械臂，让它在固定的平台上安全地自由运动。
+
+## 对密集采样进行时间校准
+
+在处理硬件采样时间抖动时，非在线情况下可通过插值方法校正数据。通过生成模拟数据并使用scipy.interpolate进行插值计算，得到较好的结果。评价插值效果时，指标表明除UnivariateSpline外，其他方法如CubicSpline表现良好。插值旨在获取理想采样时间序列并填补异常缺失值，提高数据准确性。
+
+[https://github.com/listenzcc/interpolate](https://github.com/listenzcc/interpolate)
 
 ## 封装的方法不一定更优
 
