@@ -15,6 +15,12 @@ AI 是人工智能的简称，由于 ChatGPT 等强力产品的问世，已经�
 
 [https://github.com/listenzcc/hugging-face-image-player](https://github.com/listenzcc/hugging-face-image-player)
 
+## Asyncio，两种异步过程的实现方式
+
+使用Python的Asyncio包可实现两种异步任务管理方式：1. 使用asyncio.gather()同时执行一组已知任务；2. 利用asyncio.Queue()实现生产者-消费者模式，适用于随机出现的任务。在生产者-消费者模式中，queue.join()方法可阻塞主协程直至队列中的任务全部完成。本文记录它们，以备后察。
+
+[https://github.com/listenzcc/async-python](https://github.com/listenzcc/async-python)
+
 ## Canvas 和 SVG 的设计理念
 
 Canvas 的设计思路是“绘制图像”，它绘制出的图像中除了像素什么也没有。当你打开一个网页，如果里面有可以直接存储的图片，那么它们就是 canvas 的设计理念，这个理念特别适合复杂视觉内容输出。
